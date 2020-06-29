@@ -1,0 +1,18 @@
+<dataset>
+
+    <intent name="authentication_by_client_failed" variation="23" description="Debit Card Holder Name">
+
+        <client intent="authentication_by_client_failed">आपका डेबिट कार्ड धारक का नाम गलत है ।</client>
+        <client intent="authentication_by_client_failed">कृपया सही धारक का नाम फिरसे लिखिए</client>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_failed" variation="24" description="Debit Card Holder Name">
+
+        <client intent="authentication_by_client_failed">आपका Debit card holder name गलत है ।</client>
+        <client intent="authentication_by_client_failed">कृपया सही Debit card holder name फिरसे लिखिए</client>
+
+    </intent>
+
+</dataset>

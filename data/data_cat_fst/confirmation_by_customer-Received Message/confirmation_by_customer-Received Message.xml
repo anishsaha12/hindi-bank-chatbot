@@ -1,0 +1,177 @@
+<dataset>
+
+    <intent name="confirmation_by_customer" variation="2" description="Received Message">
+
+        <customer intent="confirmation_by_customer">message आया है</customer>
+
+    </intent>
+
+
+    <intent name="confirmation_by_customer" variation="3" description="Received Message">
+
+        <customer intent="confirmation_by_customer">मेसेज आया है . शुक्रिया . </customer>
+
+    </intent>
+
+
+    <intent name="confirmation_by_customer" variation="14" description="Received Message">
+
+        <customer intent="confirmation_by_customer">हाँ मेसेज आया है . शुक्रिया . </customer>
+
+    </intent>
+
+
+    <intent name="confirmation_by_customer" variation="15" description="Received Message">
+
+        <customer intent="confirmation_by_customer">हाँ मेसेज आया है . </customer>
+
+    </intent>
+
+
+    <intent name="confirmation_by_customer" variation="16" description="Received Message">
+
+        <customer intent="confirmation_by_customer">मेसेज आया है . </customer>
+
+    </intent>
+
+
+    <intent name="confirmation_by_customer" variation="17" description="Received Message">
+
+        <customer intent="confirmation_by_customer">हाँ मेसेज आया . </customer>
+
+    </intent>
+
+
+    <intent name="confirmation_by_customer" variation="18" description="Received Message">
+
+        <customer intent="confirmation_by_customer">मेसेज आया . </customer>
+
+    </intent>
+
+
+    <intent name="confirmation_by_customer" variation="19" description="Received Message">
+
+        <customer intent="confirmation_by_customer">आया . </customer>
+
+    </intent>
+
+
+    <intent name="confirmation_by_customer" variation="20" description="Received Message">
+
+        <customer intent="confirmation_by_customer">हाँ मेसेज है . </customer>
+
+    </intent>
+
+
+    <intent name="confirmation_by_customer" variation="21" description="Received Message">
+
+        <customer intent="confirmation_by_customer">मेसेज है . </customer>
+
+    </intent>
+
+
+    <intent name="confirmation_by_customer" variation="22" description="Received Message">
+
+        <customer intent="confirmation_by_customer">हाँ message आया है . शुक्रिया . </customer>
+
+    </intent>
+
+
+    <intent name="confirmation_by_customer" variation="23" description="Received Message">
+
+        <customer intent="confirmation_by_customer">हाँ message आया है . </customer>
+
+    </intent>
+
+
+    <intent name="confirmation_by_customer" variation="24" description="Received Message">
+
+        <customer intent="confirmation_by_customer">message आया है . </customer>
+
+    </intent>
+
+
+    <intent name="confirmation_by_customer" variation="25" description="Received Message">
+
+        <customer intent="confirmation_by_customer">हाँ message आया . </customer>
+
+    </intent>
+
+
+    <intent name="confirmation_by_customer" variation="26" description="Received Message">
+
+        <customer intent="confirmation_by_customer">message आया . </customer>
+
+    </intent>
+
+
+    <intent name="confirmation_by_customer" variation="27" description="Received Message">
+
+        <customer intent="confirmation_by_customer">message came . </customer>
+
+    </intent>
+
+
+    <intent name="confirmation_by_customer" variation="28" description="Received Message">
+
+        <customer intent="confirmation_by_customer">came . </customer>
+
+    </intent>
+
+
+    <intent name="confirmation_by_customer" variation="29" description="Received Message">
+
+        <customer intent="confirmation_by_customer">received message . </customer>
+
+    </intent>
+
+
+    <intent name="confirmation_by_customer" variation="30" description="Received Message">
+
+        <customer intent="confirmation_by_customer">message received . </customer>
+
+    </intent>
+
+
+    <intent name="confirmation_by_customer" variation="31" description="Received Message">
+
+        <customer intent="confirmation_by_customer">received it . </customer>
+
+    </intent>
+
+
+    <intent name="confirmation_by_customer" variation="32" description="Received Message">
+
+        <customer intent="confirmation_by_customer">received . </customer>
+
+    </intent>
+
+
+    <intent name="confirmation_by_customer" variation="33" description="Received Message">
+
+        <customer intent="confirmation_by_customer">हाँ message है . </customer>
+
+    </intent>
+
+
+    <intent name="confirmation_by_customer" variation="34" description="Received Message">
+
+        <customer intent="confirmation_by_customer">message है . </customer>
+
+    </intent>
+
+
+    <intent name="confirmation_by_customer" variation="35" description="Received Message">
+
+        <customer intent="confirmation_by_customer">हाँ शुक्रिया . </customer>
+
+    </intent>
+
+
+    <intent name="confirmation_by_customer" variation="36" description="Received Message">
+
+        <customer intent="confirmation_by_customer">yes received शुक्रिया . </customer>
+
+    </intent>
+
+</dataset>

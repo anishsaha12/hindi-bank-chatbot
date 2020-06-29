@@ -1,0 +1,26 @@
+<dataset>
+
+    <intent name="authentication_by_client_failed" variation="13" description="Debit Card Number">
+
+        <client intent="authentication_by_client_failed">डेबिट कार्ड नंबर गलत है ।</client>
+        <client intent="authentication_by_client_failed">कृपया सही डेबिट कार्ड नंबर फिरसे लिखिए</client>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_failed" variation="14" description="Debit Card Number">
+
+        <client intent="authentication_by_client_failed">डेबिट कार्ड संख्या गलत है ।</client>
+        <client intent="authentication_by_client_failed">कृपया सही डेबिट कार्ड संख्या फिरसे लिखिए</client>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_failed" variation="15" description="Debit Card Number">
+
+        <client intent="authentication_by_client_failed">Debit card number गलत है ।</client>
+        <client intent="authentication_by_client_failed">कृपया सही Debit card number फिरसे लिखिए</client>
+
+    </intent>
+
+</dataset>

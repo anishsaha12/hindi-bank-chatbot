@@ -1,0 +1,146 @@
+<dataset>
+
+    <intent name="authentication_by_client_success" variation="12" description="Home Bank">
+
+        <client intent="authentication_by_client_success">अपने home बैंक का ब्रांच कोड बताइये . </client>
+        <customer intent="authentication_by_client_success">HBCHBC</customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="142" description="Home Bank">
+
+        <client intent="authentication_by_client_success">अपने home बैंक का ब्रांच कोड बताइये . </client>
+        <customer intent="authentication_by_client_success">मेरे होम बैंक का ब्रांच कोड - HBCHBC है . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="143" description="Home Bank">
+
+        <client intent="authentication_by_client_success">अपने home बैंक का ब्रांच कोड बताइये . </client>
+        <customer intent="authentication_by_client_success">मेरे बैंक का ब्रांच कोड - HBCHBC है . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="144" description="Home Bank">
+
+        <client intent="authentication_by_client_success">अपने home बैंक का ब्रांच कोड बताइये . </client>
+        <customer intent="authentication_by_client_success">मेरे होम बैंक का ब्रांच कोड - HBCHBC है . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="145" description="Home Bank">
+
+        <client intent="authentication_by_client_success">अपने home बैंक का ब्रांच कोड बताइये . </client>
+        <customer intent="authentication_by_client_success">मेरे बैंक का ब्रांच कोड - HBCHBC है . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="146" description="Home Bank">
+
+        <client intent="authentication_by_client_success">अपने home बैंक का ब्रांच कोड बताइये . </client>
+        <customer intent="authentication_by_client_success">मेरे होम ब्रांच कोड - HBCHBC है . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="147" description="Home Bank">
+
+        <client intent="authentication_by_client_success">अपने home बैंक का ब्रांच कोड बताइये . </client>
+        <customer intent="authentication_by_client_success">ब्रांच कोड - HBCHBC . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="148" description="Home Bank">
+
+        <client intent="authentication_by_client_success">अपने home बैंक का ब्रांच कोड बताइये . </client>
+        <customer intent="authentication_by_client_success">ब्रांच HBCHBC . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="149" description="Home Bank">
+
+        <client intent="authentication_by_client_success">अपने home बैंक का ब्रांच कोड बताइये . </client>
+        <customer intent="authentication_by_client_success">कोड HBCHBC . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="150" description="Home Bank">
+
+        <client intent="authentication_by_client_success">अपने home बैंक का ब्रांच कोड बताइये . </client>
+        <customer intent="authentication_by_client_success">मेरे home bank का branch कोड - HBCHBC है . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="151" description="Home Bank">
+
+        <client intent="authentication_by_client_success">अपने home बैंक का ब्रांच कोड बताइये . </client>
+        <customer intent="authentication_by_client_success">मेरे home बैंक का branch code - HBCHBC है . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="152" description="Home Bank">
+
+        <client intent="authentication_by_client_success">अपने home बैंक का ब्रांच कोड बताइये . </client>
+        <customer intent="authentication_by_client_success">मेरे बैंक का branch कोड - HBCHBC है . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="153" description="Home Bank">
+
+        <client intent="authentication_by_client_success">अपने home बैंक का ब्रांच कोड बताइये . </client>
+        <customer intent="authentication_by_client_success">मेरे बैंक का ब्रांच code - HBCHBC है . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="154" description="Home Bank">
+
+        <client intent="authentication_by_client_success">अपने home बैंक का ब्रांच कोड बताइये . </client>
+        <customer intent="authentication_by_client_success">मेरे branch code - HBCHBC है . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="155" description="Home Bank">
+
+        <client intent="authentication_by_client_success">अपने home बैंक का ब्रांच कोड बताइये . </client>
+        <customer intent="authentication_by_client_success">home bank branch code - HBCHBC . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="156" description="Home Bank">
+
+        <client intent="authentication_by_client_success">अपने home बैंक का ब्रांच कोड बताइये . </client>
+        <customer intent="authentication_by_client_success">branch code - HBCHBC . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="157" description="Home Bank">
+
+        <client intent="authentication_by_client_success">अपने home बैंक का ब्रांच कोड बताइये . </client>
+        <customer intent="authentication_by_client_success">branch HBCHBC . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="158" description="Home Bank">
+
+        <client intent="authentication_by_client_success">अपने home बैंक का ब्रांच कोड बताइये . </client>
+        <customer intent="authentication_by_client_success">code HBCHBC . </customer>
+
+    </intent>
+
+</dataset>

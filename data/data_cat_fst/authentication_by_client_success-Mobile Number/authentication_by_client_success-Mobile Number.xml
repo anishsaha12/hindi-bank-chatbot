@@ -1,0 +1,170 @@
+<dataset>
+
+    <intent name="authentication_by_client_success" variation="2" description="Mobile Number">
+
+        <client intent="authentication_by_client_success">आप अपना रजिस्टर्ड मोबाइल नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">MMMMMM</customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="10" description="Mobile Number">
+
+        <client intent="authentication_by_client_success">अपना मोबाइल नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success"> MMMMMM</customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="46" description="Mobile Number">
+
+        <client intent="authentication_by_client_success">आप अपना रजिस्टर्ड मोबाइल नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">मेरा रजिस्टर्ड मोबाइल नंबर MMMMMM | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="47" description="Mobile Number">
+
+        <client intent="authentication_by_client_success">आप अपना रजिस्टर्ड मोबाइल नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">रजिस्टर्ड मोबाइल नंबर MMMMMM | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="48" description="Mobile Number">
+
+        <client intent="authentication_by_client_success">आप अपना रजिस्टर्ड मोबाइल नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">रजिस्टर्ड मोबाइल नंबर MMMMMM ये है | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="49" description="Mobile Number">
+
+        <client intent="authentication_by_client_success">आप अपना रजिस्टर्ड मोबाइल नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">ये रहा मेरा मोबाइल नंबर MMMMMM | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="50" description="Mobile Number">
+
+        <client intent="authentication_by_client_success">आप अपना रजिस्टर्ड मोबाइल नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">मेरा मोबाइल नंबर ये रहा MMMMMM | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="51" description="Mobile Number">
+
+        <client intent="authentication_by_client_success">आप अपना रजिस्टर्ड मोबाइल नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">मोबाइल नंबर ये रहा MMMMMM | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="52" description="Mobile Number">
+
+        <client intent="authentication_by_client_success">आप अपना रजिस्टर्ड मोबाइल नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">रजिस्टर्ड मोबाइल का नंबर MMMMMM | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="53" description="Mobile Number">
+
+        <client intent="authentication_by_client_success">आप अपना रजिस्टर्ड मोबाइल नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">रजिस्टर्ड मोबाइल MMMMMM | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="54" description="Mobile Number">
+
+        <client intent="authentication_by_client_success">आप अपना रजिस्टर्ड मोबाइल नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">नंबर MMMMMM | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="55" description="Mobile Number">
+
+        <client intent="authentication_by_client_success">आप अपना रजिस्टर्ड मोबाइल नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">MMMMMM | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="56" description="Mobile Number">
+
+        <client intent="authentication_by_client_success">आप अपना रजिस्टर्ड मोबाइल नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">मेरा mobile नंबर MMMMMM | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="57" description="Mobile Number">
+
+        <client intent="authentication_by_client_success">आप अपना रजिस्टर्ड मोबाइल नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">मोबाइल number MMMMMM | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="58" description="Mobile Number">
+
+        <client intent="authentication_by_client_success">आप अपना रजिस्टर्ड मोबाइल नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">mobile number MMMMMM ये है | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="59" description="Mobile Number">
+
+        <client intent="authentication_by_client_success">आप अपना रजिस्टर्ड मोबाइल नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">ये रहा मेरा mobile नंबर MMMMMM | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="60" description="Mobile Number">
+
+        <client intent="authentication_by_client_success">आप अपना रजिस्टर्ड मोबाइल नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">मेरा mobile number ये रहा MMMMMM | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="61" description="Mobile Number">
+
+        <client intent="authentication_by_client_success">आप अपना रजिस्टर्ड मोबाइल नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">mobile number ये रहा MMMMMM | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="62" description="Mobile Number">
+
+        <client intent="authentication_by_client_success">आप अपना रजिस्टर्ड मोबाइल नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">mobile का number MMMMMM | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="63" description="Mobile Number">
+
+        <client intent="authentication_by_client_success">आप अपना रजिस्टर्ड मोबाइल नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">mobile MMMMMM | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="64" description="Mobile Number">
+
+        <client intent="authentication_by_client_success">आप अपना रजिस्टर्ड मोबाइल नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">number MMMMMM | </customer>
+
+    </intent>
+
+</dataset>

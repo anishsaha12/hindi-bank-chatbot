@@ -1,0 +1,402 @@
+<dataset>
+
+    <intent name="credit_card_details" variation="4" description="Status: Rejected">
+
+        <customer intent="credit_card_details">मे अपना credit card के status जानना चाहता हूँ</customer>
+        <expand-intent description="Client: Without Name" name="greetings" variation="6" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक क्रेडिट card निवेदन है . खेद है की आपका निवेदन Reject कर दिया गया है . </client>
+        <customer intent="credit_card_details">क्यों reject हुवा है ? </customer>
+        <client intent="credit_card_details">आपका documents पूरी तरह से verify नहीं हुए . कृपया आपने नज़दीकी बैंक के ब्रांच में जाये या इस नंबर पे संपर्क करे 6160616 . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="79" description="Status: Rejected">
+
+        <customer intent="credit_card_details">मै अपना क्रेडिट कार्ड के स्टेटस जानना चाहता हूँ . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक क्रेडिट card निवेदन है . खेद है की आपका निवेदन Reject कर दिया गया है . </client>
+        <customer intent="credit_card_details">क्यों रिजेक्ट हुआ है ? </customer>
+        <client intent="credit_card_details">आपका documents पूरी तरह से verify नहीं हुए . कृपया आपने नज़दीकी बैंक के ब्रांच में जाये या इस नंबर पे संपर्क करे 6160616 . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="80" description="Status: Rejected">
+
+        <customer intent="credit_card_details">मै क्रेडिट कार्ड के स्टेटस जानना चाहता हूँ . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक क्रेडिट card निवेदन है . खेद है की आपका निवेदन Reject कर दिया गया है . </client>
+        <customer intent="credit_card_details">क्यों रिजेक्ट हुआ ? </customer>
+        <client intent="credit_card_details">आपका documents पूरी तरह से verify नहीं हुए . कृपया आपने नज़दीकी बैंक के ब्रांच में जाये या इस नंबर पे संपर्क करे 6160616 . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="81" description="Status: Rejected">
+
+        <customer intent="credit_card_details">मै क्रेडिट कार्ड के स्टेटस जानना चाहता . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक क्रेडिट card निवेदन है . खेद है की आपका निवेदन Reject कर दिया गया है . </client>
+        <customer intent="credit_card_details">क्यों रिजेक्ट है ? </customer>
+        <client intent="credit_card_details">आपका documents पूरी तरह से verify नहीं हुए . कृपया आपने नज़दीकी बैंक के ब्रांच में जाये या इस नंबर पे संपर्क करे 6160616 . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="82" description="Status: Rejected">
+
+        <customer intent="credit_card_details">क्रेडिट कार्ड के स्टेटस जानना चाहता हूँ . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक क्रेडिट card निवेदन है . खेद है की आपका निवेदन Reject कर दिया गया है . </client>
+        <customer intent="credit_card_details"> रिजेक्ट क्यों हुआ है ? </customer>
+        <client intent="credit_card_details">आपका documents पूरी तरह से verify नहीं हुए . कृपया आपने नज़दीकी बैंक के ब्रांच में जाये या इस नंबर पे संपर्क करे 6160616 . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="83" description="Status: Rejected">
+
+        <customer intent="credit_card_details">क्रेडिट कार्ड के स्टेटस जानना चाहता . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक क्रेडिट card निवेदन है . खेद है की आपका निवेदन Reject कर दिया गया है . </client>
+        <customer intent="credit_card_details">रिजेक्ट क्यों हुआ ? </customer>
+        <client intent="credit_card_details">आपका documents पूरी तरह से verify नहीं हुए . कृपया आपने नज़दीकी बैंक के ब्रांच में जाये या इस नंबर पे संपर्क करे 6160616 . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="84" description="Status: Rejected">
+
+        <customer intent="credit_card_details">क्रेडिट कार्ड स्टेटस जानना चाहता . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक क्रेडिट card निवेदन है . खेद है की आपका निवेदन Reject कर दिया गया है . </client>
+        <customer intent="credit_card_details">रिजेक्ट क्यों . </customer>
+        <client intent="credit_card_details">आपका documents पूरी तरह से verify नहीं हुए . कृपया आपने नज़दीकी बैंक के ब्रांच में जाये या इस नंबर पे संपर्क करे 6160616 . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="85" description="Status: Rejected">
+
+        <customer intent="credit_card_details">क्रेडिट कार्ड स्टेटस जानना है . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक क्रेडिट card निवेदन है . खेद है की आपका निवेदन Reject कर दिया गया है . </client>
+        <customer intent="credit_card_details">रिजेक्ट ? </customer>
+        <client intent="credit_card_details">आपका documents पूरी तरह से verify नहीं हुए . कृपया आपने नज़दीकी बैंक के ब्रांच में जाये या इस नंबर पे संपर्क करे 6160616 . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="86" description="Status: Rejected">
+
+        <customer intent="credit_card_details">क्रेडिट कार्ड स्टेटस जानना . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक क्रेडिट card निवेदन है . खेद है की आपका निवेदन Reject कर दिया गया है . </client>
+        <customer intent="credit_card_details">कैसे रिजेक्ट हुआ है ? </customer>
+        <client intent="credit_card_details">आपका documents पूरी तरह से verify नहीं हुए . कृपया आपने नज़दीकी बैंक के ब्रांच में जाये या इस नंबर पे संपर्क करे 6160616 . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="87" description="Status: Rejected">
+
+        <customer intent="credit_card_details">क्रेडिट कार्ड स्टेटस चेक करना है . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक क्रेडिट card निवेदन है . खेद है की आपका निवेदन Reject कर दिया गया है . </client>
+        <customer intent="credit_card_details">कैसे रिजेक्ट हुआ ? </customer>
+        <client intent="credit_card_details">आपका documents पूरी तरह से verify नहीं हुए . कृपया आपने नज़दीकी बैंक के ब्रांच में जाये या इस नंबर पे संपर्क करे 6160616 . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="88" description="Status: Rejected">
+
+        <customer intent="credit_card_details">क्रेडिट कार्ड स्टेटस चेक करना . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक क्रेडिट card निवेदन है . खेद है की आपका निवेदन Reject कर दिया गया है . </client>
+        <customer intent="credit_card_details">कैसे रिजेक्ट ? </customer>
+        <client intent="credit_card_details">आपका documents पूरी तरह से verify नहीं हुए . कृपया आपने नज़दीकी बैंक के ब्रांच में जाये या इस नंबर पे संपर्क करे 6160616 . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="89" description="Status: Rejected">
+
+        <customer intent="credit_card_details">क्रेडिट कार्ड स्टेटस चेक . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक क्रेडिट card निवेदन है . खेद है की आपका निवेदन Reject कर दिया गया है . </client>
+        <customer intent="credit_card_details">रिजेक्ट कैसे ? </customer>
+        <client intent="credit_card_details">आपका documents पूरी तरह से verify नहीं हुए . कृपया आपने नज़दीकी बैंक के ब्रांच में जाये या इस नंबर पे संपर्क करे 6160616 . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="90" description="Status: Rejected">
+
+        <customer intent="credit_card_details">क्रेडिट कार्ड स्टेटस . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक क्रेडिट card निवेदन है . खेद है की आपका निवेदन Reject कर दिया गया है . </client>
+        <customer intent="credit_card_details">क्यों रिजेक्ट हुआ है ? </customer>
+        <client intent="credit_card_details">आपका documents पूरी तरह से verify नहीं हुए . कृपया आपने नज़दीकी बैंक के ब्रांच में जाये या इस नंबर पे संपर्क करे 6160616 . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="91" description="Status: Rejected">
+
+        <customer intent="credit_card_details">मै अपना credit कार्ड के स्टेटस जानना चाहता हूँ . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक क्रेडिट card निवेदन है . खेद है की आपका निवेदन Reject कर दिया गया है . </client>
+        <customer intent="credit_card_details">क्यों reject हुआ है ? </customer>
+        <client intent="credit_card_details">आपका documents पूरी तरह से verify नहीं हुए . कृपया आपने नज़दीकी बैंक के ब्रांच में जाये या इस नंबर पे संपर्क करे 6160616 . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="92" description="Status: Rejected">
+
+        <customer intent="credit_card_details">मै क्रेडिट card के status जानना चाहता हूँ . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक क्रेडिट card निवेदन है . खेद है की आपका निवेदन Reject कर दिया गया है . </client>
+        <customer intent="credit_card_details">क्यों reject हुआ ? </customer>
+        <client intent="credit_card_details">आपका documents पूरी तरह से verify नहीं हुए . कृपया आपने नज़दीकी बैंक के ब्रांच में जाये या इस नंबर पे संपर्क करे 6160616 . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="93" description="Status: Rejected">
+
+        <customer intent="credit_card_details">मै credit card के स्टेटस जानना चाहता . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक क्रेडिट card निवेदन है . खेद है की आपका निवेदन Reject कर दिया गया है . </client>
+        <customer intent="credit_card_details">क्यों reject है ? </customer>
+        <client intent="credit_card_details">आपका documents पूरी तरह से verify नहीं हुए . कृपया आपने नज़दीकी बैंक के ब्रांच में जाये या इस नंबर पे संपर्क करे 6160616 . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="94" description="Status: Rejected">
+
+        <customer intent="credit_card_details">credit card के status जानना चाहता हूँ . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक क्रेडिट card निवेदन है . खेद है की आपका निवेदन Reject कर दिया गया है . </client>
+        <customer intent="credit_card_details">reject क्यों हुआ है ? </customer>
+        <client intent="credit_card_details">आपका documents पूरी तरह से verify नहीं हुए . कृपया आपने नज़दीकी बैंक के ब्रांच में जाये या इस नंबर पे संपर्क करे 6160616 . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="95" description="Status: Rejected">
+
+        <customer intent="credit_card_details">क्रेडिट कार्ड के status जानना चाहता . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक क्रेडिट card निवेदन है . खेद है की आपका निवेदन Reject कर दिया गया है . </client>
+        <customer intent="credit_card_details">reject क्यों है ? </customer>
+        <client intent="credit_card_details">आपका documents पूरी तरह से verify नहीं हुए . कृपया आपने नज़दीकी बैंक के ब्रांच में जाये या इस नंबर पे संपर्क करे 6160616 . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="96" description="Status: Rejected">
+
+        <customer intent="credit_card_details">credit card status जानना चाहता . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक क्रेडिट card निवेदन है . खेद है की आपका निवेदन Reject कर दिया गया है . </client>
+        <customer intent="credit_card_details">reject क्यों हुआ ? </customer>
+        <client intent="credit_card_details">आपका documents पूरी तरह से verify नहीं हुए . कृपया आपने नज़दीकी बैंक के ब्रांच में जाये या इस नंबर पे संपर्क करे 6160616 . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="97" description="Status: Rejected">
+
+        <customer intent="credit_card_details">credit card status जानना है . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक क्रेडिट card निवेदन है . खेद है की आपका निवेदन Reject कर दिया गया है . </client>
+        <customer intent="credit_card_details">reject क्यों ? </customer>
+        <client intent="credit_card_details">आपका documents पूरी तरह से verify नहीं हुए . कृपया आपने नज़दीकी बैंक के ब्रांच में जाये या इस नंबर पे संपर्क करे 6160616 . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="98" description="Status: Rejected">
+
+        <customer intent="credit_card_details">credit card status जानना . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक क्रेडिट card निवेदन है . खेद है की आपका निवेदन Reject कर दिया गया है . </client>
+        <customer intent="credit_card_details">reject हुआ ? </customer>
+        <client intent="credit_card_details">आपका documents पूरी तरह से verify नहीं हुए . कृपया आपने नज़दीकी बैंक के ब्रांच में जाये या इस नंबर पे संपर्क करे 6160616 . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="99" description="Status: Rejected">
+
+        <customer intent="credit_card_details">credit card status चेक करना है . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक क्रेडिट card निवेदन है . खेद है की आपका निवेदन Reject कर दिया गया है . </client>
+        <customer intent="credit_card_details">कैसे reject हुआ है ? </customer>
+        <client intent="credit_card_details">आपका documents पूरी तरह से verify नहीं हुए . कृपया आपने नज़दीकी बैंक के ब्रांच में जाये या इस नंबर पे संपर्क करे 6160616 . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="100" description="Status: Rejected">
+
+        <customer intent="credit_card_details">credit card status चेक करना . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक क्रेडिट card निवेदन है . खेद है की आपका निवेदन Reject कर दिया गया है . </client>
+        <customer intent="credit_card_details">कैसे reject है ? </customer>
+        <client intent="credit_card_details">आपका documents पूरी तरह से verify नहीं हुए . कृपया आपने नज़दीकी बैंक के ब्रांच में जाये या इस नंबर पे संपर्क करे 6160616 . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="101" description="Status: Rejected">
+
+        <customer intent="credit_card_details">credit card status चेक . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक क्रेडिट card निवेदन है . खेद है की आपका निवेदन Reject कर दिया गया है . </client>
+        <customer intent="credit_card_details">कैसे reject हुआ ? </customer>
+        <client intent="credit_card_details">आपका documents पूरी तरह से verify नहीं हुए . कृपया आपने नज़दीकी बैंक के ब्रांच में जाये या इस नंबर पे संपर्क करे 6160616 . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="102" description="Status: Rejected">
+
+        <customer intent="credit_card_details">credit card status . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक क्रेडिट card निवेदन है . खेद है की आपका निवेदन Reject कर दिया गया है . </client>
+        <customer intent="credit_card_details">reject कैसे ? </customer>
+        <client intent="credit_card_details">आपका documents पूरी तरह से verify नहीं हुए . कृपया आपने नज़दीकी बैंक के ब्रांच में जाये या इस नंबर पे संपर्क करे 6160616 . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+</dataset>

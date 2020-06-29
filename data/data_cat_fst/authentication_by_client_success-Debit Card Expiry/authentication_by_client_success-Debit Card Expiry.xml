@@ -1,0 +1,122 @@
+<dataset>
+
+    <intent name="authentication_by_client_success" variation="16" description="Debit Card Expiry">
+
+        <client intent="authentication_by_client_success">कृपया कार्ड का expiry बताइये MM - YYYY का रूप में</client>
+        <customer intent="authentication_by_client_success">MM - YYYY</customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="178" description="Debit Card Expiry">
+
+        <client intent="authentication_by_client_success">कृपया कार्ड का expiry बताइये MM - YYYY का रूप में</client>
+        <customer intent="authentication_by_client_success">मेरा डेबिट कार्ड का एक्सपायरी MM - YYYY है . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="179" description="Debit Card Expiry">
+
+        <client intent="authentication_by_client_success">कृपया कार्ड का expiry बताइये MM - YYYY का रूप में</client>
+        <customer intent="authentication_by_client_success">डेबिट कार्ड का एक्सपायरी MM - YYYY है . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="180" description="Debit Card Expiry">
+
+        <client intent="authentication_by_client_success">कृपया कार्ड का expiry बताइये MM - YYYY का रूप में</client>
+        <customer intent="authentication_by_client_success">डेबिट कार्ड का एक्सपायरी MM - YYYY . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="181" description="Debit Card Expiry">
+
+        <client intent="authentication_by_client_success">कृपया कार्ड का expiry बताइये MM - YYYY का रूप में</client>
+        <customer intent="authentication_by_client_success">डेबिट कार्ड एक्सपायरी MM - YYYY . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="182" description="Debit Card Expiry">
+
+        <client intent="authentication_by_client_success">कृपया कार्ड का expiry बताइये MM - YYYY का रूप में</client>
+        <customer intent="authentication_by_client_success">डेबिट एक्सपायरी MM - YYYY . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="183" description="Debit Card Expiry">
+
+        <client intent="authentication_by_client_success">कृपया कार्ड का expiry बताइये MM - YYYY का रूप में</client>
+        <customer intent="authentication_by_client_success">कार्ड एक्सपायरी MM - YYYY . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="184" description="Debit Card Expiry">
+
+        <client intent="authentication_by_client_success">कृपया कार्ड का expiry बताइये MM - YYYY का रूप में</client>
+        <customer intent="authentication_by_client_success">एक्सपायरी MM - YYYY . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="185" description="Debit Card Expiry">
+
+        <client intent="authentication_by_client_success">कृपया कार्ड का expiry बताइये MM - YYYY का रूप में</client>
+        <customer intent="authentication_by_client_success">मेरा Debit card का expiry MM - YYYY है . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="186" description="Debit Card Expiry">
+
+        <client intent="authentication_by_client_success">कृपया कार्ड का expiry बताइये MM - YYYY का रूप में</client>
+        <customer intent="authentication_by_client_success">Debit कार्ड का expiry MM - YYYY है . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="187" description="Debit Card Expiry">
+
+        <client intent="authentication_by_client_success">कृपया कार्ड का expiry बताइये MM - YYYY का रूप में</client>
+        <customer intent="authentication_by_client_success">डेबिट कार्ड का expiry MM - YYYY . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="188" description="Debit Card Expiry">
+
+        <client intent="authentication_by_client_success">कृपया कार्ड का expiry बताइये MM - YYYY का रूप में</client>
+        <customer intent="authentication_by_client_success">Debit card expiry MM - YYYY . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="189" description="Debit Card Expiry">
+
+        <client intent="authentication_by_client_success">कृपया कार्ड का expiry बताइये MM - YYYY का रूप में</client>
+        <customer intent="authentication_by_client_success">Debit expiry MM - YYYY . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="190" description="Debit Card Expiry">
+
+        <client intent="authentication_by_client_success">कृपया कार्ड का expiry बताइये MM - YYYY का रूप में</client>
+        <customer intent="authentication_by_client_success">card expiry MM - YYYY . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="191" description="Debit Card Expiry">
+
+        <client intent="authentication_by_client_success">कृपया कार्ड का expiry बताइये MM - YYYY का रूप में</client>
+        <customer intent="authentication_by_client_success">expiry MM - YYYY . </customer>
+
+    </intent>
+
+</dataset>

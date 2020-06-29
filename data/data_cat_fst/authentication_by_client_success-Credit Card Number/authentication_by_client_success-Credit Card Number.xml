@@ -1,0 +1,162 @@
+<dataset>
+
+    <intent name="authentication_by_client_success" variation="4" description="Credit Card Number">
+
+        <client intent="authentication_by_client_success">अपने कार्ड का नंबर बताइये</client>
+        <customer intent="authentication_by_client_success">CCCCCCCCCCCCCCCC</customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="77" description="Credit Card Number">
+
+        <client intent="authentication_by_client_success">अपने कार्ड का नंबर बताइये</client>
+        <customer intent="authentication_by_client_success">मेरा क्रेडिट कार्ड नंबर CCCCCCCCCCCCCCCC | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="78" description="Credit Card Number">
+
+        <client intent="authentication_by_client_success">अपने कार्ड का नंबर बताइये</client>
+        <customer intent="authentication_by_client_success">कार्ड नंबर CCCCCCCCCCCCCCCC | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="79" description="Credit Card Number">
+
+        <client intent="authentication_by_client_success">अपने कार्ड का नंबर बताइये</client>
+        <customer intent="authentication_by_client_success">कार्ड नंबर CCCCCCCCCCCCCCCC ये है | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="80" description="Credit Card Number">
+
+        <client intent="authentication_by_client_success">अपने कार्ड का नंबर बताइये</client>
+        <customer intent="authentication_by_client_success">ये रहा मेरा क्रेडिट नंबर CCCCCCCCCCCCCCCC | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="81" description="Credit Card Number">
+
+        <client intent="authentication_by_client_success">अपने कार्ड का नंबर बताइये</client>
+        <customer intent="authentication_by_client_success">मेरा क्रेडिट कार्ड नंबर ये रहा CCCCCCCCCCCCCCCC | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="82" description="Credit Card Number">
+
+        <client intent="authentication_by_client_success">अपने कार्ड का नंबर बताइये</client>
+        <customer intent="authentication_by_client_success">कार्ड नंबर ये रहा CCCCCCCCCCCCCCCC | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="83" description="Credit Card Number">
+
+        <client intent="authentication_by_client_success">अपने कार्ड का नंबर बताइये</client>
+        <customer intent="authentication_by_client_success">क्रेडिट कार्ड का नंबर CCCCCCCCCCCCCCCC | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="84" description="Credit Card Number">
+
+        <client intent="authentication_by_client_success">अपने कार्ड का नंबर बताइये</client>
+        <customer intent="authentication_by_client_success">क्रेडिट कार्ड CCCCCCCCCCCCCCCC | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="85" description="Credit Card Number">
+
+        <client intent="authentication_by_client_success">अपने कार्ड का नंबर बताइये</client>
+        <customer intent="authentication_by_client_success">नंबर CCCCCCCCCCCCCCCC | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="86" description="Credit Card Number">
+
+        <client intent="authentication_by_client_success">अपने कार्ड का नंबर बताइये</client>
+        <customer intent="authentication_by_client_success">CCCCCCCCCCCCCCCC | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="87" description="Credit Card Number">
+
+        <client intent="authentication_by_client_success">अपने कार्ड का नंबर बताइये</client>
+        <customer intent="authentication_by_client_success">मेरा credit card नंबर CCCCCCCCCCCCCCCC | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="88" description="Credit Card Number">
+
+        <client intent="authentication_by_client_success">अपने कार्ड का नंबर बताइये</client>
+        <customer intent="authentication_by_client_success">क्रेडिट कार्ड number CCCCCCCCCCCCCCCC | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="89" description="Credit Card Number">
+
+        <client intent="authentication_by_client_success">अपने कार्ड का नंबर बताइये</client>
+        <customer intent="authentication_by_client_success">credit card number CCCCCCCCCCCCCCCC ये है | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="90" description="Credit Card Number">
+
+        <client intent="authentication_by_client_success">अपने कार्ड का नंबर बताइये</client>
+        <customer intent="authentication_by_client_success">ये रहा मेरा credit card नंबर CCCCCCCCCCCCCCCC | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="91" description="Credit Card Number">
+
+        <client intent="authentication_by_client_success">अपने कार्ड का नंबर बताइये</client>
+        <customer intent="authentication_by_client_success">मेरा credit number ये रहा CCCCCCCCCCCCCCCC | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="92" description="Credit Card Number">
+
+        <client intent="authentication_by_client_success">अपने कार्ड का नंबर बताइये</client>
+        <customer intent="authentication_by_client_success">credit card number ये रहा CCCCCCCCCCCCCCCC | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="93" description="Credit Card Number">
+
+        <client intent="authentication_by_client_success">अपने कार्ड का नंबर बताइये</client>
+        <customer intent="authentication_by_client_success">credit card का number CCCCCCCCCCCCCCCC | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="94" description="Credit Card Number">
+
+        <client intent="authentication_by_client_success">अपने कार्ड का नंबर बताइये</client>
+        <customer intent="authentication_by_client_success">credit card CCCCCCCCCCCCCCCC | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="95" description="Credit Card Number">
+
+        <client intent="authentication_by_client_success">अपने कार्ड का नंबर बताइये</client>
+        <customer intent="authentication_by_client_success">number CCCCCCCCCCCCCCCC | </customer>
+
+    </intent>
+
+</dataset>

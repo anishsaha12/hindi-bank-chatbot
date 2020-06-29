@@ -1,0 +1,170 @@
+<dataset>
+
+    <intent name="authentication_by_client_success" variation="14" description="Debit Card Number">
+
+        <client intent="authentication_by_client_success">आपके डेबिट कार्ड संख्या लिखिए . </client>
+        <customer intent="authentication_by_client_success">DDDDDDDDDDDDDDDD</customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="15" description="Debit Card Number">
+
+        <client intent="authentication_by_client_success">आपके Debit Card number लिखिए . </client>
+        <customer intent="authentication_by_client_success">DDDDDDDDDDDDDDDD</customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="159" description="Debit Card Number">
+
+        <client intent="authentication_by_client_success">अपने कार्ड का नंबर बताइये</client>
+        <customer intent="authentication_by_client_success">मेरा डेबिट कार्ड नंबर DDDDDDDDDDDDDDDD | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="160" description="Debit Card Number">
+
+        <client intent="authentication_by_client_success">अपने कार्ड का नंबर बताइये</client>
+        <customer intent="authentication_by_client_success">कार्ड नंबर DDDDDDDDDDDDDDDD | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="161" description="Debit Card Number">
+
+        <client intent="authentication_by_client_success">अपने कार्ड का नंबर बताइये</client>
+        <customer intent="authentication_by_client_success">कार्ड नंबर DDDDDDDDDDDDDDDD ये है | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="162" description="Debit Card Number">
+
+        <client intent="authentication_by_client_success">अपने कार्ड का नंबर बताइये</client>
+        <customer intent="authentication_by_client_success">ये रहा मेरा डेबिट नंबर DDDDDDDDDDDDDDDD | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="163" description="Debit Card Number">
+
+        <client intent="authentication_by_client_success">अपने कार्ड का नंबर बताइये</client>
+        <customer intent="authentication_by_client_success">मेरा डेबिट कार्ड नंबर ये रहा DDDDDDDDDDDDDDDD | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="164" description="Debit Card Number">
+
+        <client intent="authentication_by_client_success">अपने कार्ड का नंबर बताइये</client>
+        <customer intent="authentication_by_client_success">कार्ड नंबर ये रहा DDDDDDDDDDDDDDDD | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="165" description="Debit Card Number">
+
+        <client intent="authentication_by_client_success">अपने कार्ड का नंबर बताइये</client>
+        <customer intent="authentication_by_client_success">डेबिट कार्ड का नंबर DDDDDDDDDDDDDDDD | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="166" description="Debit Card Number">
+
+        <client intent="authentication_by_client_success">अपने कार्ड का नंबर बताइये</client>
+        <customer intent="authentication_by_client_success">डेबिट कार्ड DDDDDDDDDDDDDDDD | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="167" description="Debit Card Number">
+
+        <client intent="authentication_by_client_success">अपने कार्ड का नंबर बताइये</client>
+        <customer intent="authentication_by_client_success">नंबर DDDDDDDDDDDDDDDD | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="168" description="Debit Card Number">
+
+        <client intent="authentication_by_client_success">अपने कार्ड का नंबर बताइये</client>
+        <customer intent="authentication_by_client_success">DDDDDDDDDDDDDDDD | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="169" description="Debit Card Number">
+
+        <client intent="authentication_by_client_success">अपने कार्ड का नंबर बताइये</client>
+        <customer intent="authentication_by_client_success">मेरा debit card नंबर DDDDDDDDDDDDDDDD | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="170" description="Debit Card Number">
+
+        <client intent="authentication_by_client_success">अपने कार्ड का नंबर बताइये</client>
+        <customer intent="authentication_by_client_success">डेबिट कार्ड number DDDDDDDDDDDDDDDD | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="171" description="Debit Card Number">
+
+        <client intent="authentication_by_client_success">अपने कार्ड का नंबर बताइये</client>
+        <customer intent="authentication_by_client_success">debit card number DDDDDDDDDDDDDDDD ये है | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="172" description="Debit Card Number">
+
+        <client intent="authentication_by_client_success">अपने कार्ड का नंबर बताइये</client>
+        <customer intent="authentication_by_client_success">ये रहा मेरा debit card नंबर DDDDDDDDDDDDDDDD | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="173" description="Debit Card Number">
+
+        <client intent="authentication_by_client_success">अपने कार्ड का नंबर बताइये</client>
+        <customer intent="authentication_by_client_success">मेरा debit number ये रहा DDDDDDDDDDDDDDDD | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="174" description="Debit Card Number">
+
+        <client intent="authentication_by_client_success">अपने कार्ड का नंबर बताइये</client>
+        <customer intent="authentication_by_client_success">debit card number ये रहा DDDDDDDDDDDDDDDD | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="175" description="Debit Card Number">
+
+        <client intent="authentication_by_client_success">अपने कार्ड का नंबर बताइये</client>
+        <customer intent="authentication_by_client_success">debit card का number DDDDDDDDDDDDDDDD | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="176" description="Debit Card Number">
+
+        <client intent="authentication_by_client_success">अपने कार्ड का नंबर बताइये</client>
+        <customer intent="authentication_by_client_success">debit card DDDDDDDDDDDDDDDD | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="177" description="Debit Card Number">
+
+        <client intent="authentication_by_client_success">अपने कार्ड का नंबर बताइये</client>
+        <customer intent="authentication_by_client_success">number DDDDDDDDDDDDDDDD | </customer>
+
+    </intent>
+
+</dataset>

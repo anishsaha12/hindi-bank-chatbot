@@ -1,0 +1,230 @@
+<dataset>
+
+    <intent name="view_transactions" variation="30" description="Email transaction">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="view_transactions">transactions देखना है ।</customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="view_transactions">ये रहा आपके पिछले पांच लेन - देन के विवरण
+1 . Rs 1200 credited 25/03/2020 at 13:00
+2 . Rs 1000 debited 21/03/2020 at 23:00
+3 . Rs 100 credited 17/03/2020 at 01:00
+4 . Rs 10000 debited 14/03/2020 at 16:00
+5 . Rs 200 credited 10/03/2020 at 19:00
+क्या आप और कुछ जानना चाहते है ? </client>
+        <customer intent="view_transactions">तीसरे transaction details ।</customer>
+        <client intent="view_transactions">ये रहा आपके पिछले तीन लेन - देन के विवरण
+Rs . 100 credited 17/03/2020
+at 01:00
+from Acc . No . 8756865281 through Cheque</client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <customer intent="view_transactions">इसको email पे भेज | </customer>
+        <client intent="view_transactions">अपनी ईमेल आई . डी की पुष्टि करें - xyzzz@abc . com</client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <client intent="view_transactions">आपके इस लेन - देन का विवरण आपके email पे भेज दिया गया है ।</client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="view_transactions" variation="31" description="Email transaction">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="view_transactions">transactions देखना है ।</customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="view_transactions">ये रहा आपके पिछले पांच लेन - देन के विवरण
+1 . Rs 1200 credited 25/03/2020 at 13:00
+2 . Rs 1000 debited 21/03/2020 at 23:00
+3 . Rs 100 credited 17/03/2020 at 01:00
+4 . Rs 10000 debited 14/03/2020 at 16:00
+5 . Rs 200 credited 10/03/2020 at 19:00
+क्या आप और कुछ जानना चाहते है ? </client>
+        <customer intent="view_transactions">तीसरे transaction details ।</customer>
+        <client intent="view_transactions">ये रहा आपके पिछले तीन लेन - देन के विवरण
+Rs . 100 credited 17/03/2020
+at 01:00
+from Acc . No . 8756865281 through Cheque</client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <customer intent="view_transactions">email पे भेज दे | </customer>
+        <client intent="view_transactions">अपनी ईमेल आई . डी की पुष्टि करें - xyzzz@abc . com</client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <client intent="view_transactions">आपके इस लेन - देन का विवरण आपके email पे भेज दिया गया है ।</client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="view_transactions" variation="32" description="Email transaction">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="view_transactions">transactions देखना है ।</customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="view_transactions">ये रहा आपके पिछले पांच लेन - देन के विवरण
+1 . Rs 1200 credited 25/03/2020 at 13:00
+2 . Rs 1000 debited 21/03/2020 at 23:00
+3 . Rs 100 credited 17/03/2020 at 01:00
+4 . Rs 10000 debited 14/03/2020 at 16:00
+5 . Rs 200 credited 10/03/2020 at 19:00
+क्या आप और कुछ जानना चाहते है ? </client>
+        <customer intent="view_transactions">तीसरे transaction details ।</customer>
+        <client intent="view_transactions">ये रहा आपके पिछले तीन लेन - देन के विवरण
+Rs . 100 credited 17/03/2020
+at 01:00
+from Acc . No . 8756865281 through Cheque</client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <customer intent="view_transactions">email कर दे | </customer>
+        <client intent="view_transactions">अपनी ईमेल आई . डी की पुष्टि करें - xyzzz@abc . com</client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <client intent="view_transactions">आपके इस लेन - देन का विवरण आपके email पे भेज दिया गया है ।</client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="view_transactions" variation="33" description="Email transaction">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="view_transactions">transactions देखना है ।</customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="view_transactions">ये रहा आपके पिछले पांच लेन - देन के विवरण
+1 . Rs 1200 credited 25/03/2020 at 13:00
+2 . Rs 1000 debited 21/03/2020 at 23:00
+3 . Rs 100 credited 17/03/2020 at 01:00
+4 . Rs 10000 debited 14/03/2020 at 16:00
+5 . Rs 200 credited 10/03/2020 at 19:00
+क्या आप और कुछ जानना चाहते है ? </client>
+        <customer intent="view_transactions">तीसरे transaction details ।</customer>
+        <client intent="view_transactions">ये रहा आपके पिछले तीन लेन - देन के विवरण
+Rs . 100 credited 17/03/2020
+at 01:00
+from Acc . No . 8756865281 through Cheque</client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <customer intent="view_transactions">email | </customer>
+        <client intent="view_transactions">अपनी ईमेल आई . डी की पुष्टि करें - xyzzz@abc . com</client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <client intent="view_transactions">आपके इस लेन - देन का विवरण आपके email पे भेज दिया गया है ।</client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="view_transactions" variation="34" description="Email transaction">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="view_transactions">transactions देखना है ।</customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="view_transactions">ये रहा आपके पिछले पांच लेन - देन के विवरण
+1 . Rs 1200 credited 25/03/2020 at 13:00
+2 . Rs 1000 debited 21/03/2020 at 23:00
+3 . Rs 100 credited 17/03/2020 at 01:00
+4 . Rs 10000 debited 14/03/2020 at 16:00
+5 . Rs 200 credited 10/03/2020 at 19:00
+क्या आप और कुछ जानना चाहते है ? </client>
+        <customer intent="view_transactions">तीसरे transaction को email पे भेज दे | </customer>
+        <client intent="view_transactions">अपनी ईमेल आई . डी की पुष्टि करें - xyzzz@abc . com</client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <client intent="view_transactions">आपके इस लेन - देन का विवरण आपके email पे भेज दिया गया है ।</client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="view_transactions" variation="35" description="Email transaction">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="view_transactions">transactions देखना है ।</customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="view_transactions">ये रहा आपके पिछले पांच लेन - देन के विवरण
+1 . Rs 1200 credited 25/03/2020 at 13:00
+2 . Rs 1000 debited 21/03/2020 at 23:00
+3 . Rs 100 credited 17/03/2020 at 01:00
+4 . Rs 10000 debited 14/03/2020 at 16:00
+5 . Rs 200 credited 10/03/2020 at 19:00
+क्या आप और कुछ जानना चाहते है ? </client>
+        <customer intent="view_transactions">तीसरे transaction details email पे भेज दे | </customer>
+        <client intent="view_transactions">अपनी ईमेल आई . डी की पुष्टि करें - xyzzz@abc . com</client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <client intent="view_transactions">आपके इस लेन - देन का विवरण आपके email पे भेज दिया गया है ।</client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="view_transactions" variation="36" description="Email transaction">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="view_transactions">transactions देखना है ।</customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="view_transactions">ये रहा आपके पिछले पांच लेन - देन के विवरण
+1 . Rs 1200 credited 25/03/2020 at 13:00
+2 . Rs 1000 debited 21/03/2020 at 23:00
+3 . Rs 100 credited 17/03/2020 at 01:00
+4 . Rs 10000 debited 14/03/2020 at 16:00
+5 . Rs 200 credited 10/03/2020 at 19:00
+क्या आप और कुछ जानना चाहते है ? </client>
+        <customer intent="view_transactions">तीसरे transaction email कर दे | </customer>
+        <client intent="view_transactions">अपनी ईमेल आई . डी की पुष्टि करें - xyzzz@abc . com</client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <client intent="view_transactions">आपके इस लेन - देन का विवरण आपके email पे भेज दिया गया है ।</client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="view_transactions" variation="37" description="Email transaction">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="view_transactions">transactions देखना है ।</customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="view_transactions">ये रहा आपके पिछले पांच लेन - देन के विवरण
+1 . Rs 1200 credited 25/03/2020 at 13:00
+2 . Rs 1000 debited 21/03/2020 at 23:00
+3 . Rs 100 credited 17/03/2020 at 01:00
+4 . Rs 10000 debited 14/03/2020 at 16:00
+5 . Rs 200 credited 10/03/2020 at 19:00
+क्या आप और कुछ जानना चाहते है ? </client>
+        <customer intent="view_transactions">तीसरे transaction email | </customer>
+        <client intent="view_transactions">अपनी ईमेल आई . डी की पुष्टि करें - xyzzz@abc . com</client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <client intent="view_transactions">आपके इस लेन - देन का विवरण आपके email पे भेज दिया गया है ।</client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+</dataset>

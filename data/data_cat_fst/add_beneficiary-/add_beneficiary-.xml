@@ -1,0 +1,303 @@
+	<dataset>
+
+    <intent name="add_beneficiary" variation="1">
+
+        <expand-intent description="Help" name="greetings" variation="8" />
+        <customer intent="add_beneficiary">मेरे अकाउंट के लिए बेनेफिशरी add करना है | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+                <client intent="add_beneficiary">ठीक है । कृपया उनका IFSC कोड बताइये . </client>
+        <customer intent="add_beneficiary">IFSC संख्या है SBI564578 | </customer>
+        <client intent="add_beneficiary">उनके बैंक का नाम और लोकेशन बताइये . </client>
+        <customer intent="add_beneficiary">SBI बैंक है और लोकेशन राजाजीनगर है | </customer>
+        <client intent="add_beneficiary">शुक्रिया . एक बार सारे details जाँच लीजिये :
+IFSC : SBI564578
+बैंक नाम : SBI
+बैंक लोकेशन : राजाजीनगर
+आगे बढ़े ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <client intent="add_beneficiary">ok ! यह आपके अकॉउंट में २४ घंटो के अंदर प्रतिबिंबित होगा , और पैसे का लेन - देन कर सकते है . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="add_beneficiary" variation="2">
+
+        <expand-intent description="Help" name="greetings" variation="8" />
+        <customer intent="add_beneficiary">मेरे अकाउंट के लिए beneficiary add करना है | </customer>
+        <client intent="add_beneficiary">ज़रूर . </client>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+                <client intent="add_beneficiary">ठीक है । कृपया उनका IFSC कोड बताइये . </client>
+        <customer intent="add_beneficiary">IND564578</customer>
+        <client intent="add_beneficiary">उनके बैंक का नाम और लोकेशन बताइये . </client>
+        <customer intent="add_beneficiary">SBI बैंक है और लोकेशन राजाजीनगर है | </customer>
+        <client intent="add_beneficiary">शुक्रिया . एक बार सारे details जाँच लीजिये :
+IFSC : SBI564578
+बैंक नाम : SBI
+बैंक लोकेशन : राजाजीनगर
+आगे बढ़े ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <client intent="add_beneficiary">ok ! यह आपके अकॉउंट में 24 घंटो के अंदर प्रतिबिंबित होगा , और पैसे का लेन - देन कर सकते है . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="add_beneficiary" variation="3">
+
+        <expand-intent description="Help" name="greetings" variation="8" />
+        <customer intent="add_beneficiary">मेरे अकाउंट में बेनेफिशरी add करना है | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+                <client intent="add_beneficiary">ठीक है । कृपया उनका IFSC कोड बताइये . </client>
+        <customer intent="add_beneficiary">IFSC संख्या है SBI564578 | </customer>
+        <client intent="add_beneficiary">उनके बैंक का नाम और लोकेशन बताइये . </client>
+        <customer intent="add_beneficiary">SBI बैंक है और लोकेशन राजाजीनगर है | </customer>
+        <client intent="add_beneficiary">शुक्रिया . एक बार सारे details जाँच लीजिये :
+IFSC : SBI564578
+बैंक नाम : SBI
+बैंक लोकेशन : राजाजीनगर
+आगे बढ़े ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <client intent="add_beneficiary">ok ! यह आपके अकॉउंट में २४ घंटो के अंदर प्रतिबिंबित होगा , और पैसे का लेन - देन कर सकते है . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="add_beneficiary" variation="4">
+
+        <expand-intent description="Help" name="greetings" variation="8" />
+        <customer intent="add_beneficiary">मुझे अकाउंट में बेनेफिशरी add करना है | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+                <client intent="add_beneficiary">ठीक है । कृपया उनका IFSC कोड बताइये . </client>
+        <customer intent="add_beneficiary">IFSC number SBI564578 | </customer>
+        <client intent="add_beneficiary">उनके बैंक का नाम और लोकेशन बताइये . </client>
+        <customer intent="add_beneficiary">SBI बैंक और लोकेशन राजाजीनगर है | </customer>
+        <client intent="add_beneficiary">शुक्रिया . एक बार सारे details जाँच लीजिये :
+IFSC : SBI564578
+बैंक नाम : SBI
+बैंक लोकेशन : राजाजीनगर
+आगे बढ़े ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <client intent="add_beneficiary">ok ! यह आपके अकॉउंट में २४ घंटो के अंदर प्रतिबिंबित होगा , और पैसे का लेन - देन कर सकते है . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="add_beneficiary" variation="5">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="add_beneficiary">अकाउंट में beneficiary add करना है | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+                <client intent="add_beneficiary">ठीक है । कृपया उनका IFSC कोड बताइये . </client>
+        <customer intent="add_beneficiary">number IND564578</customer>
+        <client intent="add_beneficiary">उनके बैंक का नाम और लोकेशन बताइये . </client>
+        <customer intent="add_beneficiary">SBI बैंक और लोकेशन राजाजीनगर | </customer>
+        <client intent="add_beneficiary">शुक्रिया . एक बार सारे details जाँच लीजिये :
+IFSC : SBI564578
+बैंक नाम : SBI
+बैंक लोकेशन : राजाजीनगर
+आगे बढ़े ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <client intent="add_beneficiary">ok ! यह आपके अकॉउंट में 24 घंटो के अंदर प्रतिबिंबित होगा , और पैसे का लेन - देन कर सकते है . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="add_beneficiary" variation="6">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="add_beneficiary">अकाउंट beneficiary add करना है | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+                <client intent="add_beneficiary">ठीक है । कृपया उनका IFSC कोड बताइये . </client>
+        <customer intent="add_beneficiary">संख्या IND564578</customer>
+        <client intent="add_beneficiary">उनके बैंक का नाम और लोकेशन बताइये . </client>
+        <customer intent="add_beneficiary">SBI बैंक लोकेशन राजाजीनगर | </customer>
+        <client intent="add_beneficiary">शुक्रिया . एक बार सारे details जाँच लीजिये :
+IFSC : SBI564578
+बैंक नाम : SBI
+बैंक लोकेशन : राजाजीनगर
+आगे बढ़े ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <client intent="add_beneficiary">ok ! यह आपके अकॉउंट में 24 घंटो के अंदर प्रतिबिंबित होगा , और पैसे का लेन - देन कर सकते है . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="add_beneficiary" variation="7">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="add_beneficiary">beneficiary add करना है | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+                <client intent="add_beneficiary">ठीक है । कृपया उनका IFSC कोड बताइये . </client>
+        <customer intent="add_beneficiary">IND564578</customer>
+        <client intent="add_beneficiary">उनके बैंक का नाम और लोकेशन बताइये . </client>
+        <customer intent="add_beneficiary">SBI लोकेशन राजाजीनगर | </customer>
+        <client intent="add_beneficiary">शुक्रिया . एक बार सारे details जाँच लीजिये :
+IFSC : SBI564578
+बैंक नाम : SBI
+बैंक लोकेशन : राजाजीनगर
+आगे बढ़े ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <client intent="add_beneficiary">ok ! यह आपके अकॉउंट में 24 घंटो के अंदर प्रतिबिंबित होगा , और पैसे का लेन - देन कर सकते है . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="add_beneficiary" variation="8">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="add_beneficiary">beneficiary add करना | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+                <client intent="add_beneficiary">ठीक है । कृपया उनका IFSC कोड बताइये . </client>
+        <customer intent="add_beneficiary">IND564578</customer>
+        <client intent="add_beneficiary">उनके बैंक का नाम और लोकेशन बताइये . </client>
+        <customer intent="add_beneficiary">SBI , राजाजीनगर | </customer>
+        <client intent="add_beneficiary">शुक्रिया . एक बार सारे details जाँच लीजिये :
+IFSC : SBI564578
+बैंक नाम : SBI
+बैंक लोकेशन : राजाजीनगर
+आगे बढ़े ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <client intent="add_beneficiary">ok ! यह आपके अकॉउंट में 24 घंटो के अंदर प्रतिबिंबित होगा , और पैसे का लेन - देन कर सकते है . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="add_beneficiary" variation="9">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="add_beneficiary">beneficiary add | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+                <client intent="add_beneficiary">ठीक है । कृपया उनका IFSC कोड बताइये . </client>
+        <customer intent="add_beneficiary">IND564578</customer>
+        <client intent="add_beneficiary">उनके बैंक का नाम और लोकेशन बताइये . </client>
+        <customer intent="add_beneficiary">SBI - rajajinagar | </customer>
+        <client intent="add_beneficiary">शुक्रिया . एक बार सारे details जाँच लीजिये :
+IFSC : SBI564578
+बैंक नाम : SBI
+बैंक लोकेशन : राजाजीनगर
+आगे बढ़े ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <client intent="add_beneficiary">ok ! यह आपके अकॉउंट में 24 घंटो के अंदर प्रतिबिंबित होगा , और पैसे का लेन - देन कर सकते है . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="add_beneficiary" variation="10">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="add_beneficiary">add beneficiary | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+                <client intent="add_beneficiary">ठीक है । कृपया उनका IFSC कोड बताइये . </client>
+        <customer intent="add_beneficiary">आई . एफ . एस . सि - IND564578</customer>
+        <client intent="add_beneficiary">उनके बैंक का नाम और लोकेशन बताइये . </client>
+        <customer intent="add_beneficiary">SBI बैंक है और लोकेशन राजाजीनगर है | </customer>
+        <client intent="add_beneficiary">शुक्रिया . एक बार सारे details जाँच लीजिये :
+IFSC : SBI564578
+बैंक नाम : SBI
+बैंक लोकेशन : राजाजीनगर
+आगे बढ़े ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <client intent="add_beneficiary">ok ! यह आपके अकॉउंट में 24 घंटो के अंदर प्रतिबिंबित होगा , और पैसे का लेन - देन कर सकते है . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="add_beneficiary" variation="11">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="add_beneficiary">beneficiary | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+                <client intent="add_beneficiary">ठीक है । कृपया उनका IFSC कोड बताइये . </client>
+        <customer intent="add_beneficiary">आई . एफ . एस . सि IND564578</customer>
+        <client intent="add_beneficiary">उनके बैंक का नाम और लोकेशन बताइये . </client>
+        <customer intent="add_beneficiary">SBI बैंक branch राजाजीनगर | </customer>
+        <client intent="add_beneficiary">शुक्रिया . एक बार सारे details जाँच लीजिये :
+IFSC : SBI564578
+बैंक नाम : SBI
+बैंक लोकेशन : राजाजीनगर
+आगे बढ़े ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <client intent="add_beneficiary">ok ! यह आपके अकॉउंट में 24 घंटो के अंदर प्रतिबिंबित होगा , और पैसे का लेन - देन कर सकते है . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="add_beneficiary" variation="12">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="add_beneficiary">beneficiary | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+                <client intent="add_beneficiary">ठीक है । कृपया उनका IFSC कोड बताइये . </client>
+        <customer intent="add_beneficiary">आई . एफ . एस . सि IND564578</customer>
+        <client intent="add_beneficiary">उनके बैंक का नाम और लोकेशन बताइये . </client>
+        <customer intent="add_beneficiary">SBI , branch राजाजीनगर | </customer>
+        <client intent="add_beneficiary">शुक्रिया . एक बार सारे details जाँच लीजिये :
+IFSC : SBI564578
+बैंक नाम : SBI
+बैंक लोकेशन : राजाजीनगर
+आगे बढ़े ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <client intent="add_beneficiary">ok ! यह आपके अकॉउंट में 24 घंटो के अंदर प्रतिबिंबित होगा , और पैसे का लेन - देन कर सकते है . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+</dataset>

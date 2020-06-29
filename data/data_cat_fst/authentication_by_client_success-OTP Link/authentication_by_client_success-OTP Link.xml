@@ -1,0 +1,122 @@
+<dataset>
+
+    <intent name="authentication_by_client_success" variation="3" description="OTP Link">
+
+        <client intent="authentication_by_client_success">आपके मोबाइल पे बैंक से एक OTP आएगा . कृपया बताइये . </client>
+        <customer intent="authentication_by_client_success">OOOO</customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="9" description="OTP Link">
+
+        <client intent="authentication_by_client_success">आपके मोबाइल पे कुछ क्षण में बैंक से OTP आएगा . कृपया OTP बताइये . </client>
+        <customer intent="authentication_by_client_success">OOOO</customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="13" description="OTP Link">
+
+        <client intent="authentication_by_client_success">आपके मोबाइल पे बैंक से एक OTP आएगा . कृपया बताइये . </client>
+        <customer intent="authentication_by_client_success">OOOO</customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="65" description="OTP Link">
+
+        <client intent="authentication_by_client_success">आपके मोबाइल पे बैंक से एक OTP आएगा . कृपया बताइये . </client>
+        <customer intent="authentication_by_client_success">ओ . टि . पि . OOOO</customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="66" description="OTP Link">
+
+        <client intent="authentication_by_client_success">आपके मोबाइल पे बैंक से एक OTP आएगा . कृपया बताइये . </client>
+        <customer intent="authentication_by_client_success">ओटिपि OOOO</customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="67" description="OTP Link">
+
+        <client intent="authentication_by_client_success">आपके मोबाइल पे बैंक से एक OTP आएगा . कृपया बताइये . </client>
+        <customer intent="authentication_by_client_success">ओ . टि . पि . - OOOO</customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="68" description="OTP Link">
+
+        <client intent="authentication_by_client_success">आपके मोबाइल पे बैंक से एक OTP आएगा . कृपया बताइये . </client>
+        <customer intent="authentication_by_client_success">ओटिपि - OOOO</customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="69" description="OTP Link">
+
+        <client intent="authentication_by_client_success">आपके मोबाइल पे बैंक से एक OTP आएगा . कृपया बताइये . </client>
+        <customer intent="authentication_by_client_success">OTP - OOOO</customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="70" description="OTP Link">
+
+        <client intent="authentication_by_client_success">आपके मोबाइल पे बैंक से एक OTP आएगा . कृपया बताइये . </client>
+        <customer intent="authentication_by_client_success">OTP OOOO</customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="71" description="OTP Link">
+
+        <client intent="authentication_by_client_success">आपके मोबाइल पे बैंक से एक OTP आएगा . कृपया बताइये . </client>
+        <customer intent="authentication_by_client_success">ओ . टि . पि . OOOO ये रहा </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="72" description="OTP Link">
+
+        <client intent="authentication_by_client_success">आपके मोबाइल पे बैंक से एक OTP आएगा . कृपया बताइये . </client>
+        <customer intent="authentication_by_client_success">ओटिपि OOOO ये </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="73" description="OTP Link">
+
+        <client intent="authentication_by_client_success">आपके मोबाइल पे बैंक से एक OTP आएगा . कृपया बताइये . </client>
+        <customer intent="authentication_by_client_success">ओ . टि . पि . ये रहा - OOOO</customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="74" description="OTP Link">
+
+        <client intent="authentication_by_client_success">आपके मोबाइल पे बैंक से एक OTP आएगा . कृपया बताइये . </client>
+        <customer intent="authentication_by_client_success">ओटिपि ये रहा OOOO</customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="75" description="OTP Link">
+
+        <client intent="authentication_by_client_success">आपके मोबाइल पे बैंक से एक OTP आएगा . कृपया बताइये . </client>
+        <customer intent="authentication_by_client_success">OTP ये रहा OOOO</customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="76" description="OTP Link">
+
+        <client intent="authentication_by_client_success">आपके मोबाइल पे बैंक से एक OTP आएगा . कृपया बताइये . </client>
+        <customer intent="authentication_by_client_success">OTP OOOO</customer>
+
+    </intent>
+
+</dataset>

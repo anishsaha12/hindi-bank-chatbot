@@ -1,0 +1,10 @@
+<dataset>
+
+    <intent name="goodbye" variation="14" description="Bye">
+
+        <customer intent="goodbye">बाई | </customer>
+        <client intent="goodbye">बाई</client>
+
+    </intent>
+
+</dataset>

@@ -1,0 +1,114 @@
+<dataset>
+
+    <intent name="rejection_by_customer" variation="171" description="Do not know CIF number">
+
+        <customer intent="rejection_by_customer">मुझे CIF संख्या नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="172" description="Do not know CIF number">
+
+        <customer intent="rejection_by_customer">सि . आई . एफ number नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="173" description="Do not know CIF number">
+
+        <customer intent="rejection_by_customer">number नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="174" description="Do not know CIF number">
+
+        <customer intent="rejection_by_customer">CIF number पता नहीं | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="175" description="Do not know CIF number">
+
+        <customer intent="rejection_by_customer">number पता नहीं | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="176" description="Do not know CIF number">
+
+        <customer intent="rejection_by_customer">मुझे CIF number नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="177" description="Do not know CIF number">
+
+        <customer intent="rejection_by_customer">CIF नंबर नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="178" description="Do not know CIF number">
+
+        <customer intent="rejection_by_customer">number नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="179" description="Do not know CIF number">
+
+        <customer intent="rejection_by_customer">CIF number पता नहीं | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="180" description="Do not know CIF number">
+
+        <customer intent="rejection_by_customer">मुझे सि . आई . एफ संख्या नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="181" description="Do not know CIF number">
+
+        <customer intent="rejection_by_customer">सि . आई . एफ संख्या नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="182" description="Do not know CIF number">
+
+        <customer intent="rejection_by_customer">सि . आई . एफ संख्या पता नहीं | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="183" description="Do not know CIF number">
+
+        <customer intent="rejection_by_customer">मुझे सिआईएफ नंबर नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="184" description="Do not know CIF number">
+
+        <customer intent="rejection_by_customer">सिआईएफ नंबर नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="185" description="Do not know CIF number">
+
+        <customer intent="rejection_by_customer">सिआईएफ नंबर पता नहीं | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="186" description="Do not know CIF number">
+
+        <customer intent="rejection_by_customer">सिआईएफ number नहीं पता | </customer>
+
+    </intent>
+
+</dataset>

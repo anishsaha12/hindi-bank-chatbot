@@ -1,0 +1,9 @@
+<dataset>
+
+    <intent name="greetings" variation="7" description="Client: Welcome here">
+
+        <client intent="greetings">इस सेवा का उपयोग करने के लिए शुक्रिया | </client>
+
+    </intent>
+
+</dataset>

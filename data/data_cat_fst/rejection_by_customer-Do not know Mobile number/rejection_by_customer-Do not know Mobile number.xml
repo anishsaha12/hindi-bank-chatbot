@@ -1,0 +1,93 @@
+<dataset>
+
+    <intent name="rejection_by_customer" variation="86" description="Do not know Mobile number">
+
+        <customer intent="rejection_by_customer">मुझे मोबाइल नंबर नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="87" description="Do not know Mobile number">
+
+        <customer intent="rejection_by_customer">मोबाइल नंबर नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="88" description="Do not know Mobile number">
+
+        <customer intent="rejection_by_customer">नंबर नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="89" description="Do not know Mobile number">
+
+        <customer intent="rejection_by_customer">मोबाइल नंबर पता नहीं | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="90" description="Do not know Mobile number">
+
+        <customer intent="rejection_by_customer">नंबर पता नहीं | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="91" description="Do not know Mobile number">
+
+        <customer intent="rejection_by_customer">मुझे Mobile संख्या नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="92" description="Do not know Mobile number">
+
+        <customer intent="rejection_by_customer">मोबाइल number नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="93" description="Do not know Mobile number">
+
+        <customer intent="rejection_by_customer">number नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="94" description="Do not know Mobile number">
+
+        <customer intent="rejection_by_customer">Mobile number पता नहीं | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="95" description="Do not know Mobile number">
+
+        <customer intent="rejection_by_customer">number पता नहीं | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="96" description="Do not know Mobile number">
+
+        <customer intent="rejection_by_customer">मुझे Mobile number नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="97" description="Do not know Mobile number">
+
+        <customer intent="rejection_by_customer">Mobile नंबर नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="98" description="Do not know Mobile number">
+
+        <customer intent="rejection_by_customer">number नहीं पता | </customer>
+
+    </intent>
+
+</dataset>

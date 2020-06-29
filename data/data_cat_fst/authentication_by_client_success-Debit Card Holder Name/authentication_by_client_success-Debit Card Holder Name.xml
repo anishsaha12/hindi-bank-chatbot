@@ -1,0 +1,138 @@
+<dataset>
+
+    <intent name="authentication_by_client_success" variation="17" description="Debit Card Holder Name">
+
+        <client intent="authentication_by_client_success">कार्ड धारक का नाम बताइये . </client>
+        <customer intent="authentication_by_client_success">XXXX</customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="192" description="Debit Card Holder Name">
+
+        <client intent="authentication_by_client_success">कार्ड धारक का नाम बताइये . </client>
+        <customer intent="authentication_by_client_success">मेरा डेबिट कार्ड धारक का नाम XXXX है . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="193" description="Debit Card Holder Name">
+
+        <client intent="authentication_by_client_success">कार्ड धारक का नाम बताइये . </client>
+        <customer intent="authentication_by_client_success">डेबिट कार्ड धारक का नाम XXXX है . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="194" description="Debit Card Holder Name">
+
+        <client intent="authentication_by_client_success">कार्ड धारक का नाम बताइये . </client>
+        <customer intent="authentication_by_client_success">डेबिट कार्ड धारक नाम XXXX . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="195" description="Debit Card Holder Name">
+
+        <client intent="authentication_by_client_success">कार्ड धारक का नाम बताइये . </client>
+        <customer intent="authentication_by_client_success">डेबिट धारक का नाम XXXX . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="196" description="Debit Card Holder Name">
+
+        <client intent="authentication_by_client_success">कार्ड धारक का नाम बताइये . </client>
+        <customer intent="authentication_by_client_success">कार्ड धारक का नाम XXXX . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="197" description="Debit Card Holder Name">
+
+        <client intent="authentication_by_client_success">कार्ड धारक का नाम बताइये . </client>
+        <customer intent="authentication_by_client_success">कार्ड धारक नाम XXXX . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="198" description="Debit Card Holder Name">
+
+        <client intent="authentication_by_client_success">कार्ड धारक का नाम बताइये . </client>
+        <customer intent="authentication_by_client_success">धारक का नाम XXXX . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="199" description="Debit Card Holder Name">
+
+        <client intent="authentication_by_client_success">कार्ड धारक का नाम बताइये . </client>
+        <customer intent="authentication_by_client_success">धारक नाम XXXX . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="200" description="Debit Card Holder Name">
+
+        <client intent="authentication_by_client_success">कार्ड धारक का नाम बताइये . </client>
+        <customer intent="authentication_by_client_success">धारक XXXX . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="201" description="Debit Card Holder Name">
+
+        <client intent="authentication_by_client_success">कार्ड धारक का नाम बताइये . </client>
+        <customer intent="authentication_by_client_success">मेरा Debit card का holder XXXX है . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="201" description="Debit Card Holder Name">
+
+        <client intent="authentication_by_client_success">कार्ड धारक का नाम बताइये . </client>
+        <customer intent="authentication_by_client_success">Debit कार्ड holder name XXXX है . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="203" description="Debit Card Holder Name">
+
+        <client intent="authentication_by_client_success">कार्ड धारक का नाम बताइये . </client>
+        <customer intent="authentication_by_client_success">डेबिट कार्ड holder XXXX . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="204" description="Debit Card Holder Name">
+
+        <client intent="authentication_by_client_success">कार्ड धारक का नाम बताइये . </client>
+        <customer intent="authentication_by_client_success">Debit card holder XXXX . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="205" description="Debit Card Holder Name">
+
+        <client intent="authentication_by_client_success">कार्ड धारक का नाम बताइये . </client>
+        <customer intent="authentication_by_client_success">Debit holder XXXX . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="206" description="Debit Card Holder Name">
+
+        <client intent="authentication_by_client_success">कार्ड धारक का नाम बताइये . </client>
+        <customer intent="authentication_by_client_success">card holder XXXX . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="207" description="Debit Card Holder Name">
+
+        <client intent="authentication_by_client_success">कार्ड धारक का नाम बताइये . </client>
+        <customer intent="authentication_by_client_success">holder XXXX . </customer>
+
+    </intent>
+
+</dataset>

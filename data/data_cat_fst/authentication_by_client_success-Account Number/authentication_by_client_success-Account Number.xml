@@ -1,0 +1,242 @@
+<dataset>
+
+    <intent name="authentication_by_client_success" variation="1" description="Account Number">
+
+        <client intent="authentication_by_client_success">आप अपना अकाउंट नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">मेरा अकाउंट नंबर AAAAAA है | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="7" description="Account Number">
+
+        <client intent="authentication_by_client_success">क्या आप अपना खाता संख्या बता सकते है ? </client>
+        <customer intent="authentication_by_client_success">मेरे खाते का संख्या AAAAAA है . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="8" description="Account Number">
+
+        <client intent="authentication_by_client_success">ठीक है . आप अपना अकाउंट संख्या बताइये . </client>
+        <customer intent="authentication_by_client_success">AAAAAA</customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="19" description="Account Number">
+
+        <client intent="authentication_by_client_success">आप अपना अकाउंट नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">मेरा अकाउंट नंबर AAAAAA | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="20" description="Account Number">
+
+        <client intent="authentication_by_client_success">आप अपना अकाउंट नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">अकाउंट नंबर AAAAAA | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="21" description="Account Number">
+
+        <client intent="authentication_by_client_success">आप अपना अकाउंट नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">अकाउंट नंबर AAAAAA ये है | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="22" description="Account Number">
+
+        <client intent="authentication_by_client_success">आप अपना अकाउंट नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">ये रहा मेरा अकाउंट नंबर AAAAAA | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="23" description="Account Number">
+
+        <client intent="authentication_by_client_success">आप अपना अकाउंट नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">मेरा अकाउंट नंबर ये रहा AAAAAA | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="24" description="Account Number">
+
+        <client intent="authentication_by_client_success">आप अपना अकाउंट नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">अकाउंट नंबर ये रहा AAAAAA | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="25" description="Account Number">
+
+        <client intent="authentication_by_client_success">आप अपना अकाउंट नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">अकाउंट का नंबर AAAAAA | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="26" description="Account Number">
+
+        <client intent="authentication_by_client_success">आप अपना अकाउंट नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">अकाउंट AAAAAA | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="27" description="Account Number">
+
+        <client intent="authentication_by_client_success">आप अपना खाता नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">मेरा खाता नंबर AAAAAA | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="28" description="Account Number">
+
+        <client intent="authentication_by_client_success">आप अपना खाता नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">खाता नंबर AAAAAA | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="29" description="Account Number">
+
+        <client intent="authentication_by_client_success">आप अपना खाता नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">खाता नंबर AAAAAA ये है | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="30" description="Account Number">
+
+        <client intent="authentication_by_client_success">आप अपना खाता नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">ये रहा मेरा खाता नंबर AAAAAA | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="31" description="Account Number">
+
+        <client intent="authentication_by_client_success">आप अपना खाता नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">मेरा खाता नंबर ये रहा AAAAAA | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="32" description="Account Number">
+
+        <client intent="authentication_by_client_success">आप अपना खाता नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">खाता नंबर ये रहा AAAAAA | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="33" description="Account Number">
+
+        <client intent="authentication_by_client_success">आप अपना खाता नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">खाता का नंबर AAAAAA | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="34" description="Account Number">
+
+        <client intent="authentication_by_client_success">आप अपना खाता नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">खाता AAAAAA | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="35" description="Account Number">
+
+        <client intent="authentication_by_client_success">आप अपना अकाउंट नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">नंबर AAAAAA | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="36" description="Account Number">
+
+        <client intent="authentication_by_client_success">आप अपना अकाउंट नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">AAAAAA | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="37" description="Account Number">
+
+        <client intent="authentication_by_client_success">आप अपना अकाउंट नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">मेरा account नंबर AAAAAA | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="38" description="Account Number">
+
+        <client intent="authentication_by_client_success">आप अपना अकाउंट नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">अकाउंट number AAAAAA | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="39" description="Account Number">
+
+        <client intent="authentication_by_client_success">आप अपना अकाउंट नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">account number AAAAAA ये है | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="40" description="Account Number">
+
+        <client intent="authentication_by_client_success">आप अपना अकाउंट नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">ये रहा मेरा account नंबर AAAAAA | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="41" description="Account Number">
+
+        <client intent="authentication_by_client_success">आप अपना अकाउंट नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">मेरा account number ये रहा AAAAAA | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="42" description="Account Number">
+
+        <client intent="authentication_by_client_success">आप अपना अकाउंट नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">account number ये रहा AAAAAA | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="43" description="Account Number">
+
+        <client intent="authentication_by_client_success">आप अपना अकाउंट नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">account का number AAAAAA | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="44" description="Account Number">
+
+        <client intent="authentication_by_client_success">आप अपना अकाउंट नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">account AAAAAA | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="45" description="Account Number">
+
+        <client intent="authentication_by_client_success">आप अपना अकाउंट नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">number AAAAAA | </customer>
+
+    </intent>
+
+</dataset>

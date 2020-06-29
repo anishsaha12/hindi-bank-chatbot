@@ -1,0 +1,122 @@
+<dataset>
+
+    <intent name="authentication_by_client_success" variation="5" description="Credit Card Expiry">
+
+        <client intent="authentication_by_client_success">कृपया कार्ड का expiry बताइये MM - YYYY का रूप में</client>
+        <customer intent="authentication_by_client_success">MM - YYYY</customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="96" description="Credit Card Expiry">
+
+        <client intent="authentication_by_client_success">कृपया कार्ड का expiry बताइये MM - YYYY का रूप में</client>
+        <customer intent="authentication_by_client_success">मेरा क्रेडिट कार्ड का एक्सपायरी MM - YYYY है . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="97" description="Credit Card Expiry">
+
+        <client intent="authentication_by_client_success">कृपया कार्ड का expiry बताइये MM - YYYY का रूप में</client>
+        <customer intent="authentication_by_client_success">क्रेडिट कार्ड का एक्सपायरी MM - YYYY है . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="98" description="Credit Card Expiry">
+
+        <client intent="authentication_by_client_success">कृपया कार्ड का expiry बताइये MM - YYYY का रूप में</client>
+        <customer intent="authentication_by_client_success">क्रेडिट कार्ड का एक्सपायरी MM - YYYY . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="99" description="Credit Card Expiry">
+
+        <client intent="authentication_by_client_success">कृपया कार्ड का expiry बताइये MM - YYYY का रूप में</client>
+        <customer intent="authentication_by_client_success">क्रेडिट कार्ड एक्सपायरी MM - YYYY . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="100" description="Credit Card Expiry">
+
+        <client intent="authentication_by_client_success">कृपया कार्ड का expiry बताइये MM - YYYY का रूप में</client>
+        <customer intent="authentication_by_client_success">क्रेडिट एक्सपायरी MM - YYYY . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="101" description="Credit Card Expiry">
+
+        <client intent="authentication_by_client_success">कृपया कार्ड का expiry बताइये MM - YYYY का रूप में</client>
+        <customer intent="authentication_by_client_success">कार्ड एक्सपायरी MM - YYYY . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="102" description="Credit Card Expiry">
+
+        <client intent="authentication_by_client_success">कृपया कार्ड का expiry बताइये MM - YYYY का रूप में</client>
+        <customer intent="authentication_by_client_success">एक्सपायरी MM - YYYY . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="103" description="Credit Card Expiry">
+
+        <client intent="authentication_by_client_success">कृपया कार्ड का expiry बताइये MM - YYYY का रूप में</client>
+        <customer intent="authentication_by_client_success">मेरा credit card का expiry MM - YYYY है . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="104" description="Credit Card Expiry">
+
+        <client intent="authentication_by_client_success">कृपया कार्ड का expiry बताइये MM - YYYY का रूप में</client>
+        <customer intent="authentication_by_client_success">credit कार्ड का expiry MM - YYYY है . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="105" description="Credit Card Expiry">
+
+        <client intent="authentication_by_client_success">कृपया कार्ड का expiry बताइये MM - YYYY का रूप में</client>
+        <customer intent="authentication_by_client_success">क्रेडिट कार्ड का expiry MM - YYYY . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="106" description="Credit Card Expiry">
+
+        <client intent="authentication_by_client_success">कृपया कार्ड का expiry बताइये MM - YYYY का रूप में</client>
+        <customer intent="authentication_by_client_success">credit card expiry MM - YYYY . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="107" description="Credit Card Expiry">
+
+        <client intent="authentication_by_client_success">कृपया कार्ड का expiry बताइये MM - YYYY का रूप में</client>
+        <customer intent="authentication_by_client_success">credit expiry MM - YYYY . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="108" description="Credit Card Expiry">
+
+        <client intent="authentication_by_client_success">कृपया कार्ड का expiry बताइये MM - YYYY का रूप में</client>
+        <customer intent="authentication_by_client_success">card expiry MM - YYYY . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="109" description="Credit Card Expiry">
+
+        <client intent="authentication_by_client_success">कृपया कार्ड का expiry बताइये MM - YYYY का रूप में</client>
+        <customer intent="authentication_by_client_success">expiry MM - YYYY . </customer>
+
+    </intent>
+
+</dataset>

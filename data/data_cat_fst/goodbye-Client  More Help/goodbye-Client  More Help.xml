@@ -1,0 +1,23 @@
+<dataset>
+
+    <intent name="goodbye" variation="1" description="Client : More Help">
+
+        <client intent="goodbye">मैं आपकी कोई और मदद कर सकता हू ? </client>
+
+    </intent>
+
+
+    <intent name="goodbye" variation="2" description="Client : More Help">
+
+        <client intent="goodbye">क्या मैं आपकी और मदद कर सकता हू ? </client>
+
+    </intent>
+
+
+    <intent name="goodbye" variation="3" description="Client : More Help">
+
+        <client intent="goodbye">क्या मैं आपकी कोई और मदद कर सकता ? </client>
+
+    </intent>
+
+</dataset>

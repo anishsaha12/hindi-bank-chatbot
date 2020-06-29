@@ -1,0 +1,236 @@
+<dataset>
+
+    <intent name="credit_card_details" variation="5" description="Invoice">
+
+        <customer intent="credit_card_details">मुझे अपना credit card के invoice चाहिए</customer>
+        <expand-intent description="Client: Without Name" name="greetings" variation="6" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके क्रेडिट कार्ड का वर्तमान बिल कुछ ऐसा है :
+Previous Balance : ( + ) 1680 . 50 on 02/16/2020
+Points Earned this Month : 300 on 03/01/2020
+Last Transaction : ( - ) 3826 . 50 on 02/16/2020
+Current Balance : ( - ) 1846 . 00 on 03/27/2020</client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="103" description="Invoice">
+
+        <customer intent="credit_card_details">मुझे अपना क्रेडिट कार्ड का इनवॉइस चाहिए . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके क्रेडिट कार्ड का वर्तमान बिल कुछ ऐसा है :
+Previous Balance : ( + ) 1680 . 50 on 02/16/2020
+Points Earned this Month : 300 on 03/01/2020
+Last Transaction : ( - ) 3826 . 50 on 02/16/2020
+Current Balance : ( - ) 1846 . 00 on 03/27/2020</client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="104" description="Invoice">
+
+        <customer intent="credit_card_details">अपना क्रेडिट कार्ड का इनवॉइस चाहिए . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके क्रेडिट कार्ड का वर्तमान बिल कुछ ऐसा है :
+Previous Balance : ( + ) 1680 . 50 on 02/16/2020
+Points Earned this Month : 300 on 03/01/2020
+Last Transaction : ( - ) 3826 . 50 on 02/16/2020
+Current Balance : ( - ) 1846 . 00 on 03/27/2020</client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="105" description="Invoice">
+
+        <customer intent="credit_card_details">मुझे क्रेडिट कार्ड का इनवॉइस चाहिए . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके क्रेडिट कार्ड का वर्तमान बिल कुछ ऐसा है :
+Previous Balance : ( + ) 1680 . 50 on 02/16/2020
+Points Earned this Month : 300 on 03/01/2020
+Last Transaction : ( - ) 3826 . 50 on 02/16/2020
+Current Balance : ( - ) 1846 . 00 on 03/27/2020</client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="106" description="Invoice">
+
+        <customer intent="credit_card_details">क्रेडिट कार्ड का इनवॉइस चाहिए . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके क्रेडिट कार्ड का वर्तमान बिल कुछ ऐसा है :
+Previous Balance : ( + ) 1680 . 50 on 02/16/2020
+Points Earned this Month : 300 on 03/01/2020
+Last Transaction : ( - ) 3826 . 50 on 02/16/2020
+Current Balance : ( - ) 1846 . 00 on 03/27/2020</client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="107" description="Invoice">
+
+        <customer intent="credit_card_details">क्रेडिट कार्ड इनवॉइस चाहिए . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके क्रेडिट कार्ड का वर्तमान बिल कुछ ऐसा है :
+Previous Balance : ( + ) 1680 . 50 on 02/16/2020
+Points Earned this Month : 300 on 03/01/2020
+Last Transaction : ( - ) 3826 . 50 on 02/16/2020
+Current Balance : ( - ) 1846 . 00 on 03/27/2020</client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="108" description="Invoice">
+
+        <customer intent="credit_card_details">क्रेडिट कार्ड इनवॉइस . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके क्रेडिट कार्ड का वर्तमान बिल कुछ ऐसा है :
+Previous Balance : ( + ) 1680 . 50 on 02/16/2020
+Points Earned this Month : 300 on 03/01/2020
+Last Transaction : ( - ) 3826 . 50 on 02/16/2020
+Current Balance : ( - ) 1846 . 00 on 03/27/2020</client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="109" description="Invoice">
+
+        <customer intent="credit_card_details">मुझे अपना credit कार्ड का invoice चाहिए . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके क्रेडिट कार्ड का वर्तमान बिल कुछ ऐसा है :
+Previous Balance : ( + ) 1680 . 50 on 02/16/2020
+Points Earned this Month : 300 on 03/01/2020
+Last Transaction : ( - ) 3826 . 50 on 02/16/2020
+Current Balance : ( - ) 1846 . 00 on 03/27/2020</client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="110" description="Invoice">
+
+        <customer intent="credit_card_details">अपना क्रेडिट card का इनवॉइस चाहिए . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके क्रेडिट कार्ड का वर्तमान बिल कुछ ऐसा है :
+Previous Balance : ( + ) 1680 . 50 on 02/16/2020
+Points Earned this Month : 300 on 03/01/2020
+Last Transaction : ( - ) 3826 . 50 on 02/16/2020
+Current Balance : ( - ) 1846 . 00 on 03/27/2020</client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="111" description="Invoice">
+
+        <customer intent="credit_card_details">मुझे credit card का invoice चाहिए . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके क्रेडिट कार्ड का वर्तमान बिल कुछ ऐसा है :
+Previous Balance : ( + ) 1680 . 50 on 02/16/2020
+Points Earned this Month : 300 on 03/01/2020
+Last Transaction : ( - ) 3826 . 50 on 02/16/2020
+Current Balance : ( - ) 1846 . 00 on 03/27/2020</client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="112" description="Invoice">
+
+        <customer intent="credit_card_details">क्रेडिट कार्ड का invoice चाहिए . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके क्रेडिट कार्ड का वर्तमान बिल कुछ ऐसा है :
+Previous Balance : ( + ) 1680 . 50 on 02/16/2020
+Points Earned this Month : 300 on 03/01/2020
+Last Transaction : ( - ) 3826 . 50 on 02/16/2020
+Current Balance : ( - ) 1846 . 00 on 03/27/2020</client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="113" description="Invoice">
+
+        <customer intent="credit_card_details">credit card invoice चाहिए . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके क्रेडिट कार्ड का वर्तमान बिल कुछ ऐसा है :
+Previous Balance : ( + ) 1680 . 50 on 02/16/2020
+Points Earned this Month : 300 on 03/01/2020
+Last Transaction : ( - ) 3826 . 50 on 02/16/2020
+Current Balance : ( - ) 1846 . 00 on 03/27/2020</client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="114" description="Invoice">
+
+        <customer intent="credit_card_details">credit card invoice . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके क्रेडिट कार्ड का वर्तमान बिल कुछ ऐसा है :
+Previous Balance : ( + ) 1680 . 50 on 02/16/2020
+Points Earned this Month : 300 on 03/01/2020
+Last Transaction : ( - ) 3826 . 50 on 02/16/2020
+Current Balance : ( - ) 1846 . 00 on 03/27/2020</client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+</dataset>

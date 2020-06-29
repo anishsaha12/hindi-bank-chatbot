@@ -1,0 +1,23 @@
+<dataset>
+
+    <intent name="greetings" variation="3" description="Customer: Without Name">
+
+        <customer intent="greetings">Hello . </customer>
+
+    </intent>
+
+
+    <intent name="greetings" variation="4" description="Customer: Without Name">
+
+        <customer intent="greetings">नमस्ते . </customer>
+
+    </intent>
+
+
+    <intent name="greetings" variation="5" description="Customer: Without Name">
+
+        <customer intent="greetings">हेलो . </customer>
+
+    </intent>
+
+</dataset>

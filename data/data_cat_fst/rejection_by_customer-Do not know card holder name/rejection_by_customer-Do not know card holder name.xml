@@ -1,0 +1,149 @@
+<dataset>
+
+    <intent name="rejection_by_customer" variation="120" description="Do not know card holder name">
+
+        <customer intent="rejection_by_customer">मुझे कार्ड के धारक का नाम नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="121" description="Do not know card holder name">
+
+        <customer intent="rejection_by_customer">मुझे कार्ड धारक नाम नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="122" description="Do not know card holder name">
+
+        <customer intent="rejection_by_customer">कार्ड के धारक का नाम नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="123" description="Do not know card holder name">
+
+        <customer intent="rejection_by_customer">कार्ड धारक नाम नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="124" description="Do not know card holder name">
+
+        <customer intent="rejection_by_customer">धारक का नाम नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="125" description="Do not know card holder name">
+
+        <customer intent="rejection_by_customer">कार्ड के धारक नाम पता नहीं | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="126" description="Do not know card holder name">
+
+        <customer intent="rejection_by_customer">कार्ड धारक नाम पता नहीं | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="127" description="Do not know card holder name">
+
+        <customer intent="rejection_by_customer">धारक का नाम पता नहीं | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="128" description="Do not know card holder name">
+
+        <customer intent="rejection_by_customer">मुझे card के धारक नाम नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="129" description="Do not know card holder name">
+
+        <customer intent="rejection_by_customer">मुझे card धारक नाम नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="130" description="Do not know card holder name">
+
+        <customer intent="rejection_by_customer">कार्ड के holder name नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="131" description="Do not know card holder name">
+
+        <customer intent="rejection_by_customer">कार्ड holder name नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="132" description="Do not know card holder name">
+
+        <customer intent="rejection_by_customer">holder name नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="133" description="Do not know card holder name">
+
+        <customer intent="rejection_by_customer">card के holder name पता नहीं | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="134" description="Do not know card holder name">
+
+        <customer intent="rejection_by_customer">card holder name पता नहीं | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="135" description="Do not know card holder name">
+
+        <customer intent="rejection_by_customer">holder name पता नहीं | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="136" description="Do not know card holder name">
+
+        <customer intent="rejection_by_customer">मुझे card के holder name नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="137" description="Do not know card holder name">
+
+        <customer intent="rejection_by_customer">मुझे card holder name नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="138" description="Do not know card holder name">
+
+        <customer intent="rejection_by_customer">card के धारक का नाम नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="139" description="Do not know card holder name">
+
+        <customer intent="rejection_by_customer">card धारक नाम नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="140" description="Do not know card holder name">
+
+        <customer intent="rejection_by_customer">holder name नहीं पता | </customer>
+
+    </intent>
+
+</dataset>

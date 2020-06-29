@@ -1,0 +1,1942 @@
+<dataset>
+
+	<intent name="payment" variation="3">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="payment">मुझे एक पेमेंट करना है . </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="payment">आप प्राप्त कर्ता का खाता संख्या / यु . पि . आई आई . डी . बताईये | </client>
+        <customer intent="payment">खाता संख्या है 123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उनका IFSC सांकेतिक संख्या बताईये | </client>
+        <customer intent="payment">IFSC संख्या 4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | आप प्राप्त कर्ता को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">10500 रूपया ।</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है - 
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 10500
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे प्राप्त कर्ता के खाते मे जमा हो जायेगा | </client>
+        <customer intent="payment">कितना समय लगेगा जमा होने में ? </customer>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+
+    </intent>
+	
+
+    <intent name="payment" variation="1">
+
+        <expand-intent description="Hello" name="greetings" variation="18" />
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <customer intent="payment">मुझे अपने दोस्त को पैसे भेजने है . </customer>
+        <client intent="payment">आपके दोस्त का खाता संख्या / यु . पि . आई आईडी बताईये | </client>
+        <customer intent="payment">क्या बस ईमेल आई . डी . से हो सकता है ? </customer>
+        <client intent="payment"> परेशानी के लिए खेद हैं | सिर्फ ईमेल आई . डी . से नहीं हो सकता है | </client>
+        <customer intent="payment">अच्छा मै चेक करके बताता हु . </customer>
+        <client intent="payment">जरूर | </client>
+        <customer intent="payment">उसका नाम है अनिश . खाता संख्या है 123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उसका IFSC सांकेतिक संख्या बताईये | </client>
+        <customer intent="payment">IFSC संख्या 4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | अपने दोस्त को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">10500 रूपया ।</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है -
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 10500
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे आपकी दोस्त की खाते मे जमा हो जायेगा | </client>
+        <customer intent="payment">कितना समय लगेगा जमा होने में ? </customer>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+
+    </intent>
+
+
+    <intent name="payment" variation="2">
+
+        <expand-intent description="Hello" name="greetings" variation="18" />
+        <customer intent="payment">मै एक पेमेंट करना चाहता हु . </customer>
+        <client intent="payment">इस सेवा का उपयोग करने के लिए शुक्रिया | आप किस तरह का payment करना चाहते है ? </client>
+        <customer intent="payment">मुझे अपने दोस्त को पैसे भेजने है . </customer>
+        <client intent="payment">आपके दोस्त का account number / UPI id बताईये | </client>
+        <customer intent="payment">क्या बस email id से हो सकता है ? </customer>
+        <client intent="payment"> परेशानी के लिए खेद हैं | सिर्फ email id से नहीं हो सकता है | </client>
+        <customer intent="payment">अच्छा मै चेक करके बताता हु . </customer>
+        <client intent="payment">जरूर | </client>
+        <customer intent="payment">उसका नाम है संतोष . account number is 123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उसका IFSC code बताईये | </client>
+        <customer intent="payment">IFSC संख्या 4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | अपने दोस्त को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">2000</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है -
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 2000
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे आपकी दोस्त की खाते मे जमा हो जायेगा | </client>
+        <customer intent="payment">कितना समय लगेगा जमा होने में ? </customer>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+
+    </intent>
+
+
+    <intent name="payment" variation="4">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="payment">मुझे पेमेंट करना है . </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="payment">आप प्राप्त कर्ता का खाता संख्या / यु . पि . आई आई . डी . बताईये | </client>
+        <customer intent="payment">खाता संख्या 123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उनका IFSC सांकेतिक संख्या बताईये | </client>
+        <customer intent="payment">IFSC 4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | आप प्राप्त कर्ता को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">Rs . 10500 ।</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है - 
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 10500
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे प्राप्त कर्ता के खाते मे जमा हो जायेगा | </client>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+
+    </intent>
+
+
+    <intent name="payment" variation="5">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="payment">पेमेंट करना है . </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="payment">आप प्राप्त कर्ता का खाता संख्या / यु . पि . आई आई . डी . बताईये | </client>
+        <customer intent="payment">अकाउंट संख्या 123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उनका IFSC सांकेतिक संख्या बताईये | </client>
+        <customer intent="payment">4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | आप प्राप्त कर्ता को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">10500 ।</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है - 
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 10500
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे प्राप्त कर्ता के खाते मे जमा हो जायेगा | </client>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+
+    </intent>
+
+
+    <intent name="payment" variation="6">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="payment">पेमेंट करना है . </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="payment">आप प्राप्त कर्ता का खाता संख्या / यु . पि . आई आई . डी . बताईये | </client>
+        <customer intent="payment">अकाउंट नंबर 123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उनका IFSC सांकेतिक संख्या बताईये | </client>
+        <customer intent="payment">4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | आप प्राप्त कर्ता को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">10500 ।</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है - 
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 10500
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे प्राप्त कर्ता के खाते मे जमा हो जायेगा | </client>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+
+    </intent>
+
+
+    <intent name="payment" variation="7">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="payment">पेमेंट करना है . </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="payment">आप प्राप्त कर्ता का खाता संख्या / यु . पि . आई आई . डी . बताईये | </client>
+        <customer intent="payment">123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उनका IFSC सांकेतिक संख्या बताईये | </client>
+        <customer intent="payment">4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | आप प्राप्त कर्ता को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">10500 ।</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है - 
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 10500
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे प्राप्त कर्ता के खाते मे जमा हो जायेगा | </client>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+
+    </intent>
+
+
+    <intent name="payment" variation="8">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="payment">पेमेंट करना चाहता हु . </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="payment">आप प्राप्त कर्ता का खाता संख्या / यु . पि . आई आई . डी . बताईये | </client>
+        <customer intent="payment">123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उनका IFSC सांकेतिक संख्या बताईये | </client>
+        <customer intent="payment">4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | आप प्राप्त कर्ता को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">10500 ।</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है - 
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 10500
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे प्राप्त कर्ता के खाते मे जमा हो जायेगा | </client>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+
+    </intent>
+
+
+    <intent name="payment" variation="9">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="payment">पेमेंट करना . </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="payment">आप प्राप्त कर्ता का खाता संख्या / यु . पि . आई आई . डी . बताईये | </client>
+        <customer intent="payment">123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उनका IFSC सांकेतिक संख्या बताईये | </client>
+        <customer intent="payment">4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | आप प्राप्त कर्ता को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">10500 ।</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है - 
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 10500
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे प्राप्त कर्ता के खाते मे जमा हो जायेगा | </client>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+
+    </intent>
+
+
+    <intent name="payment" variation="10">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="payment">पेमेंट . </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="payment">आप प्राप्त कर्ता का खाता संख्या / यु . पि . आई आई . डी . बताईये | </client>
+        <customer intent="payment">123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उनका IFSC सांकेतिक संख्या बताईये | </client>
+        <customer intent="payment">4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | आप प्राप्त कर्ता को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">10500 ।</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है - 
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 10500
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे प्राप्त कर्ता के खाते मे जमा हो जायेगा | </client>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+
+    </intent>
+
+
+    <intent name="payment" variation="11">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="payment">मुझे एक payment करना है . </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="payment">आप प्राप्त कर्ता का खाता संख्या / यु . पि . आई आई . डी . बताईये | </client>
+        <customer intent="payment">account संख्या है 123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उनका IFSC सांकेतिक संख्या बताईये | </client>
+        <customer intent="payment">IFSC number 4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | आप प्राप्त कर्ता को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">10500 रूपया ।</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है - 
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 10500
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे प्राप्त कर्ता के खाते मे जमा हो जायेगा | </client>
+        <customer intent="payment">कितना समय लगेगा जमा होने में ? </customer>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+
+    </intent>
+
+
+    <intent name="payment" variation="12">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="payment">मुझे payment करना है . </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="payment">आप प्राप्त कर्ता का खाता संख्या / यु . पि . आई आई . डी . बताईये | </client>
+        <customer intent="payment">खाता number 123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उनका IFSC सांकेतिक संख्या बताईये | </client>
+        <customer intent="payment">IFSC 4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | आप प्राप्त कर्ता को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">Rs . 10500 ।</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है - 
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 10500
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे प्राप्त कर्ता के खाते मे जमा हो जायेगा | </client>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+
+    </intent>
+
+
+    <intent name="payment" variation="13">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="payment">payment करना है . </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="payment">आप प्राप्त कर्ता का खाता संख्या / यु . पि . आई आई . डी . बताईये | </client>
+        <customer intent="payment">अकाउंट number 123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उनका IFSC सांकेतिक संख्या बताईये | </client>
+        <customer intent="payment">4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | आप प्राप्त कर्ता को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">10500 ।</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है - 
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 10500
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे प्राप्त कर्ता के खाते मे जमा हो जायेगा | </client>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+
+    </intent>
+
+
+    <intent name="payment" variation="14">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="payment">payment करना है . </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="payment">आप प्राप्त कर्ता का खाता संख्या / यु . पि . आई आई . डी . बताईये | </client>
+        <customer intent="payment">account नंबर 123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उनका IFSC सांकेतिक संख्या बताईये | </client>
+        <customer intent="payment">4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | आप प्राप्त कर्ता को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">10500 ।</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है - 
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 10500
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे प्राप्त कर्ता के खाते मे जमा हो जायेगा | </client>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+
+    </intent>
+
+
+    <intent name="payment" variation="15">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="payment">payment करना है . </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="payment">आप प्राप्त कर्ता का खाता संख्या / यु . पि . आई आई . डी . बताईये | </client>
+        <customer intent="payment">account number 123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उनका IFSC सांकेतिक संख्या बताईये | </client>
+        <customer intent="payment">4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | आप प्राप्त कर्ता को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">10500 ।</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है - 
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 10500
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे प्राप्त कर्ता के खाते मे जमा हो जायेगा | </client>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+
+    </intent>
+
+
+    <intent name="payment" variation="16">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="payment">payment करना चाहता हु . </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="payment">आप प्राप्त कर्ता का खाता संख्या / यु . पि . आई आई . डी . बताईये | </client>
+        <customer intent="payment">123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उनका IFSC सांकेतिक संख्या बताईये | </client>
+        <customer intent="payment">4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | आप प्राप्त कर्ता को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">10500 ।</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है - 
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 10500
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे प्राप्त कर्ता के खाते मे जमा हो जायेगा | </client>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+
+    </intent>
+
+
+    <intent name="payment" variation="17">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="payment">payment करना . </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="payment">आप प्राप्त कर्ता का खाता संख्या / यु . पि . आई आई . डी . बताईये | </client>
+        <customer intent="payment">123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उनका IFSC सांकेतिक संख्या बताईये | </client>
+        <customer intent="payment">4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | आप प्राप्त कर्ता को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">10500 ।</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है - 
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 10500
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे प्राप्त कर्ता के खाते मे जमा हो जायेगा | </client>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+
+    </intent>
+
+
+    <intent name="payment" variation="18">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="payment">payment . </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="payment">आप प्राप्त कर्ता का खाता संख्या / यु . पि . आई आई . डी . बताईये | </client>
+        <customer intent="payment">123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उनका IFSC सांकेतिक संख्या बताईये | </client>
+        <customer intent="payment">4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | आप प्राप्त कर्ता को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">10500 ।</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है - 
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 10500
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे प्राप्त कर्ता के खाते मे जमा हो जायेगा | </client>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+
+    </intent>
+
+
+    <intent name="payment" variation="19">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="payment">मुझे पैसे भेजने है . </customer>
+        <client intent="payment">ज़रूर . आप यहाँ से पेमेंट कर सकते है . </client>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="payment">आप प्राप्त कर्ता का खाता संख्या / यु . पि . आई आई . डी . बताईये | </client>
+        <customer intent="payment">खाता संख्या है 123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उनका IFSC सांकेतिक संख्या बताईये | </client>
+        <customer intent="payment">IFSC संख्या 4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | आप प्राप्त कर्ता को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">10500 रूपया ।</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है - 
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 10500
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे प्राप्त कर्ता के खाते मे जमा हो जायेगा | </client>
+        <customer intent="payment">कितना समय लगेगा जमा होने में ? </customer>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+
+    </intent>
+
+
+    <intent name="payment" variation="20">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="payment">मुझे पैसा भेजना है . </customer>
+        <client intent="payment">ज़रूर . आप यहाँ से पेमेंट कर सकते है . </client>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="payment">आप प्राप्त कर्ता का खाता संख्या / यु . पि . आई आई . डी . बताईये | </client>
+        <customer intent="payment">खाता संख्या 123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उनका IFSC सांकेतिक संख्या बताईये | </client>
+        <customer intent="payment">IFSC 4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | आप प्राप्त कर्ता को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">Rs . 10500 ।</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है - 
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 10500
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे प्राप्त कर्ता के खाते मे जमा हो जायेगा | </client>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+
+    </intent>
+
+
+    <intent name="payment" variation="21">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="payment">पैसे भेजने है . </customer>
+        <client intent="payment">ज़रूर . आप यहाँ से पेमेंट कर सकते है . </client>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="payment">आप प्राप्त कर्ता का खाता संख्या / यु . पि . आई आई . डी . बताईये | </client>
+        <customer intent="payment">अकाउंट संख्या 123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उनका IFSC सांकेतिक संख्या बताईये | </client>
+        <customer intent="payment">4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | आप प्राप्त कर्ता को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">10500 ।</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है - 
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 10500
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे प्राप्त कर्ता के खाते मे जमा हो जायेगा | </client>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+
+    </intent>
+
+
+    <intent name="payment" variation="22">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="payment">पैसा भेजना है . </customer>
+        <client intent="payment">ज़रूर . आप यहाँ से पेमेंट कर सकते है . </client>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="payment">आप प्राप्त कर्ता का खाता संख्या / यु . पि . आई आई . डी . बताईये | </client>
+        <customer intent="payment">अकाउंट नंबर 123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उनका IFSC सांकेतिक संख्या बताईये | </client>
+        <customer intent="payment">4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | आप प्राप्त कर्ता को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">10500 ।</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है - 
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 10500
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे प्राप्त कर्ता के खाते मे जमा हो जायेगा | </client>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+
+    </intent>
+
+
+    <intent name="payment" variation="23">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="payment">मुझे किसी को पैसा भेजना है . </customer>
+        <client intent="payment">ज़रूर . आप यहाँ से पेमेंट कर सकते है . </client>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="payment">आप प्राप्त कर्ता का खाता संख्या / यु . पि . आई आई . डी . बताईये | </client>
+        <customer intent="payment">123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उनका IFSC सांकेतिक संख्या बताईये | </client>
+        <customer intent="payment">4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | आप प्राप्त कर्ता को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">10500 ।</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है - 
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 10500
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे प्राप्त कर्ता के खाते मे जमा हो जायेगा | </client>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+
+    </intent>
+
+
+    <intent name="payment" variation="24">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="payment">पैसे भेजना चाहता हु . </customer>
+        <client intent="payment">ज़रूर . आप यहाँ से पेमेंट कर सकते है . </client>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="payment">आप प्राप्त कर्ता का खाता संख्या / यु . पि . आई आई . डी . बताईये | </client>
+        <customer intent="payment">123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उनका IFSC सांकेतिक संख्या बताईये | </client>
+        <customer intent="payment">4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | आप प्राप्त कर्ता को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">10500 ।</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है - 
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 10500
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे प्राप्त कर्ता के खाते मे जमा हो जायेगा | </client>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+
+    </intent>
+
+
+    <intent name="payment" variation="25">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="payment">पैसे भेजना . </customer>
+        <client intent="payment">ज़रूर . आप यहाँ से पेमेंट कर सकते है . </client>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="payment">आप प्राप्त कर्ता का खाता संख्या / यु . पि . आई आई . डी . बताईये | </client>
+        <customer intent="payment">123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उनका IFSC सांकेतिक संख्या बताईये | </client>
+        <customer intent="payment">4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | आप प्राप्त कर्ता को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">10500 ।</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है - 
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 10500
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे प्राप्त कर्ता के खाते मे जमा हो जायेगा | </client>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+
+    </intent>
+
+
+    <intent name="payment" variation="26">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="payment">पैसा भेजना . </customer>
+        <client intent="payment">ज़रूर . आप यहाँ से पेमेंट कर सकते है . </client>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="payment">आप प्राप्त कर्ता का खाता संख्या / यु . पि . आई आई . डी . बताईये | </client>
+        <customer intent="payment">123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उनका IFSC सांकेतिक संख्या बताईये | </client>
+        <customer intent="payment">4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | आप प्राप्त कर्ता को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">10500 ।</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है - 
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 10500
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे प्राप्त कर्ता के खाते मे जमा हो जायेगा | </client>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+
+    </intent>
+
+
+    <intent name="payment" variation="27">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="payment">मुझे एक money transfer करना है . </customer>
+        <client intent="payment">ज़रूर . आप यहाँ से पेमेंट कर सकते है . </client>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="payment">आप प्राप्त कर्ता का खाता संख्या / यु . पि . आई आई . डी . बताईये | </client>
+        <customer intent="payment">account संख्या है 123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उनका IFSC सांकेतिक संख्या बताईये | </client>
+        <customer intent="payment">IFSC number 4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | आप प्राप्त कर्ता को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">10500 रूपया ।</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है - 
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 10500
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे प्राप्त कर्ता के खाते मे जमा हो जायेगा | </client>
+        <customer intent="payment">कितना समय लगेगा जमा होने में ? </customer>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+
+    </intent>
+
+
+    <intent name="payment" variation="28">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="payment">मुझे transfer करना है . </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="payment">आप प्राप्त कर्ता का खाता संख्या / यु . पि . आई आई . डी . बताईये | </client>
+        <customer intent="payment">खाता number 123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उनका IFSC सांकेतिक संख्या बताईये | </client>
+        <customer intent="payment">IFSC 4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | आप प्राप्त कर्ता को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">Rs . 10500 ।</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है - 
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 10500
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे प्राप्त कर्ता के खाते मे जमा हो जायेगा | </client>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+
+    </intent>
+
+
+    <intent name="payment" variation="29">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="payment">money transfer करना है . </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="payment">आप प्राप्त कर्ता का खाता संख्या / यु . पि . आई आई . डी . बताईये | </client>
+        <customer intent="payment">अकाउंट number 123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उनका IFSC सांकेतिक संख्या बताईये | </client>
+        <customer intent="payment">4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | आप प्राप्त कर्ता को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">10500 ।</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है - 
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 10500
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे प्राप्त कर्ता के खाते मे जमा हो जायेगा | </client>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+
+    </intent>
+
+
+    <intent name="payment" variation="30">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="payment">transfer करना है . </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="payment">आप प्राप्त कर्ता का खाता संख्या / यु . पि . आई आई . डी . बताईये | </client>
+        <customer intent="payment">account नंबर 123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उनका IFSC सांकेतिक संख्या बताईये | </client>
+        <customer intent="payment">4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | आप प्राप्त कर्ता को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">10500 ।</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है - 
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 10500
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे प्राप्त कर्ता के खाते मे जमा हो जायेगा | </client>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+
+    </intent>
+
+
+    <intent name="payment" variation="31">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="payment">पैसे ट्रांसफर करना है . </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="payment">आप प्राप्त कर्ता का खाता संख्या / यु . पि . आई आई . डी . बताईये | </client>
+        <customer intent="payment">account number 123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उनका IFSC सांकेतिक संख्या बताईये | </client>
+        <customer intent="payment">4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | आप प्राप्त कर्ता को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">10500 ।</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है - 
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 10500
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे प्राप्त कर्ता के खाते मे जमा हो जायेगा | </client>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+
+    </intent>
+
+
+    <intent name="payment" variation="32">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="payment">transfer करना चाहता हु . </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="payment">आप प्राप्त कर्ता का खाता संख्या / यु . पि . आई आई . डी . बताईये | </client>
+        <customer intent="payment">123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उनका IFSC सांकेतिक संख्या बताईये | </client>
+        <customer intent="payment">4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | आप प्राप्त कर्ता को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">10500 ।</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है - 
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 10500
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे प्राप्त कर्ता के खाते मे जमा हो जायेगा | </client>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+
+    </intent>
+
+
+    <intent name="payment" variation="33">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="payment">transfer करना . </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="payment">आप प्राप्त कर्ता का खाता संख्या / यु . पि . आई आई . डी . बताईये | </client>
+        <customer intent="payment">123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उनका IFSC सांकेतिक संख्या बताईये | </client>
+        <customer intent="payment">4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | आप प्राप्त कर्ता को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">10500 ।</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है - 
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 10500
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे प्राप्त कर्ता के खाते मे जमा हो जायेगा | </client>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+
+    </intent>
+
+
+    <intent name="payment" variation="34">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="payment">transfer . </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="payment">आप प्राप्त कर्ता का खाता संख्या / यु . पि . आई आई . डी . बताईये | </client>
+        <customer intent="payment">123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उनका IFSC सांकेतिक संख्या बताईये | </client>
+        <customer intent="payment">4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | आप प्राप्त कर्ता को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">10500 ।</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है - 
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 10500
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे प्राप्त कर्ता के खाते मे जमा हो जायेगा | </client>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+
+    </intent>
+
+
+    <intent name="payment" variation="35">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="payment">I want to transfer money . </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="payment">आप प्राप्त कर्ता का खाता संख्या / यु . पि . आई आई . डी . बताईये | </client>
+        <customer intent="payment">123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उनका IFSC सांकेतिक संख्या बताईये | </client>
+        <customer intent="payment">4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | आप प्राप्त कर्ता को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">10500 ।</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है - 
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 10500
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे प्राप्त कर्ता के खाते मे जमा हो जायेगा | </client>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="payment" variation="36">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="payment">I want to transfer money immediately . </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="payment">आप प्राप्त कर्ता का खाता संख्या / यु . पि . आई आई . डी . बताईये | </client>
+        <customer intent="payment">123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उनका IFSC सांकेतिक संख्या बताईये | </client>
+        <customer intent="payment">4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | आप प्राप्त कर्ता को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">10500 ।</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है - 
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 10500
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे प्राप्त कर्ता के खाते मे जमा हो जायेगा | </client>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="6" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="payment" variation="37">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="payment">I want to transfer . </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="payment">आप प्राप्त कर्ता का खाता संख्या / यु . पि . आई आई . डी . बताईये | </client>
+        <customer intent="payment">123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उनका IFSC सांकेतिक संख्या बताईये | </client>
+        <customer intent="payment">4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | आप प्राप्त कर्ता को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">10500 ।</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है - 
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 10500
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे प्राप्त कर्ता के खाते मे जमा हो जायेगा | </client>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="payment" variation="38">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="payment">I want to transfer money to my friend . </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="payment">आप प्राप्त कर्ता का खाता संख्या / यु . पि . आई आई . डी . बताईये | </client>
+        <customer intent="payment">123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उनका IFSC सांकेतिक संख्या बताईये | </client>
+        <customer intent="payment">4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | आप प्राप्त कर्ता को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">10500 ।</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है - 
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 10500
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे प्राप्त कर्ता के खाते मे जमा हो जायेगा | </client>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="8" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="payment" variation="39">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="payment">I want to transfer money to my friend immediately . </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="payment">आप प्राप्त कर्ता का खाता संख्या / यु . पि . आई आई . डी . बताईये | </client>
+        <customer intent="payment">123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उनका IFSC सांकेतिक संख्या बताईये | </client>
+        <customer intent="payment">4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | आप प्राप्त कर्ता को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">10500 ।</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है - 
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 10500
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे प्राप्त कर्ता के खाते मे जमा हो जायेगा | </client>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="2" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="payment" variation="40">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="payment">I want to transfer amount . </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="payment">आप प्राप्त कर्ता का खाता संख्या / यु . पि . आई आई . डी . बताईये | </client>
+        <customer intent="payment">123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उनका IFSC सांकेतिक संख्या बताईये | </client>
+        <customer intent="payment">4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | आप प्राप्त कर्ता को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">10500 ।</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है - 
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 10500
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे प्राप्त कर्ता के खाते मे जमा हो जायेगा | </client>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="2" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="6" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="payment" variation="41">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="payment">I want to transfer amount immediately . </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="payment">आप प्राप्त कर्ता का खाता संख्या / यु . पि . आई आई . डी . बताईये | </client>
+        <customer intent="payment">123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उनका IFSC सांकेतिक संख्या बताईये | </client>
+        <customer intent="payment">4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | आप प्राप्त कर्ता को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">10500 ।</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है - 
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 10500
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे प्राप्त कर्ता के खाते मे जमा हो जायेगा | </client>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="2" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="payment" variation="42">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="payment">I want to transfer . </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="payment">आप प्राप्त कर्ता का खाता संख्या / यु . पि . आई आई . डी . बताईये | </client>
+        <customer intent="payment">123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उनका IFSC सांकेतिक संख्या बताईये | </client>
+        <customer intent="payment">4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | आप प्राप्त कर्ता को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">10500 ।</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है - 
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 10500
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे प्राप्त कर्ता के खाते मे जमा हो जायेगा | </client>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="2" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="8" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="payment" variation="43">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="payment">I want to transfer amount to my friend . </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="payment">आप प्राप्त कर्ता का खाता संख्या / यु . पि . आई आई . डी . बताईये | </client>
+        <customer intent="payment">123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उनका IFSC सांकेतिक संख्या बताईये | </client>
+        <customer intent="payment">4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | आप प्राप्त कर्ता को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">10500 ।</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है - 
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 10500
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे प्राप्त कर्ता के खाते मे जमा हो जायेगा | </client>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="3" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="payment" variation="44">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="payment">I want to transfer amount to my friend immediately . </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="payment">आप प्राप्त कर्ता का खाता संख्या / यु . पि . आई आई . डी . बताईये | </client>
+        <customer intent="payment">123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उनका IFSC सांकेतिक संख्या बताईये | </client>
+        <customer intent="payment">4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | आप प्राप्त कर्ता को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">10500 ।</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है - 
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 10500
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे प्राप्त कर्ता के खाते मे जमा हो जायेगा | </client>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="3" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="6" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="payment" variation="45">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="payment">मुझे जल्दी एक पेमेंट करना है . </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="payment">आप प्राप्त कर्ता का खाता संख्या / यु . पि . आई आई . डी . बताईये | </client>
+        <customer intent="payment">123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उनका IFSC सांकेतिक संख्या बताईये | </client>
+        <customer intent="payment">4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | आप प्राप्त कर्ता को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">10500 ।</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है - 
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 10500
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे प्राप्त कर्ता के खाते मे जमा हो जायेगा | </client>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="3" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="payment" variation="46">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="payment">जल्दी एक पेमेंट करना चाहता हु . </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="payment">आप प्राप्त कर्ता का खाता संख्या / यु . पि . आई आई . डी . बताईये | </client>
+        <customer intent="payment">123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उनका IFSC सांकेतिक संख्या बताईये | </client>
+        <customer intent="payment">4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | आप प्राप्त कर्ता को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">10500 ।</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है - 
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 10500
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे प्राप्त कर्ता के खाते मे जमा हो जायेगा | </client>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="3" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="8" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="payment" variation="47">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="payment">एक पेमेंट करना चाहता हु . </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="payment">आप प्राप्त कर्ता का खाता संख्या / यु . पि . आई आई . डी . बताईये | </client>
+        <customer intent="payment">123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उनका IFSC सांकेतिक संख्या बताईये | </client>
+        <customer intent="payment">4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | आप प्राप्त कर्ता को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">10500 ।</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है - 
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 10500
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे प्राप्त कर्ता के खाते मे जमा हो जायेगा | </client>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="4" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="payment" variation="48">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="payment">मुझे एक पेमेंट करना है . </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="payment">आप प्राप्त कर्ता का खाता संख्या / यु . पि . आई आई . डी . बताईये | </client>
+        <customer intent="payment">123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उनका IFSC सांकेतिक संख्या बताईये | </client>
+        <customer intent="payment">4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | आप प्राप्त कर्ता को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">10500 ।</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है - 
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 10500
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे प्राप्त कर्ता के खाते मे जमा हो जायेगा | </client>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="4" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="6" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="payment" variation="49">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="payment">मुझे किसी को पैसे भेजने है . </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="payment">आप प्राप्त कर्ता का खाता संख्या / यु . पि . आई आई . डी . बताईये | </client>
+        <customer intent="payment">123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उनका IFSC सांकेतिक संख्या बताईये | </client>
+        <customer intent="payment">4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | आप प्राप्त कर्ता को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">10500 ।</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है - 
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 10500
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे प्राप्त कर्ता के खाते मे जमा हो जायेगा | </client>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="4" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="payment" variation="50">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="payment">मुझे दोस्त को पैसे भेजने है . </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="payment">आप प्राप्त कर्ता का खाता संख्या / यु . पि . आई आई . डी . बताईये | </client>
+        <customer intent="payment">123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उनका IFSC सांकेतिक संख्या बताईये | </client>
+        <customer intent="payment">4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | आप प्राप्त कर्ता को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">10500 ।</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है - 
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 10500
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे प्राप्त कर्ता के खाते मे जमा हो जायेगा | </client>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="4" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="8" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="payment" variation="51">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="payment">मुझे दोस्त को पैसा भेजना है . </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="payment">आप प्राप्त कर्ता का खाता संख्या / यु . पि . आई आई . डी . बताईये | </client>
+        <customer intent="payment">123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उनका IFSC सांकेतिक संख्या बताईये | </client>
+        <customer intent="payment">4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | आप प्राप्त कर्ता को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">10500 ।</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है - 
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 10500
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे प्राप्त कर्ता के खाते मे जमा हो जायेगा | </client>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="5" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="payment" variation="52">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="payment">मुझे जल्दी एक payment करना है . </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="payment">आप प्राप्त कर्ता का खाता संख्या / यु . पि . आई आई . डी . बताईये | </client>
+        <customer intent="payment">123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उनका IFSC सांकेतिक संख्या बताईये | </client>
+        <customer intent="payment">4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | आप प्राप्त कर्ता को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">10500 ।</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है - 
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 10500
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे प्राप्त कर्ता के खाते मे जमा हो जायेगा | </client>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="5" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="6" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="payment" variation="53">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="payment">जल्दी एक payment करना चाहता हु . </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="payment">आप प्राप्त कर्ता का खाता संख्या / यु . पि . आई आई . डी . बताईये | </client>
+        <customer intent="payment">123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उनका IFSC सांकेतिक संख्या बताईये | </client>
+        <customer intent="payment">4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | आप प्राप्त कर्ता को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">10500 ।</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है - 
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 10500
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे प्राप्त कर्ता के खाते मे जमा हो जायेगा | </client>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="5" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="payment" variation="54">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="payment">एक payment करना चाहता हु . </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="payment">आप प्राप्त कर्ता का खाता संख्या / यु . पि . आई आई . डी . बताईये | </client>
+        <customer intent="payment">123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उनका IFSC सांकेतिक संख्या बताईये | </client>
+        <customer intent="payment">4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | आप प्राप्त कर्ता को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">10500 ।</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है - 
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 10500
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे प्राप्त कर्ता के खाते मे जमा हो जायेगा | </client>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="5" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="8" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="payment" variation="55">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="payment">मुझे एक payment करना है . </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="payment">आप प्राप्त कर्ता का खाता संख्या / यु . पि . आई आई . डी . बताईये | </client>
+        <customer intent="payment">123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उनका IFSC सांकेतिक संख्या बताईये | </client>
+        <customer intent="payment">4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | आप प्राप्त कर्ता को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">10500 ।</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है - 
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 10500
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे प्राप्त कर्ता के खाते मे जमा हो जायेगा | </client>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="6" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="payment" variation="56">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="payment">मुझे किसी को money भेजने है . </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="payment">आप प्राप्त कर्ता का खाता संख्या / यु . पि . आई आई . डी . बताईये | </client>
+        <customer intent="payment">123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उनका IFSC सांकेतिक संख्या बताईये | </client>
+        <customer intent="payment">4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | आप प्राप्त कर्ता को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">10500 ।</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है - 
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 10500
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे प्राप्त कर्ता के खाते मे जमा हो जायेगा | </client>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="6" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="6" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="payment" variation="57">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="payment">मुझे दोस्त को money भेजने है . </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="payment">आप प्राप्त कर्ता का खाता संख्या / यु . पि . आई आई . डी . बताईये | </client>
+        <customer intent="payment">123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उनका IFSC सांकेतिक संख्या बताईये | </client>
+        <customer intent="payment">4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | आप प्राप्त कर्ता को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">10500 ।</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है - 
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 10500
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे प्राप्त कर्ता के खाते मे जमा हो जायेगा | </client>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="6" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="payment" variation="58">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="payment">मुझे दोस्त को money भेजना है . </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="payment">आप प्राप्त कर्ता का खाता संख्या / यु . पि . आई आई . डी . बताईये | </client>
+        <customer intent="payment">123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उनका IFSC सांकेतिक संख्या बताईये | </client>
+        <customer intent="payment">4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | आप प्राप्त कर्ता को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">10500 ।</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है - 
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 10500
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे प्राप्त कर्ता के खाते मे जमा हो जायेगा | </client>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="6" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="8" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="payment" variation="59">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="payment">मुझे किसी को amount भेजने है . </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="payment">आप प्राप्त कर्ता का खाता संख्या / यु . पि . आई आई . डी . बताईये | </client>
+        <customer intent="payment">123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उनका IFSC सांकेतिक संख्या बताईये | </client>
+        <customer intent="payment">4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | आप प्राप्त कर्ता को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">10500 ।</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है - 
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 10500
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे प्राप्त कर्ता के खाते मे जमा हो जायेगा | </client>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="2" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="payment" variation="60">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="payment">मुझे दोस्त को amount भेजने है . </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="payment">आप प्राप्त कर्ता का खाता संख्या / यु . पि . आई आई . डी . बताईये | </client>
+        <customer intent="payment">123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उनका IFSC सांकेतिक संख्या बताईये | </client>
+        <customer intent="payment">4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | आप प्राप्त कर्ता को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">10500 ।</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है - 
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 10500
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे प्राप्त कर्ता के खाते मे जमा हो जायेगा | </client>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="2" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="6" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="payment" variation="61">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="payment">मुझे दोस्त को amount भेजना है . </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="payment">आप प्राप्त कर्ता का खाता संख्या / यु . पि . आई आई . डी . बताईये | </client>
+        <customer intent="payment">123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उनका IFSC सांकेतिक संख्या बताईये | </client>
+        <customer intent="payment">4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | आप प्राप्त कर्ता को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">10500 ।</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है - 
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 10500
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे प्राप्त कर्ता के खाते मे जमा हो जायेगा | </client>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="2" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="payment" variation="62">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="payment">मुझे friend को money भेजने है . </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="payment">आप प्राप्त कर्ता का खाता संख्या / यु . पि . आई आई . डी . बताईये | </client>
+        <customer intent="payment">123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उनका IFSC सांकेतिक संख्या बताईये | </client>
+        <customer intent="payment">4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | आप प्राप्त कर्ता को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">10500 ।</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है - 
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 10500
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे प्राप्त कर्ता के खाते मे जमा हो जायेगा | </client>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="2" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="8" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="payment" variation="63">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="payment">मुझे friend को money भेजना है . </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="payment">आप प्राप्त कर्ता का खाता संख्या / यु . पि . आई आई . डी . बताईये | </client>
+        <customer intent="payment">123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उनका IFSC सांकेतिक संख्या बताईये | </client>
+        <customer intent="payment">4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | आप प्राप्त कर्ता को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">10500 ।</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है - 
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 10500
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे प्राप्त कर्ता के खाते मे जमा हो जायेगा | </client>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="2" />
+        <expand-intent description="No" name="rejection_by_customer" variation="2" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="payment" variation="64">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="payment">मुझे friend को amount भेजने है . </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="payment">आप प्राप्त कर्ता का खाता संख्या / यु . पि . आई आई . डी . बताईये | </client>
+        <customer intent="payment">123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उनका IFSC सांकेतिक संख्या बताईये | </client>
+        <customer intent="payment">4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | आप प्राप्त कर्ता को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">10500 ।</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है - 
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 10500
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे प्राप्त कर्ता के खाते मे जमा हो जायेगा | </client>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="2" />
+        <expand-intent description="No" name="rejection_by_customer" variation="2" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="6" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="payment" variation="65">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="payment">मुझे friend को amount भेजना है . </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="payment">आप प्राप्त कर्ता का खाता संख्या / यु . पि . आई आई . डी . बताईये | </client>
+        <customer intent="payment">123456789 . </customer>
+        <client intent="payment">शुक्रिया | अब उनका IFSC सांकेतिक संख्या बताईये | </client>
+        <customer intent="payment">4567765688765abcd999 . </customer>
+        <client intent="payment">शुक्रिया | आप प्राप्त कर्ता को कितना पैसे भेजना चाहते है ? </client>
+        <customer intent="payment">10500 ।</customer>
+        <client intent="payment">लेन - देन का विवरण कुछ ऐसा है - 
+खाता संख्या : 123456789
+IFSC संख्या : 4567765688765abcd999
+भुगतान - Rs . 10500
+क्या ये सही है ? </client>
+        <expand-intent description="Yes" name="confirmation_by_customer" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="payment">अब आपकी खाते से लेन - देन हो रही है | कुछ ही क्षण मे प्राप्त कर्ता के खाते मे जमा हो जायेगा | </client>
+        <client intent="payment">आपके मोबाइल पे सन्देश आ चुका होगा | कृपया जाँच लीजिए | </client>
+        <expand-intent description="Received Message" name="confirmation_by_customer" variation="2" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="2" />
+        <expand-intent description="No" name="rejection_by_customer" variation="2" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+</dataset>

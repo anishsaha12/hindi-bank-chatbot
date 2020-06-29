@@ -1,0 +1,803 @@
+<dataset>
+
+    <intent name="issue_check_book" variation="1">
+
+        <customer intent="issue_check_book">मेरे अकाउंट के लिए एक cheque book issue करवाना है</customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="issue_check_book">धन्यवाद . आपका नया cheque book issue का निवेदन रजिस्टर किया गया है . सामान्य रूप से आपको एक या दो हफ्तों के अंदर रजिस्टर्ड पते पे कूरियर कर दिया जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="issue_check_book" variation="2">
+
+        <customer intent="issue_check_book">मेरे अकाउंट के लिए एक cheque book issue करवाना है</customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <expand-intent description="OTP" name="authentication_by_client_failed" variation="1" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="issue_check_book">धन्यवाद . आपका नया cheque book issue का निवेदन रजिस्टर किया गया है . सामान्य रूप से आपको एक या दो हफ्तों के अंदर रजिस्टर्ड पते पे कूरियर कर दिया जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="issue_check_book" variation="3">
+
+        <customer intent="issue_check_book">मेरे अकाउंट के लिए एक cheque book issue करवाना है</customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="issue_check_book">धन्यवाद . आपका नया cheque book issue का निवेदन रजिस्टर किया गया है . सामान्य रूप से आपको एक या दो हफ्तों के अंदर रजिस्टर्ड पते पे कूरियर कर दिया जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="issue_check_book" variation="4">
+
+        <customer intent="issue_check_book">मेरे account के लिए एक cheque बुक इशू करवाना है</customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="issue_check_book">धन्यवाद . आपका नया cheque book issue का निवेदन रजिस्टर किया गया है . सामान्य रूप से आपको एक या दो हफ्तों के अंदर रजिस्टर्ड पते पे कूरियर कर दिया जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="issue_check_book" variation="5">
+
+        <customer intent="issue_check_book">account के लिए एक cheque book इशू करवाना है</customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="issue_check_book">धन्यवाद . आपका नया cheque book issue का निवेदन रजिस्टर किया गया है . सामान्य रूप से आपको एक या दो हफ्तों के अंदर रजिस्टर्ड पते पे कूरियर कर दिया जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="issue_check_book" variation="6">
+
+        <customer intent="issue_check_book">अकाउंट का एक चेक book इशू करवाना है</customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="issue_check_book">धन्यवाद . आपका नया cheque book issue का निवेदन रजिस्टर किया गया है . सामान्य रूप से आपको एक या दो हफ्तों के अंदर रजिस्टर्ड पते पे कूरियर कर दिया जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="issue_check_book" variation="7">
+
+        <customer intent="issue_check_book">अकाउंट का cheque बुक issue करवाना है</customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="issue_check_book">धन्यवाद . आपका नया cheque book issue का निवेदन रजिस्टर किया गया है . सामान्य रूप से आपको एक या दो हफ्तों के अंदर रजिस्टर्ड पते पे कूरियर कर दिया जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="issue_check_book" variation="8">
+
+        <customer intent="issue_check_book">account cheque book issue करवाना है</customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="issue_check_book">धन्यवाद . आपका नया cheque book issue का निवेदन रजिस्टर किया गया है . सामान्य रूप से आपको एक या दो हफ्तों के अंदर रजिस्टर्ड पते पे कूरियर कर दिया जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="issue_check_book" variation="9">
+
+        <customer intent="issue_check_book">cheque book इशू करवाना है</customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="issue_check_book">धन्यवाद . आपका नया cheque book issue का निवेदन रजिस्टर किया गया है . सामान्य रूप से आपको एक या दो हफ्तों के अंदर रजिस्टर्ड पते पे कूरियर कर दिया जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="issue_check_book" variation="10">
+
+        <customer intent="issue_check_book">cheque book issue करना है</customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="issue_check_book">धन्यवाद . आपका नया cheque book issue का निवेदन रजिस्टर किया गया है . सामान्य रूप से आपको एक या दो हफ्तों के अंदर रजिस्टर्ड पते पे कूरियर कर दिया जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="issue_check_book" variation="11">
+
+        <customer intent="issue_check_book">cheque बुक issue करना . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="issue_check_book">धन्यवाद . आपका नया cheque book issue का निवेदन रजिस्टर किया गया है . सामान्य रूप से आपको एक या दो हफ्तों के अंदर रजिस्टर्ड पते पे कूरियर कर दिया जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="issue_check_book" variation="12">
+
+        <customer intent="issue_check_book">cheque book issue . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="issue_check_book">धन्यवाद . आपका नया cheque book issue का निवेदन रजिस्टर किया गया है . सामान्य रूप से आपको एक या दो हफ्तों के अंदर रजिस्टर्ड पते पे कूरियर कर दिया जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="issue_check_book" variation="13">
+
+        <customer intent="issue_check_book">issue cheque book . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="issue_check_book">धन्यवाद . आपका नया cheque book issue का निवेदन रजिस्टर किया गया है . सामान्य रूप से आपको एक या दो हफ्तों के अंदर रजिस्टर्ड पते पे कूरियर कर दिया जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="issue_check_book" variation="14">
+
+        <customer intent="issue_check_book">issue cheque . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="issue_check_book">धन्यवाद . आपका नया cheque book issue का निवेदन रजिस्टर किया गया है . सामान्य रूप से आपको एक या दो हफ्तों के अंदर रजिस्टर्ड पते पे कूरियर कर दिया जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="issue_check_book" variation="15">
+
+        <customer intent="issue_check_book">अकाउंट के लिए एक चेक बुक इशू करवाना है</customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="issue_check_book">धन्यवाद . आपका नया चेक बुक इशू का निवेदन रजिस्टर किया गया है . सामान्य रूप से आपको एक या दो हफ्तों के अंदर रजिस्टर्ड पते पे कूरियर कर दिया जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="issue_check_book" variation="16">
+
+        <customer intent="issue_check_book">अकाउंट का एक चेक बुक इशू करवाना है</customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="issue_check_book">धन्यवाद . आपका नया चेक बुक इशू का निवेदन रजिस्टर किया गया है . सामान्य रूप से आपको एक या दो हफ्तों के अंदर रजिस्टर्ड पते पे कूरियर कर दिया जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="issue_check_book" variation="17">
+
+        <customer intent="issue_check_book">अकाउंट का चेक बुक इशू करवाना है</customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="issue_check_book">धन्यवाद . आपका नया चेक बुक इशू का निवेदन रजिस्टर किया गया है . सामान्य रूप से आपको एक या दो हफ्तों के अंदर रजिस्टर्ड पते पे कूरियर कर दिया जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="issue_check_book" variation="18">
+
+        <customer intent="issue_check_book">अकाउंट चेक बुक इशू करवाना है</customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="issue_check_book">धन्यवाद . आपका नया चेक बुक इशू का निवेदन रजिस्टर किया गया है . सामान्य रूप से आपको एक या दो हफ्तों के अंदर रजिस्टर्ड पते पे कूरियर कर दिया जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="issue_check_book" variation="19">
+
+        <customer intent="issue_check_book">चेक बुक इशू करवाना है</customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="issue_check_book">धन्यवाद . आपका नया चेक बुक इशू का निवेदन रजिस्टर किया गया है . सामान्य रूप से आपको एक या दो हफ्तों के अंदर रजिस्टर्ड पते पे कूरियर कर दिया जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="issue_check_book" variation="20">
+
+        <customer intent="issue_check_book">चेक बुक इशू करना है</customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="issue_check_book">धन्यवाद . आपका नया चेक बुक इशू का निवेदन रजिस्टर किया गया है . सामान्य रूप से आपको एक या दो हफ्तों के अंदर रजिस्टर्ड पते पे कूरियर कर दिया जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="issue_check_book" variation="21">
+
+        <customer intent="issue_check_book">चेक बुक इशू करना . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="issue_check_book">धन्यवाद . आपका नया चेक बुक इशू का निवेदन रजिस्टर किया गया है . सामान्य रूप से आपको एक या दो हफ्तों के अंदर रजिस्टर्ड पते पे कूरियर कर दिया जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="issue_check_book" variation="22">
+
+        <customer intent="issue_check_book">चेक बुक इशू . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="issue_check_book">धन्यवाद . आपका नया चेक बुक इशू का निवेदन रजिस्टर किया गया है . सामान्य रूप से आपको एक या दो हफ्तों के अंदर रजिस्टर्ड पते पे कूरियर कर दिया जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="issue_check_book" variation="23">
+
+        <customer intent="issue_check_book">इशू चेक बुक . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="issue_check_book">धन्यवाद . आपका नया चेक बुक इशू का निवेदन रजिस्टर किया गया है . सामान्य रूप से आपको एक या दो हफ्तों के अंदर रजिस्टर्ड पते पे कूरियर कर दिया जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="issue_check_book" variation="24">
+
+        <customer intent="issue_check_book">मेरे अकाउंट के लिए एक चेक बुक इशू करवाना है</customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="issue_check_book">धन्यवाद . आपका नया चेक बुक इशू का निवेदन रजिस्टर किया गया है . सामान्य रूप से आपको एक या दो हफ्तों के अंदर रजिस्टर्ड पते पे कूरियर कर दिया जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="issue_check_book" variation="25">
+
+        <customer intent="issue_check_book">इशू चेक . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="issue_check_book">धन्यवाद . आपका नया चेक बुक इशू का निवेदन रजिस्टर किया गया है . सामान्य रूप से आपको एक या दो हफ्तों के अंदर रजिस्टर्ड पते पे कूरियर कर दिया जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="issue_check_book" variation="26">
+
+        <customer intent="issue_check_book">मेरे अकाउंट के लिए एक cheque book issue करवाना है</customer>
+        <expand-intent description="Client: Name" name="greetings" variation="6" />
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="issue_check_book">धन्यवाद . आपका नया cheque book issue का निवेदन रजिस्टर किया गया है . सामान्य रूप से आपको एक या दो हफ्तों के अंदर रजिस्टर्ड पते पे कूरियर कर दिया जायेगा . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="issue_check_book" variation="27">
+
+        <customer intent="issue_check_book">मेरे अकाउंट के लिए एक cheque issue करवाना है</customer>
+        <expand-intent description="Client: Name" name="greetings" variation="6" />
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="9" />
+        <client intent="issue_check_book">धन्यवाद . आपका नया cheque book issue का निवेदन रजिस्टर किया गया है . सामान्य रूप से आपको एक या दो हफ्तों के अंदर registered पते पे कूरियर कर दिया जायेगा . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="6" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="issue_check_book" variation="28">
+
+        <customer intent="issue_check_book">मेरे account के लिए एक cheque book issue करवाना है</customer>
+        <expand-intent description="Client: Name" name="greetings" variation="6" />
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="13" />
+        <client intent="issue_check_book">धन्यवाद . आपका नया cheque book issue का निवेदन रजिस्टर किया गया है . सामान्य रूप से आपको एक या दो हफ्तों के अंदर रजिस्टर्ड पते पे courier कर दिया जायेगा . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="issue_check_book" variation="29">
+
+        <customer intent="issue_check_book">मेरे account के लिए एक cheque issue करवाना है</customer>
+        <expand-intent description="Client: Name" name="greetings" variation="6" />
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="10" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="issue_check_book">धन्यवाद . आपका नया cheque book issue का निवेदन रजिस्टर किया गया है . सामान्य रूप से आपको एक या दो हफ्तों के अंदर registered पते पे courier कर दिया जायेगा . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="8" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="issue_check_book" variation="30">
+
+        <customer intent="issue_check_book">I want one cheque book issued to my account </customer>
+        <expand-intent description="Client: Name" name="greetings" variation="6" />
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="10" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="9" />
+        <client intent="issue_check_book">Welcome . आपका नया cheque book issue का निवेदन रजिस्टर किया गया है . सामान्य रूप से आपको एक या दो हफ्तों के अंदर रजिस्टर्ड पते पे कूरियर कर दिया जायेगा . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="2" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="issue_check_book" variation="31">
+
+        <customer intent="issue_check_book">I want one cheque book</customer>
+        <expand-intent description="Client: Name" name="greetings" variation="6" />
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="10" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="13" />
+        <client intent="issue_check_book">Welcome . आपका नया cheque book issue का निवेदन रजिस्टर किया गया है . सामान्य रूप से आपको एक या दो हफ्तों के अंदर registered पते पे कूरियर कर दिया जायेगा . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="2" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="6" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="issue_check_book" variation="32">
+
+        <customer intent="issue_check_book">I want cheque issued to my account </customer>
+        <expand-intent description="Client: Name" name="greetings" variation="6" />
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="issue_check_book">Welcome . आपका नया cheque book issue का निवेदन रजिस्टर किया गया है . सामान्य रूप से आपको एक या दो हफ्तों के अंदर रजिस्टर्ड पते पे courier कर दिया जायेगा . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="2" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="issue_check_book" variation="33">
+
+        <customer intent="issue_check_book">मेरे अकाउंट के लिए एक cheque book issue करो </customer>
+        <expand-intent description="Client: Name" name="greetings" variation="6" />
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="9" />
+        <client intent="issue_check_book">Welcome . आपका नया cheque book issue का निवेदन रजिस्टर किया गया है . सामान्य रूप से आपको एक या दो हफ्तों के अंदर registered पते पे courier कर दिया जायेगा . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="2" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="8" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="issue_check_book" variation="34">
+
+        <customer intent="issue_check_book">मेरे अकाउंट के लिए एक cheque issue करो</customer>
+        <expand-intent description="Client: Name" name="greetings" variation="6" />
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="13" />
+        <client intent="issue_check_book">Welcome . आपका नया cheque book issue का निवेदन register किया गया है . सामान्य रूप से आपको एक या दो हफ्तों के अंदर रजिस्टर्ड पते पे कूरियर कर दिया जायेगा . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="3" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="issue_check_book" variation="35">
+
+        <customer intent="issue_check_book">Issue a cheque book to me</customer>
+        <expand-intent description="Client: Name" name="greetings" variation="6" />
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="10" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="issue_check_book">Welcome . आपका नया cheque book issue का निवेदन register किया गया है . सामान्य रूप से आपको एक या दो हफ्तों के अंदर registered पते पे कूरियर कर दिया जायेगा . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="3" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="6" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="issue_check_book" variation="36">
+
+        <customer intent="issue_check_book">Issue a cheque book to my account </customer>
+        <expand-intent description="Client: Name" name="greetings" variation="6" />
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="10" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="9" />
+        <client intent="issue_check_book">Welcome . आपका नया cheque book issue का निवेदन register किया गया है . सामान्य रूप से आपको एक या दो हफ्तों के अंदर रजिस्टर्ड पते पे courier कर दिया जायेगा . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="3" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="issue_check_book" variation="37">
+
+        <customer intent="issue_check_book">Issue a cheque book immediately</customer>
+        <expand-intent description="Client: Name" name="greetings" variation="6" />
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="10" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="13" />
+        <client intent="issue_check_book">Welcome . आपका नया cheque book issue का निवेदन register किया गया है . सामान्य रूप से आपको एक या दो हफ्तों के अंदर registered पते पे courier कर दिया जायेगा . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="3" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="8" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="issue_check_book" variation="38">
+
+        <customer intent="issue_check_book">Issue one cheque book immediately</customer>
+        <expand-intent description="Client: Name" name="greetings" variation="6" />
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="8" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="issue_check_book">Your request has been registered . It will be delivered to your registered address within a week . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="4" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="issue_check_book" variation="39">
+
+        <customer intent="issue_check_book">Issue a cheque book immediately to my account </customer>
+        <expand-intent description="Client: Name" name="greetings" variation="6" />
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="8" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="9" />
+        <client intent="issue_check_book">Welcome . Your request has been registered . It will be delivered to your registered address within a week . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="4" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="6" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="issue_check_book" variation="40">
+
+        <customer intent="issue_check_book">Issue one cheque book immediately to my account </customer>
+        <expand-intent description="Client: Name" name="greetings" variation="6" />
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="8" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="13" />
+        <client intent="issue_check_book">धन्यवाद . आपका नया चेक बुक का निवेदन रजिस्टर किया गया है . सामान्य रूप से आपको एक या दो हफ्तों के अंदर registered पते पे कूरियर कर दिया जायेगा . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="4" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+    </intent>
+
+
+    <intent name="issue_check_book" variation="41">
+
+        <customer intent="issue_check_book">Issue a cheque book immediately to me</customer>
+        <expand-intent description="Client: Name" name="greetings" variation="6" />
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="8" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="10" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="issue_check_book">धन्यवाद . आपका नया चेक बुक का निवेदन रजिस्टर किया गया है . सामान्य रूप से आपको एक या दो हफ्तों के अंदर रजिस्टर्ड पते पे courier कर दिया जायेगा . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="4" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="8" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="issue_check_book" variation="42">
+
+        <customer intent="issue_check_book">Issue one cheque book immediately to me</customer>
+        <expand-intent description="Client: Name" name="greetings" variation="6" />
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="8" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="10" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="9" />
+        <client intent="issue_check_book">धन्यवाद . आपका नया चेक बुक का निवेदन रजिस्टर किया गया है . सामान्य रूप से आपको एक या दो हफ्तों के अंदर registered पते पे courier कर दिया जायेगा . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="5" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="issue_check_book" variation="43">
+
+        <customer intent="issue_check_book">I need a cheque book</customer>
+        <expand-intent description="Client: Name" name="greetings" variation="6" />
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="8" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="10" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="13" />
+        <client intent="issue_check_book">धन्यवाद . आपका नया चेक बुक का निवेदन रजिस्टर किया गया है . सामान्य रूप से आपको एक या दो हफ्तों के अंदर रजिस्टर्ड पते पे कूरियर कर दिया जायेगा . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="5" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="6" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="issue_check_book" variation="44">
+
+        <customer intent="issue_check_book">Will you issue a cheque book to my account ? </customer>
+        <expand-intent description="Client: Name" name="greetings" variation="6" />
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="issue_check_book">धन्यवाद . आपका नया चेक बुक का निवेदन रजिस्टर किया गया है . सामान्य रूप से आपको एक या दो हफ्तों के अंदर registered पते पे कूरियर कर दिया जायेगा . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="5" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="6" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="issue_check_book" variation="45">
+
+        <customer intent="issue_check_book">क्या आप मेरे अकाउंट के लिए एक चेक बुक इशू करेंगे ? </customer>
+        <expand-intent description="Client: Name" name="greetings" variation="6" />
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="9" />
+        <client intent="issue_check_book">धन्यवाद . आपका नया चेक बुक का निवेदन रजिस्टर किया गया है . सामान्य रूप से आपको एक या दो हफ्तों के अंदर रजिस्टर्ड पते पे courier कर दिया जायेगा . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="5" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="issue_check_book" variation="46">
+
+        <customer intent="issue_check_book">Will you issue a cheque book to my account immediately ? </customer>
+        <expand-intent description="Client: Name" name="greetings" variation="6" />
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="13" />
+        <client intent="issue_check_book">धन्यवाद . आपका नया चेक बुक का निवेदन रजिस्टर किया गया है . सामान्य रूप से आपको एक या दो हफ्तों के अंदर registered पते पे courier कर दिया जायेगा . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="5" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="8" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="issue_check_book" variation="47">
+
+        <customer intent="issue_check_book">Will you issue a cheque book to me ? </customer>
+        <expand-intent description="Client: Name" name="greetings" variation="6" />
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="10" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="issue_check_book">Welcome . आपका नया चेक बुक का निवेदन register किया गया है . सामान्य रूप से आपको एक या दो हफ्तों के अंदर रजिस्टर्ड पते पे कूरियर कर दिया जायेगा . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="6" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="issue_check_book" variation="48">
+
+        <customer intent="issue_check_book">Will you issue a cheque to my account ? </customer>
+        <expand-intent description="Client: Name" name="greetings" variation="6" />
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="10" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="9" />
+        <client intent="issue_check_book">Welcome . आपका नया चेक बुक का निवेदन register किया गया है . सामान्य रूप से आपको एक या दो हफ्तों के अंदर registered पते पे कूरियर कर दिया जायेगा . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="6" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="6" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="issue_check_book" variation="49">
+
+        <customer intent="issue_check_book">Will you issue a cheque to me ? </customer>
+        <expand-intent description="Client: Name" name="greetings" variation="6" />
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="10" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="13" />
+        <client intent="issue_check_book">Welcome . आपका नया चेक बुक का निवेदन register किया गया है . सामान्य रूप से आपको एक या दो हफ्तों के अंदर रजिस्टर्ड पते पे courier कर दिया जायेगा . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="6" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="issue_check_book" variation="50">
+
+        <customer intent="issue_check_book">क्या आप मेरे account के लिए एक चेक बुक इशू करेंगे ? </customer>
+        <expand-intent description="Client: Name" name="greetings" variation="6" />
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="issue_check_book">Welcome . आपका नया चेक बुक का निवेदन register किया गया है . सामान्य रूप से आपको एक या दो हफ्तों के अंदर registered पते पे courier कर दिया जायेगा . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="6" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="8" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+</dataset>

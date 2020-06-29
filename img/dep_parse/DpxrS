@@ -1,0 +1,7 @@
+digraph {
+	"कैसा" -> "आज" [label=nmod]
+	"कैसा" -> "मौसम" [label=nsubj]
+	root -> "कैसा" [label=root]
+	"कैसा" -> "है" [label=cop]
+	"कैसा" -> "?" [label=punct]
+}

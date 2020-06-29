@@ -1,0 +1,352 @@
+<dataset>
+
+    <intent name="credit_card_details" variation="2" description="Status: Approved">
+
+        <customer intent="credit_card_details">मे अपना credit card के status जानना चाहता हूँ</customer>
+        <expand-intent description="Client: Without Name" name="greetings" variation="6" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक credit card निवेदन है . आपका क्रेडिट कार्ड Approve हो चूका है . सामान्य रूप से approve होने के 1 हफ्ते के अंदर कार्ड आपके रजिस्टर्ड पता पे कूरियर कर दिया जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="31" description="Status: Approved">
+
+        <customer intent="credit_card_details">मै अपना क्रेडिट कार्ड के स्टेटस जानना चाहता हूँ . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक credit card निवेदन है . आपका क्रेडिट कार्ड Approve हो चूका है . सामान्य रूप से approve होने के 1 हफ्ते के अंदर कार्ड आपके रजिस्टर्ड पता पे कूरियर कर दिया जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="32" description="Status: Approved">
+
+        <customer intent="credit_card_details">मै क्रेडिट कार्ड के स्टेटस जानना चाहता हूँ . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक credit card निवेदन है . आपका क्रेडिट कार्ड Approve हो चूका है . सामान्य रूप से approve होने के 1 हफ्ते के अंदर कार्ड आपके रजिस्टर्ड पता पे कूरियर कर दिया जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="33" description="Status: Approved">
+
+        <customer intent="credit_card_details">मै क्रेडिट कार्ड के स्टेटस जानना चाहता . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक credit card निवेदन है . आपका क्रेडिट कार्ड Approve हो चूका है . सामान्य रूप से approve होने के 1 हफ्ते के अंदर कार्ड आपके रजिस्टर्ड पता पे कूरियर कर दिया जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="34" description="Status: Approved">
+
+        <customer intent="credit_card_details">क्रेडिट कार्ड के स्टेटस जानना चाहता हूँ . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक credit card निवेदन है . आपका क्रेडिट कार्ड Approve हो चूका है . सामान्य रूप से approve होने के 1 हफ्ते के अंदर कार्ड आपके रजिस्टर्ड पता पे कूरियर कर दिया जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="35" description="Status: Approved">
+
+        <customer intent="credit_card_details">क्रेडिट कार्ड के स्टेटस जानना चाहता . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक credit card निवेदन है . आपका क्रेडिट कार्ड Approve हो चूका है . सामान्य रूप से approve होने के 1 हफ्ते के अंदर कार्ड आपके रजिस्टर्ड पता पे कूरियर कर दिया जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="36" description="Status: Approved">
+
+        <customer intent="credit_card_details">क्रेडिट कार्ड स्टेटस जानना चाहता . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक credit card निवेदन है . आपका क्रेडिट कार्ड Approve हो चूका है . सामान्य रूप से approve होने के 1 हफ्ते के अंदर कार्ड आपके रजिस्टर्ड पता पे कूरियर कर दिया जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="37" description="Status: Approved">
+
+        <customer intent="credit_card_details">क्रेडिट कार्ड स्टेटस जानना है . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक credit card निवेदन है . आपका क्रेडिट कार्ड Approve हो चूका है . सामान्य रूप से approve होने के 1 हफ्ते के अंदर कार्ड आपके रजिस्टर्ड पता पे कूरियर कर दिया जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="38" description="Status: Approved">
+
+        <customer intent="credit_card_details">क्रेडिट कार्ड स्टेटस जानना . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक credit card निवेदन है . आपका क्रेडिट कार्ड Approve हो चूका है . सामान्य रूप से approve होने के 1 हफ्ते के अंदर कार्ड आपके रजिस्टर्ड पता पे कूरियर कर दिया जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="39" description="Status: Approved">
+
+        <customer intent="credit_card_details">क्रेडिट कार्ड स्टेटस चेक करना है . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक credit card निवेदन है . आपका क्रेडिट कार्ड Approve हो चूका है . सामान्य रूप से approve होने के 1 हफ्ते के अंदर कार्ड आपके रजिस्टर्ड पता पे कूरियर कर दिया जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="40" description="Status: Approved">
+
+        <customer intent="credit_card_details">क्रेडिट कार्ड स्टेटस चेक करना . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक credit card निवेदन है . आपका क्रेडिट कार्ड Approve हो चूका है . सामान्य रूप से approve होने के 1 हफ्ते के अंदर कार्ड आपके रजिस्टर्ड पता पे कूरियर कर दिया जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="41" description="Status: Approved">
+
+        <customer intent="credit_card_details">क्रेडिट कार्ड स्टेटस चेक . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक credit card निवेदन है . आपका क्रेडिट कार्ड Approve हो चूका है . सामान्य रूप से approve होने के 1 हफ्ते के अंदर कार्ड आपके रजिस्टर्ड पता पे कूरियर कर दिया जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="42" description="Status: Approved">
+
+        <customer intent="credit_card_details">क्रेडिट कार्ड स्टेटस . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक credit card निवेदन है . आपका क्रेडिट कार्ड Approve हो चूका है . सामान्य रूप से approve होने के 1 हफ्ते के अंदर कार्ड आपके रजिस्टर्ड पता पे कूरियर कर दिया जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="43" description="Status: Approved">
+
+        <customer intent="credit_card_details">मै अपना credit कार्ड के स्टेटस जानना चाहता हूँ . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक credit card निवेदन है . आपका क्रेडिट कार्ड Approve हो चूका है . सामान्य रूप से approve होने के 1 हफ्ते के अंदर कार्ड आपके रजिस्टर्ड पता पे कूरियर कर दिया जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="44" description="Status: Approved">
+
+        <customer intent="credit_card_details">मै क्रेडिट card के status जानना चाहता हूँ . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक credit card निवेदन है . आपका क्रेडिट कार्ड Approve हो चूका है . सामान्य रूप से approve होने के 1 हफ्ते के अंदर कार्ड आपके रजिस्टर्ड पता पे कूरियर कर दिया जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="45" description="Status: Approved">
+
+        <customer intent="credit_card_details">मै credit card के स्टेटस जानना चाहता . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक credit card निवेदन है . आपका क्रेडिट कार्ड Approve हो चूका है . सामान्य रूप से approve होने के 1 हफ्ते के अंदर कार्ड आपके रजिस्टर्ड पता पे कूरियर कर दिया जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="46" description="Status: Approved">
+
+        <customer intent="credit_card_details">credit card के status जानना चाहता हूँ . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक credit card निवेदन है . आपका क्रेडिट कार्ड Approve हो चूका है . सामान्य रूप से approve होने के 1 हफ्ते के अंदर कार्ड आपके रजिस्टर्ड पता पे कूरियर कर दिया जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="47" description="Status: Approved">
+
+        <customer intent="credit_card_details">क्रेडिट कार्ड के status जानना चाहता . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक credit card निवेदन है . आपका क्रेडिट कार्ड Approve हो चूका है . सामान्य रूप से approve होने के 1 हफ्ते के अंदर कार्ड आपके रजिस्टर्ड पता पे कूरियर कर दिया जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="48" description="Status: Approved">
+
+        <customer intent="credit_card_details">credit card status जानना चाहता . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक credit card निवेदन है . आपका क्रेडिट कार्ड Approve हो चूका है . सामान्य रूप से approve होने के 1 हफ्ते के अंदर कार्ड आपके रजिस्टर्ड पता पे कूरियर कर दिया जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="49" description="Status: Approved">
+
+        <customer intent="credit_card_details">credit card status जानना है . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक credit card निवेदन है . आपका क्रेडिट कार्ड Approve हो चूका है . सामान्य रूप से approve होने के 1 हफ्ते के अंदर कार्ड आपके रजिस्टर्ड पता पे कूरियर कर दिया जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="50" description="Status: Approved">
+
+        <customer intent="credit_card_details">credit card status जानना . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक credit card निवेदन है . आपका क्रेडिट कार्ड Approve हो चूका है . सामान्य रूप से approve होने के 1 हफ्ते के अंदर कार्ड आपके रजिस्टर्ड पता पे कूरियर कर दिया जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="51" description="Status: Approved">
+
+        <customer intent="credit_card_details">credit card status चेक करना है . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक credit card निवेदन है . आपका क्रेडिट कार्ड Approve हो चूका है . सामान्य रूप से approve होने के 1 हफ्ते के अंदर कार्ड आपके रजिस्टर्ड पता पे कूरियर कर दिया जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="52" description="Status: Approved">
+
+        <customer intent="credit_card_details">credit card status चेक करना . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक credit card निवेदन है . आपका क्रेडिट कार्ड Approve हो चूका है . सामान्य रूप से approve होने के 1 हफ्ते के अंदर कार्ड आपके रजिस्टर्ड पता पे कूरियर कर दिया जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="53" description="Status: Approved">
+
+        <customer intent="credit_card_details">credit card status चेक . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक credit card निवेदन है . आपका क्रेडिट कार्ड Approve हो चूका है . सामान्य रूप से approve होने के 1 हफ्ते के अंदर कार्ड आपके रजिस्टर्ड पता पे कूरियर कर दिया जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="54" description="Status: Approved">
+
+        <customer intent="credit_card_details">credit card status . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक credit card निवेदन है . आपका क्रेडिट कार्ड Approve हो चूका है . सामान्य रूप से approve होने के 1 हफ्ते के अंदर कार्ड आपके रजिस्टर्ड पता पे कूरियर कर दिया जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+</dataset>

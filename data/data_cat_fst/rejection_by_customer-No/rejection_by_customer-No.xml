@@ -1,0 +1,191 @@
+<dataset>
+
+    <intent name="rejection_by_customer" variation="1" description="No">
+
+        <customer intent="rejection_by_customer">नहीं बस इतना ही जानना था | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="2" description="No">
+
+        <customer intent="rejection_by_customer">इतना ही अभी के लिए ।</customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="3" description="No">
+
+        <customer intent="rejection_by_customer">नहीं शुक्रिया ।</customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="4" description="No">
+
+        <customer intent="rejection_by_customer">नहीं</customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="5" description="No">
+
+        <customer intent="rejection_by_customer">no</customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="6" description="No">
+
+        <customer intent="rejection_by_customer">धन्यवाद | नहीं</customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="10" description="No">
+
+        <customer intent="rejection_by_customer">नहीं बस इतना ही जानना था | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="11" description="No">
+
+        <customer intent="rejection_by_customer">नहीं बस इतना ही था | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="12" description="No">
+
+        <customer intent="rejection_by_customer">नहीं बस इतना ही | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="13" description="No">
+
+        <customer intent="rejection_by_customer">नहीं इतना ही | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="14" description="No">
+
+        <customer intent="rejection_by_customer">नहीं कुछ नहीं | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="15" description="No">
+
+        <customer intent="rejection_by_customer">कुछ नहीं | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="16" description="No">
+
+        <customer intent="rejection_by_customer">कुछ नही | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="17" description="No">
+
+        <customer intent="rejection_by_customer">नहीं इतना ही . शुक्रिया ।</customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="18" description="No">
+
+        <customer intent="rejection_by_customer">नहीं शुक्रिया . इतना ही ।</customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="19" description="No">
+
+        <customer intent="rejection_by_customer">शुक्रिया . इतना ही ।</customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="20" description="No">
+
+        <customer intent="rejection_by_customer">इतना ही अभी के लिए ।</customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="21" description="No">
+
+        <customer intent="rejection_by_customer">अभी के लिए इतना ही ।</customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="22" description="No">
+
+        <customer intent="rejection_by_customer">no thank you</customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="23" description="No">
+
+        <customer intent="rejection_by_customer">no thanks</customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="24" description="No">
+
+        <customer intent="rejection_by_customer">nah</customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="25" description="No">
+
+        <customer intent="rejection_by_customer">नहीं इतना ही . धन्यवाद ।</customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="26" description="No">
+
+        <customer intent="rejection_by_customer">नहीं धन्यवाद . इतना ही ।</customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="27" description="No">
+
+        <customer intent="rejection_by_customer">धन्यवाद . इतना ही ।</customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="28" description="No">
+
+        <customer intent="rejection_by_customer">नहीं इतना ही . thanks ।</customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="29" description="No">
+
+        <customer intent="rejection_by_customer">नहीं thanks . इतना ही ।</customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="30" description="No">
+
+        <customer intent="rejection_by_customer">thanks . इतना ही ।</customer>
+
+    </intent>
+
+</dataset>

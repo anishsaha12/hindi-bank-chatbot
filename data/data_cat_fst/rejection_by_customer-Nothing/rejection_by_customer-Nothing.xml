@@ -1,0 +1,30 @@
+<dataset>
+
+    <intent name="rejection_by_customer" variation="7" description="Nothing">
+
+        <customer intent="rejection_by_customer">nothing</customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="31" description="Nothing">
+
+        <customer intent="rejection_by_customer">कुछ नहीं जानना . </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="32" description="Nothing">
+
+        <customer intent="rejection_by_customer">कुछ नहीं चाहिए . </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="33" description="Nothing">
+
+        <customer intent="rejection_by_customer">कुछ नहीं . </customer>
+
+    </intent>
+
+</dataset>

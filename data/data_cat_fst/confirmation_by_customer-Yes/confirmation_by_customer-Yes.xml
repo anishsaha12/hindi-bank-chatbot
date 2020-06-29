@@ -1,0 +1,58 @@
+<dataset>
+
+    <intent name="confirmation_by_customer" variation="1" description="Yes">
+
+        <customer intent="confirmation_by_customer">हाँ . </customer>
+
+    </intent>
+
+
+    <intent name="confirmation_by_customer" variation="7" description="Yes">
+
+        <customer intent="confirmation_by_customer">हाँ ठीक है . </customer>
+
+    </intent>
+
+
+    <intent name="confirmation_by_customer" variation="8" description="Yes">
+
+        <customer intent="confirmation_by_customer">ठीक है . </customer>
+
+    </intent>
+
+
+    <intent name="confirmation_by_customer" variation="9" description="Yes">
+
+        <customer intent="confirmation_by_customer">हाँ ठीक . </customer>
+
+    </intent>
+
+
+    <intent name="confirmation_by_customer" variation="10" description="Yes">
+
+        <customer intent="confirmation_by_customer">ठीक . </customer>
+
+    </intent>
+
+
+    <intent name="confirmation_by_customer" variation="11" description="Yes">
+
+        <customer intent="confirmation_by_customer">ya . </customer>
+
+    </intent>
+
+
+    <intent name="confirmation_by_customer" variation="12" description="Yes">
+
+        <customer intent="confirmation_by_customer">yes . </customer>
+
+    </intent>
+
+
+    <intent name="confirmation_by_customer" variation="13" description="Yes">
+
+        <customer intent="confirmation_by_customer">yeah . </customer>
+
+    </intent>
+
+</dataset>

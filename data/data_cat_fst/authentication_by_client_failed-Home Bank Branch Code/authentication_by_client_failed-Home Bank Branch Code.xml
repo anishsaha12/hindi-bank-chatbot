@@ -1,0 +1,18 @@
+<dataset>
+
+    <intent name="authentication_by_client_failed" variation="20" description="Home Bank Branch Code">
+
+        <client intent="authentication_by_client_failed">आपके home बैंक का ब्रांच कोड गलत है ।</client>
+        <client intent="authentication_by_client_failed">कृपया सही ब्रांच कोड फिरसे लिखिए</client>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_failed" variation="21" description="Home Bank Branch Code">
+
+        <client intent="authentication_by_client_failed">आपके home bank का branch code गलत है ।</client>
+        <client intent="authentication_by_client_failed">कृपया सही branch code फिरसे लिखिए</client>
+
+    </intent>
+
+</dataset>

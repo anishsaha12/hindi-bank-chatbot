@@ -1,0 +1,30 @@
+<dataset>
+
+    <intent name="goodbye" variation="5" description="Client : Thanks">
+
+        <client intent="goodbye">आपकी सेवा करके अच्छा लगा ।</client>
+
+    </intent>
+
+
+    <intent name="goodbye" variation="6" description="Client : Thanks">
+
+        <client intent="goodbye">इस सेवा का उपयोग करने के लिए शुक्रिया | आप अपना खयाल रखिये | </client>
+
+    </intent>
+
+
+    <intent name="goodbye" variation="7" description="Client : Thanks">
+
+        <client intent="goodbye">धन्यवाद | इस सेवा का उपयोग करने के लिए शुक्रिया | आप अपना खयाल रखिये | </client>
+
+    </intent>
+
+
+    <intent name="goodbye" variation="8" description="Client : Thanks">
+
+        <client intent="goodbye">इस सेवा का उपयोग करने के लिए शुक्रिया | </client>
+
+    </intent>
+
+</dataset>

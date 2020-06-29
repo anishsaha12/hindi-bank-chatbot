@@ -1,0 +1,10 @@
+<dataset>
+
+    <intent name="get_input" variation="1" description="Location">
+
+        <client intent="get_input">कृपया शाखा के लिए एक स्थान दर्ज करें।</client>
+        <customer intent="get_input">LOC</customer>
+
+    </intent>
+
+</dataset>

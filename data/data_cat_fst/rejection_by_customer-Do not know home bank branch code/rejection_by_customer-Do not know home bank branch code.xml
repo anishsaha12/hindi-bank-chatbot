@@ -1,0 +1,212 @@
+<dataset>
+
+    <intent name="rejection_by_customer" variation="141" description="Do not know home bank branch code">
+
+        <customer intent="rejection_by_customer">मुझे होम बैंक का ब्रांच कोड नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="142" description="Do not know home bank branch code">
+
+        <customer intent="rejection_by_customer">मुझे बैंक का ब्रांच कोड नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="143" description="Do not know home bank branch code">
+
+        <customer intent="rejection_by_customer">मुझे होम बैंक ब्रांच कोड नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="144" description="Do not know home bank branch code">
+
+        <customer intent="rejection_by_customer">मुझे बैंक ब्रांच कोड नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="145" description="Do not know home bank branch code">
+
+        <customer intent="rejection_by_customer">बैंक का ब्रांच कोड नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="146" description="Do not know home bank branch code">
+
+        <customer intent="rejection_by_customer">होम बैंक ब्रांच कोड नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="147" description="Do not know home bank branch code">
+
+        <customer intent="rejection_by_customer">बैंक ब्रांच कोड नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="148" description="Do not know home bank branch code">
+
+        <customer intent="rejection_by_customer">ब्रांच कोड नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="149" description="Do not know home bank branch code">
+
+        <customer intent="rejection_by_customer">होम बैंक का ब्रांच कोड पता नहीं | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="150" description="Do not know home bank branch code">
+
+        <customer intent="rejection_by_customer">बैंक का ब्रांच कोड पता नहीं | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="151" description="Do not know home bank branch code">
+
+        <customer intent="rejection_by_customer">बैंक ब्रांच कोड पता नहीं | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="152" description="Do not know home bank branch code">
+
+        <customer intent="rejection_by_customer">होम ब्रांच कोड पता नहीं | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="153" description="Do not know home bank branch code">
+
+        <customer intent="rejection_by_customer">ब्रांच कोड पता नहीं | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="154" description="Do not know home bank branch code">
+
+        <customer intent="rejection_by_customer">मुझे होम bank का ब्रांच कोड नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="155" description="Do not know home bank branch code">
+
+        <customer intent="rejection_by_customer">मुझे bank ब्रांच कोड नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="156" description="Do not know home bank branch code">
+
+        <customer intent="rejection_by_customer">बैंक का branch code नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="157" description="Do not know home bank branch code">
+
+        <customer intent="rejection_by_customer">होम बैंक branch code नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="158" description="Do not know home bank branch code">
+
+        <customer intent="rejection_by_customer">home बैंक branch code नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="159" description="Do not know home bank branch code">
+
+        <customer intent="rejection_by_customer">बैंक branch code नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="160" description="Do not know home bank branch code">
+
+        <customer intent="rejection_by_customer">branch code नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="161" description="Do not know home bank branch code">
+
+        <customer intent="rejection_by_customer">bank का branch code पता नहीं | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="162" description="Do not know home bank branch code">
+
+        <customer intent="rejection_by_customer">home bank branch code पता नहीं | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="163" description="Do not know home bank branch code">
+
+        <customer intent="rejection_by_customer">bank branch code पता नहीं | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="164" description="Do not know home bank branch code">
+
+        <customer intent="rejection_by_customer">branch code पता नहीं | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="165" description="Do not know home bank branch code">
+
+        <customer intent="rejection_by_customer">मुझे home bank का branch code नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="166" description="Do not know home bank branch code">
+
+        <customer intent="rejection_by_customer">मुझे bank branch code नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="167" description="Do not know home bank branch code">
+
+        <customer intent="rejection_by_customer">home bank का ब्रांच कोड नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="168" description="Do not know home bank branch code">
+
+        <customer intent="rejection_by_customer">bank ब्रांच कोड नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="169" description="Do not know home bank branch code">
+
+        <customer intent="rejection_by_customer">home branch code नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="170" description="Do not know home bank branch code">
+
+        <customer intent="rejection_by_customer">branch code नहीं पता | </customer>
+
+    </intent>
+
+</dataset>

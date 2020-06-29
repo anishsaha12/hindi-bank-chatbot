@@ -1,0 +1,10 @@
+<dataset>
+
+    <intent name="authentication_by_client_failed" variation="10" description="Credit Card Expiry">
+
+        <client intent="authentication_by_client_failed">आपका क्रेडिट कार्ड expiry गलत है ।</client>
+        <client intent="authentication_by_client_failed">कृपया सही क्रेडिट कार्ड expiry फिरसे लिखिए</client>
+
+    </intent>
+
+</dataset>

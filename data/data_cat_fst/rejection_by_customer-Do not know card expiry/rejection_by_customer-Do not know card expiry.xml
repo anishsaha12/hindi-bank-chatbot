@@ -1,0 +1,149 @@
+<dataset>
+
+    <intent name="rejection_by_customer" variation="99" description="Do not know card expiry">
+
+        <customer intent="rejection_by_customer">मुझे कार्ड का एक्सपायरी नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="100" description="Do not know card expiry">
+
+        <customer intent="rejection_by_customer">मुझे कार्ड एक्सपायरी नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="101" description="Do not know card expiry">
+
+        <customer intent="rejection_by_customer">कार्ड का एक्सपायरी नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="102" description="Do not know card expiry">
+
+        <customer intent="rejection_by_customer">कार्ड एक्सपायरी नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="103" description="Do not know card expiry">
+
+        <customer intent="rejection_by_customer">एक्सपायरी नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="104" description="Do not know card expiry">
+
+        <customer intent="rejection_by_customer">कार्ड का एक्सपायरी पता नहीं | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="105" description="Do not know card expiry">
+
+        <customer intent="rejection_by_customer">कार्ड एक्सपायरी पता नहीं | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="106" description="Do not know card expiry">
+
+        <customer intent="rejection_by_customer">एक्सपायरी पता नहीं | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="107" description="Do not know card expiry">
+
+        <customer intent="rejection_by_customer">मुझे card का एक्सपायरी नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="108" description="Do not know card expiry">
+
+        <customer intent="rejection_by_customer">मुझे card एक्सपायरी नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="109" description="Do not know card expiry">
+
+        <customer intent="rejection_by_customer">कार्ड का expiry नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="110" description="Do not know card expiry">
+
+        <customer intent="rejection_by_customer">कार्ड expiry नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="111" description="Do not know card expiry">
+
+        <customer intent="rejection_by_customer">expiry नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="112" description="Do not know card expiry">
+
+        <customer intent="rejection_by_customer">card का expiry पता नहीं | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="113" description="Do not know card expiry">
+
+        <customer intent="rejection_by_customer">card expiry पता नहीं | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="114" description="Do not know card expiry">
+
+        <customer intent="rejection_by_customer">expiry पता नहीं | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="115" description="Do not know card expiry">
+
+        <customer intent="rejection_by_customer">मुझे card का expiry नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="116" description="Do not know card expiry">
+
+        <customer intent="rejection_by_customer">मुझे card expiry नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="117" description="Do not know card expiry">
+
+        <customer intent="rejection_by_customer">card का एक्सपायरी नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="118" description="Do not know card expiry">
+
+        <customer intent="rejection_by_customer">card एक्सपायरी नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="119" description="Do not know card expiry">
+
+        <customer intent="rejection_by_customer">expiry नहीं पता | </customer>
+
+    </intent>
+
+</dataset>

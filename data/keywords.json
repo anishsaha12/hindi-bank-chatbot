@@ -1,0 +1,59 @@
+{"intents": 
+	[
+        {"intent": "account_balance",
+		 "description": "",
+         "keyword": ["बैलेंस", "खाते", "खाता", "अकाउंट", "संख्या", "नंबर", "देख", "देखना", "शेष", "जांच", "balance", "account", "number", "view", "see", "check"]
+		},
+		
+		{"intent": "payment",
+		 "description": "",
+         "keyword": ["पेमेंट", "पैसे", "भेजने", "भेजना", "भेजने", "खाता", "भुगतान", "जमा", "ट्रांसफर", "payment", "money", "send", "transfer"]
+		},
+		
+		{"intent": "registration_to_open_account",
+		 "description": "Savings Account",
+         "keyword": ["खाता", "अकाउंट", "खोलना", "करंट", "सेविंग", "सेविंग्स", "रेकरिंग", "डिपोजिट", "फिक्स्ड", "open", "current", "savings", "recurring", "deposit", "fixed"]
+		},
+		
+		{"intent": "add_beneficiary",
+		 "description": "",
+         "keyword": ["खाता", "बेनेफिशरी", "उपभोक्ता", "beneficiary", "add"]
+		},
+		
+		{"intent": "view_transactions",
+		 "description": "",
+         "keyword": ["खाता", "लेन", "देन", "विवरण", "चालान", "ईमेल", "transaction", "transactions", "last", "details", "email", "id"]
+		},
+		
+		{"intent": "branch_information",
+		 "description": "City",
+         "keyword": ["बैंक", "लोकेशन", "नज़दीकी", "ब्रांच", "शाखा", "शाखाये", "शहर", "location", "nearest", "branch", "city", "branches"]
+		},
+		
+		{"intent": "lost_debit_card",
+		 "description": "Block Card",
+         "keyword": ["खाता", "डेबिट", "कार्ड", "खोया", "खो", "गया", "ब्लॉक", "debit", "card", "lost", "lose", "block", "active", "फ्रीज", "फ्रीज़", "freeze", "time"]
+		},
+		
+		{"intent": "forgot_password",
+		 "description": "Net Banking",
+         "keyword": ["खाता", "पासवर्ड", "सांकेतिक", "भूल", "गया", "नेट", "बैंकिंग", "password", "forgot", "change"]
+		},
+		
+		{"intent": "reset_password",
+		 "description": "Net Banking",
+         "keyword": ["खाता", "पासवर्ड", "भूल", "गया", "लिंक", "बदल", "बदलना", "नेट", "बैंकिंग", "रिसेट", "password", "change", "net", "banking", "reset"]
+		},
+		
+		{"intent": "credit_card_details",
+		 "description": "Limit",
+         "keyword": ["खाता", "क्रेडिट", "कार्ड", "सीमा", "लिमिट", "credit", "card", "limit"]
+		},
+		
+		{"intent": "issue_check_book",
+		 "description": "",
+         "keyword": ["खाता", "अकाउंट", "चेक", "बुक", "इशू", "निवेदन", "cheque", "book", "issue", "request"]
+		}
+		
+	]
+}

@@ -1,0 +1,142 @@
+<dataset>
+
+    <intent name="rejection_by_customer" variation="9" description="Do not know card number">
+
+        <customer intent="rejection_by_customer">मुझे card number नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="41" description="Do not know card number">
+
+        <customer intent="rejection_by_customer">मुझे कार्ड संख्या नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="42" description="Do not know card number">
+
+        <customer intent="rejection_by_customer">कार्ड संख्या नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="43" description="Do not know card number">
+
+        <customer intent="rejection_by_customer">संख्या नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="44" description="Do not know card number">
+
+        <customer intent="rejection_by_customer">कार्ड संख्या पता नहीं | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="45" description="Do not know card number">
+
+        <customer intent="rejection_by_customer">संख्या पता नहीं | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="46" description="Do not know card number">
+
+        <customer intent="rejection_by_customer">मुझे कार्ड नंबर नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="47" description="Do not know card number">
+
+        <customer intent="rejection_by_customer">कार्ड नंबर नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="48" description="Do not know card number">
+
+        <customer intent="rejection_by_customer">नंबर नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="49" description="Do not know card number">
+
+        <customer intent="rejection_by_customer">कार्ड नंबर पता नहीं | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="50" description="Do not know card number">
+
+        <customer intent="rejection_by_customer">नंबर पता नहीं | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="51" description="Do not know card number">
+
+        <customer intent="rejection_by_customer">मुझे card संख्या नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="52" description="Do not know card number">
+
+        <customer intent="rejection_by_customer">कार्ड number नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="53" description="Do not know card number">
+
+        <customer intent="rejection_by_customer">number नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="54" description="Do not know card number">
+
+        <customer intent="rejection_by_customer">card number पता नहीं | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="55" description="Do not know card number">
+
+        <customer intent="rejection_by_customer">number पता नहीं | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="56" description="Do not know card number">
+
+        <customer intent="rejection_by_customer">मुझे card number नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="57" description="Do not know card number">
+
+        <customer intent="rejection_by_customer">card नंबर नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="58" description="Do not know card number">
+
+        <customer intent="rejection_by_customer">number नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="59" description="Do not know card number">
+
+        <customer intent="rejection_by_customer">card number पता नहीं | </customer>
+
+    </intent>
+
+</dataset>

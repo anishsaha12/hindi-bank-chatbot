@@ -1,0 +1,1032 @@
+<dataset>
+
+    <intent name="representative" variation="1">
+
+        <expand-intent description="Help" name="greetings" variation="8" />
+        <customer intent="representative">मुझे किसी बैंक प्रतिनिधि से बात करना है ।</customer>
+        <client intent="representative">क्या मे जान सकता हूँ किस बात के लिए आपको हमारे प्रतिनिधि से बात करना है ताकि मे सही प्रतिनिधि से आपको जोड़ सकु ? </client>
+        <customer intent="representative">मुझे YYYY के बारे में बात करना है . </customer>
+        <client intent="representative">ठीक है | आप अपना मोबाइल नंबर दीजिये | </client>
+        <customer intent="representative">मोबाइल नंबर 9961008350 . </customer>
+        <client intent="representative">धन्यवाद | थोड़ी देर मे आपको हमारे YYYY विभाग से प्रतिनिधि कॉल करेंगे | धीरज रखिए | </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="representative" variation="2">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="representative">मुझे बैंक प्रतिनिधि से बात करना है ।</customer>
+        <client intent="representative">क्या मे जान सकता हूँ किस विषय के लिए आपको हमारे प्रतिनिधि से बात करना है ताकि मे सही प्रतिनिधि से आपको जोड़ सकु ? </client>
+        <customer intent="representative">मुझे बैंक लोन के बारे में बात करना है . </customer>
+        <client intent="representative">ठीक है | आप अपना मोबाइल नंबर दीजिये | </client>
+        <customer intent="representative">मोबाइल नंबर 9961008350 . </customer>
+        <client intent="representative">धन्यवाद | थोड़ी देर मे आपको हमारे प्रतिनिधि कॉल करेंगे | धीरज रखिए | </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="representative" variation="3">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="representative">मुझे बैंक प्रतिनिधि से बात करना है ।</customer>
+        <client intent="representative">क्या मे जान सकता हूँ किस विषय के लिए आपको हमारे प्रतिनिधि से बात करना है ताकि मे सही प्रतिनिधि से आपको जोड़ सकु ? </client>
+        <customer intent="representative">YYYY के बारे में बात करना है . </customer>
+        <client intent="representative">ठीक है | आप अपना मोबाइल नंबर दीजिये | </client>
+        <customer intent="representative">मोबाइल number 9961008350 . </customer>
+        <client intent="representative">धन्यवाद | थोड़ी देर मे आपको हमारे YYYY विभाग से प्रतिनिधि कॉल करेंगे | धीरज रखिए | </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="representative" variation="4">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="representative">बैंक रिप्रेजेन्टेटिव से बात करना है ।</customer>
+        <client intent="representative">क्या मे जान सकता हूँ किस विषय के लिए आपको हमारे प्रतिनिधि से बात करना है ताकि मे सही प्रतिनिधि से आपको जोड़ सकु ? </client>
+        <customer intent="representative">YYYYY के लिए . </customer>
+        <client intent="representative">ठीक है | आप अपना मोबाइल नंबर दीजिये | </client>
+        <customer intent="representative">mobile नंबर 9961008350 . </customer>
+        <client intent="representative">धन्यवाद | थोड़ी देर मे आपको हमारे YYYY विभाग से प्रतिनिधि कॉल करेंगे | धीरज रखिए | </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="representative" variation="5">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="representative">बैंक representative से बात करना है ।</customer>
+        <client intent="representative">क्या मे जान सकता हूँ किस विषय के लिए आपको हमारे प्रतिनिधि से बात करना है ताकि मे सही प्रतिनिधि से आपको जोड़ सकु ? </client>
+        <customer intent="representative">YYYY के बारे में बात करने के लिए . </customer>
+        <client intent="representative">ठीक है | आप अपना मोबाइल नंबर दीजिये | </client>
+        <customer intent="representative">मोबाइल number 9961008350 . </customer>
+        <client intent="representative">धन्यवाद | थोड़ी देर मे आपको हमारे YYYY विभाग से प्रतिनिधि कॉल करेंगे | धीरज रखिए | </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="representative" variation="6">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="representative">मुझे बैंक representative से बात करना ।</customer>
+        <client intent="representative">क्या मे जान सकता हूँ किस विषय के लिए आपको हमारे प्रतिनिधि से बात करना है ताकि मे सही प्रतिनिधि से आपको जोड़ सकु ? </client>
+        <customer intent="representative">YYYYY के बारे में . </customer>
+        <client intent="representative">ठीक है | आप अपना मोबाइल नंबर दीजिये | </client>
+        <customer intent="representative">mobile 9961008350 . </customer>
+        <client intent="representative">धन्यवाद | थोड़ी देर मे आपको हमारे YYYY विभाग से प्रतिनिधि कॉल करेंगे | धीरज रखिए | </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="representative" variation="7">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="representative">मुझे bank प्रतिनिधि से बात करना ।</customer>
+        <client intent="representative">क्या मे जान सकता हूँ किस विषय के लिए आपको हमारे प्रतिनिधि से बात करना है ताकि मे सही प्रतिनिधि से आपको जोड़ सकु ? </client>
+        <customer intent="representative">YYYY के बारे में बात करना है . </customer>
+        <client intent="representative">ठीक है | आप अपना मोबाइल नंबर दीजिये | </client>
+        <customer intent="representative">number 9961008350 . </customer>
+        <client intent="representative">धन्यवाद | थोड़ी देर मे आपको हमारे YYYY विभाग से प्रतिनिधि कॉल करेंगे | धीरज रखिए | </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="representative" variation="8">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="representative">bank representative से बात ।</customer>
+        <client intent="representative">क्या मे जान सकता हूँ किस विषय के लिए आपको हमारे प्रतिनिधि से बात करना है ताकि मे सही प्रतिनिधि से आपको जोड़ सकु ? </client>
+        <customer intent="representative">YYYYY के विषय में . </customer>
+        <client intent="representative">ठीक है | आप अपना मोबाइल नंबर दीजिये | </client>
+        <customer intent="representative">9961008350 . </customer>
+        <client intent="representative">धन्यवाद | थोड़ी देर मे आपको हमारे YYYY विभाग से प्रतिनिधि कॉल करेंगे | धीरज रखिए | </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="representative" variation="9">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="representative">bank representative बात ।</customer>
+        <client intent="representative">क्या मे जान सकता हूँ किस विषय के लिए आपको हमारे प्रतिनिधि से बात करना है ताकि मे सही प्रतिनिधि से आपको जोड़ सकु ? </client>
+        <customer intent="representative">YYYYY विषय में . </customer>
+        <client intent="representative">ठीक है | आप अपना मोबाइल नंबर दीजिये | </client>
+        <customer intent="representative">9961008350 . </customer>
+        <client intent="representative">धन्यवाद | थोड़ी देर मे आपको हमारे YYYY विभाग से प्रतिनिधि कॉल करेंगे | धीरज रखिए | </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="representative" variation="10">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="representative">bank representative ।</customer>
+        <client intent="representative">क्या मे जान सकता हूँ किस विषय के लिए आपको हमारे प्रतिनिधि से बात करना है ताकि मे सही प्रतिनिधि से आपको जोड़ सकु ? </client>
+        <customer intent="representative">YYYYY विषय के लिए . </customer>
+        <client intent="representative">ठीक है | आप अपना मोबाइल नंबर दीजिये | </client>
+        <customer intent="representative">9961008350 . </customer>
+        <client intent="representative">धन्यवाद | थोड़ी देर मे आपको हमारे YYYY विभाग से प्रतिनिधि कॉल करेंगे | धीरज रखिए | </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="representative" variation="11">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="representative">बैंक प्रतिनिधि ।</customer>
+        <client intent="representative">क्या मे जान सकता हूँ किस विषय के लिए आपको हमारे प्रतिनिधि से बात करना है ताकि मे सही प्रतिनिधि से आपको जोड़ सकु ? </client>
+        <customer intent="representative">YYYYY के लिए . </customer>
+        <client intent="representative">ठीक है | आप अपना मोबाइल नंबर दीजिये | </client>
+        <customer intent="representative">9961008350 . </customer>
+        <client intent="representative">धन्यवाद | थोड़ी देर मे आपको हमारे YYYY विभाग से प्रतिनिधि कॉल करेंगे | धीरज रखिए | </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="representative" variation="12">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="representative">मुझे बैंक कि प्रतिनिधि से बात करना है ।</customer>
+        <client intent="representative">क्या मे जान सकता हूँ किस विषय के लिए आपको हमारे प्रतिनिधि से बात करना है ताकि मे सही प्रतिनिधि से आपको जोड़ सकु ? </client>
+        <customer intent="representative">YYYYY के लिए . </customer>
+        <client intent="representative">ठीक है | आप अपना मोबाइल नंबर दीजिये | </client>
+        <customer intent="representative">9961008350 . </customer>
+        <client intent="representative">धन्यवाद | थोड़ी देर मे आपको हमारे YYYY विभाग से प्रतिनिधि कॉल करेंगे | धीरज रखिए | </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="representative" variation="13">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="representative"> I want to talk to बैंक प्रतिनिधि ।</customer>
+        <client intent="representative">क्या मे जान सकता हूँ किस विषय के लिए आपको हमारे प्रतिनिधि से बात करना है ताकि मे सही प्रतिनिधि से आपको जोड़ सकु ? </client>
+        <customer intent="representative">YYYYY के लिए . </customer>
+        <client intent="representative">ठीक है | आप अपना मोबाइल नंबर दीजिये | </client>
+        <customer intent="representative">9961008350 . </customer>
+        <client intent="representative">धन्यवाद | थोड़ी देर मे आपको हमारे YYYY विभाग से प्रतिनिधि कॉल करेंगे | धीरज रखिए | </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="2" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="representative" variation="14">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="representative"> talk to बैंक प्रतिनिधि ।</customer>
+        <client intent="representative">क्या मे जान सकता हूँ किस विषय के लिए आपको हमारे प्रतिनिधि से बात करना है ताकि मे सही प्रतिनिधि से आपको जोड़ सकु ? </client>
+        <customer intent="representative">YYYYY के लिए . </customer>
+        <client intent="representative">ठीक है | आप अपना मोबाइल नंबर दीजिये | </client>
+        <customer intent="representative">9961008350 . </customer>
+        <client intent="representative">धन्यवाद | थोड़ी देर मे आपको हमारे YYYY विभाग से प्रतिनिधि कॉल करेंगे | धीरज रखिए | </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="3" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="representative" variation="15">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="representative"> contact बैंक प्रतिनिधि ।</customer>
+        <client intent="representative">क्या मे जान सकता हूँ किस विषय के लिए आपको हमारे प्रतिनिधि से बात करना है ताकि मे सही प्रतिनिधि से आपको जोड़ सकु ? </client>
+        <customer intent="representative">YYYYY के लिए . </customer>
+        <client intent="representative">ठीक है | आप अपना मोबाइल नंबर दीजिये | </client>
+        <customer intent="representative">9961008350 . </customer>
+        <client intent="representative">धन्यवाद | थोड़ी देर मे आपको हमारे YYYY विभाग से प्रतिनिधि कॉल करेंगे | धीरज रखिए | </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="4" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="representative" variation="16">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="representative"> connect to बैंक प्रतिनिधि ।</customer>
+        <client intent="representative">क्या मे जान सकता हूँ किस विषय के लिए आपको हमारे प्रतिनिधि से बात करना है ताकि मे सही प्रतिनिधि से आपको जोड़ सकु ? </client>
+        <customer intent="representative">YYYYY के लिए . </customer>
+        <client intent="representative">ठीक है | आप अपना मोबाइल नंबर दीजिये | </client>
+        <customer intent="representative">9961008350 . </customer>
+        <client intent="representative">धन्यवाद | थोड़ी देर मे आपको हमारे YYYY विभाग से प्रतिनिधि कॉल करेंगे | धीरज रखिए | </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="5" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="representative" variation="17">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="representative"> बैंक प्रतिनिधि से संपर्क करवाओ मुझे ।</customer>
+        <client intent="representative">क्या मे जान सकता हूँ किस विषय के लिए आपको हमारे प्रतिनिधि से बात करना है ताकि मे सही प्रतिनिधि से आपको जोड़ सकु ? </client>
+        <customer intent="representative">YYYYY के लिए . </customer>
+        <client intent="representative">ठीक है | आप अपना मोबाइल नंबर दीजिये | </client>
+        <customer intent="representative">9961008350 . </customer>
+        <client intent="representative">धन्यवाद | थोड़ी देर मे आपको हमारे YYYY विभाग से प्रतिनिधि कॉल करेंगे | धीरज रखिए | </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="6" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="representative" variation="18">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="representative"> बैंक प्रतिनिधि से संपर्क कराओ मुझे ।</customer>
+        <client intent="representative">क्या मे जान सकता हूँ किस विषय के लिए आपको हमारे प्रतिनिधि से बात करना है ताकि मे सही प्रतिनिधि से आपको जोड़ सकु ? </client>
+        <customer intent="representative">YYYYY के लिए . </customer>
+        <client intent="representative">ठीक है | आप अपना मोबाइल नंबर दीजिये | </client>
+        <customer intent="representative">9961008350 . </customer>
+        <client intent="representative">धन्यवाद | थोड़ी देर मे आपको हमारे YYYY विभाग से प्रतिनिधि कॉल करेंगे | धीरज रखिए | </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="7" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="representative" variation="19">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="representative"> बैंक प्रतिनिधि से संपर्क ।</customer>
+        <client intent="representative">क्या मे जान सकता हूँ किस विषय के लिए आपको हमारे प्रतिनिधि से बात करना है ताकि मे सही प्रतिनिधि से आपको जोड़ सकु ? </client>
+        <customer intent="representative">YYYYY के लिए . </customer>
+        <client intent="representative">ठीक है | आप अपना मोबाइल नंबर दीजिये | </client>
+        <customer intent="representative">9961008350 . </customer>
+        <client intent="representative">धन्यवाद | थोड़ी देर मे आपको हमारे YYYY विभाग से प्रतिनिधि कॉल करेंगे | धीरज रखिए | </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="8" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="representative" variation="20">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="representative"> बैंक प्रतिनिधि से connect करो ।</customer>
+        <client intent="representative">क्या मे जान सकता हूँ किस विषय के लिए आपको हमारे प्रतिनिधि से बात करना है ताकि मे सही प्रतिनिधि से आपको जोड़ सकु ? </client>
+        <customer intent="representative">YYYYY के लिए . </customer>
+        <client intent="representative">ठीक है | आप अपना मोबाइल नंबर दीजिये | </client>
+        <customer intent="representative">9961008350 . </customer>
+        <client intent="representative">धन्यवाद | थोड़ी देर मे आपको हमारे YYYY विभाग से प्रतिनिधि कॉल करेंगे | धीरज रखिए | </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="9" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="representative" variation="21">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="representative"> बैंक प्रतिनिधि से connect करवाओ ।</customer>
+        <client intent="representative">क्या मे जान सकता हूँ किस विषय के लिए आपको हमारे प्रतिनिधि से बात करना है ताकि मे सही प्रतिनिधि से आपको जोड़ सकु ? </client>
+        <customer intent="representative">YYYYY के लिए . </customer>
+        <client intent="representative">ठीक है | आप अपना मोबाइल नंबर दीजिये | </client>
+        <customer intent="representative">9961008350 . </customer>
+        <client intent="representative">धन्यवाद | थोड़ी देर मे आपको हमारे YYYY विभाग से प्रतिनिधि कॉल करेंगे | धीरज रखिए | </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="10" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="representative" variation="22">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="representative"> बैंक प्रतिनिधि से connect कराओ ।</customer>
+        <client intent="representative">क्या मे जान सकता हूँ किस विषय के लिए आपको हमारे प्रतिनिधि से बात करना है ताकि मे सही प्रतिनिधि से आपको जोड़ सकु ? </client>
+        <customer intent="representative">YYYYY के लिए . </customer>
+        <client intent="representative">ठीक है | आप अपना मोबाइल नंबर दीजिये | </client>
+        <customer intent="representative">9961008350 . </customer>
+        <client intent="representative">धन्यवाद | थोड़ी देर मे आपको हमारे YYYY विभाग से प्रतिनिधि कॉल करेंगे | धीरज रखिए | </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="11" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="representative" variation="23">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="representative"> मुझे bank कि representative से बात करना है ।</customer>
+        <client intent="representative">क्या मे जान सकता हूँ किस विषय के लिए आपको हमारे प्रतिनिधि से बात करना है ताकि मे सही प्रतिनिधि से आपको जोड़ सकु ? </client>
+        <customer intent="representative">YYYYY के लिए . </customer>
+        <client intent="representative">ठीक है | आप अपना मोबाइल नंबर दीजिये | </client>
+        <customer intent="representative">9961008350 . </customer>
+        <client intent="representative">धन्यवाद | थोड़ी देर मे आपको हमारे YYYY विभाग से प्रतिनिधि कॉल करेंगे | धीरज रखिए | </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="12" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="representative" variation="24">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="representative"> I want to talk to bank representative ।</customer>
+        <client intent="representative">क्या मे जान सकता हूँ किस विषय के लिए आपको हमारे प्रतिनिधि से बात करना है ताकि मे सही प्रतिनिधि से आपको जोड़ सकु ? </client>
+        <customer intent="representative">YYYYY के लिए . </customer>
+        <client intent="representative">ठीक है | आप अपना मोबाइल नंबर दीजिये | </client>
+        <customer intent="representative">9961008350 . </customer>
+        <client intent="representative">धन्यवाद | थोड़ी देर मे आपको हमारे YYYY विभाग से प्रतिनिधि कॉल करेंगे | धीरज रखिए | </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="13" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="representative" variation="25">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="representative"> talk to bank representative ।</customer>
+        <client intent="representative">क्या मे जान सकता हूँ किस विषय के लिए आपको हमारे प्रतिनिधि से बात करना है ताकि मे सही प्रतिनिधि से आपको जोड़ सकु ? </client>
+        <customer intent="representative">YYYYY के लिए . </customer>
+        <client intent="representative">ठीक है | आप अपना मोबाइल नंबर दीजिये | </client>
+        <customer intent="representative">9961008350 . </customer>
+        <client intent="representative">धन्यवाद | थोड़ी देर मे आपको हमारे YYYY विभाग से प्रतिनिधि कॉल करेंगे | धीरज रखिए | </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="14" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="representative" variation="26">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="representative"> contact bank representative ।</customer>
+        <client intent="representative">क्या मे जान सकता हूँ किस विषय के लिए आपको हमारे प्रतिनिधि से बात करना है ताकि मे सही प्रतिनिधि से आपको जोड़ सकु ? </client>
+        <customer intent="representative">YYYYY के लिए . </customer>
+        <client intent="representative">ठीक है | आप अपना मोबाइल नंबर दीजिये | </client>
+        <customer intent="representative">9961008350 . </customer>
+        <client intent="representative">धन्यवाद | थोड़ी देर मे आपको हमारे YYYY विभाग से प्रतिनिधि कॉल करेंगे | धीरज रखिए | </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="15" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="representative" variation="27">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="representative"> connect to bank representative ।</customer>
+        <client intent="representative">क्या मे जान सकता हूँ किस विषय के लिए आपको हमारे प्रतिनिधि से बात करना है ताकि मे सही प्रतिनिधि से आपको जोड़ सकु ? </client>
+        <customer intent="representative">YYYYY के लिए . </customer>
+        <client intent="representative">ठीक है | आप अपना मोबाइल नंबर दीजिये | </client>
+        <customer intent="representative">9961008350 . </customer>
+        <client intent="representative">धन्यवाद | थोड़ी देर मे आपको हमारे YYYY विभाग से प्रतिनिधि कॉल करेंगे | धीरज रखिए | </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="16" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="representative" variation="28">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="representative"> bank representative से संपर्क करवाओ मुझे ।</customer>
+        <client intent="representative">क्या मे जान सकता हूँ किस विषय के लिए आपको हमारे प्रतिनिधि से बात करना है ताकि मे सही प्रतिनिधि से आपको जोड़ सकु ? </client>
+        <customer intent="representative">YYYYY के लिए . </customer>
+        <client intent="representative">ठीक है | आप अपना मोबाइल नंबर दीजिये | </client>
+        <customer intent="representative">9961008350 . </customer>
+        <client intent="representative">धन्यवाद | थोड़ी देर मे आपको हमारे YYYY विभाग से प्रतिनिधि कॉल करेंगे | धीरज रखिए | </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="17" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="representative" variation="29">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="representative"> bank representative से संपर्क कराओ मुझे ।</customer>
+        <client intent="representative">क्या मे जान सकता हूँ किस विषय के लिए आपको हमारे प्रतिनिधि से बात करना है ताकि मे सही प्रतिनिधि से आपको जोड़ सकु ? </client>
+        <customer intent="representative">YYYYY के लिए . </customer>
+        <client intent="representative">ठीक है | आप अपना मोबाइल नंबर दीजिये | </client>
+        <customer intent="representative">9961008350 . </customer>
+        <client intent="representative">धन्यवाद | थोड़ी देर मे आपको हमारे YYYY विभाग से प्रतिनिधि कॉल करेंगे | धीरज रखिए | </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="18" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="representative" variation="30">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="representative"> bank representative से संपर्क ।</customer>
+        <client intent="representative">क्या मे जान सकता हूँ किस विषय के लिए आपको हमारे प्रतिनिधि से बात करना है ताकि मे सही प्रतिनिधि से आपको जोड़ सकु ? </client>
+        <customer intent="representative">YYYYY के लिए . </customer>
+        <client intent="representative">ठीक है | आप अपना मोबाइल नंबर दीजिये | </client>
+        <customer intent="representative">9961008350 . </customer>
+        <client intent="representative">धन्यवाद | थोड़ी देर मे आपको हमारे YYYY विभाग से प्रतिनिधि कॉल करेंगे | धीरज रखिए | </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="19" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="representative" variation="31">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="representative"> bank representative से connect करो ।</customer>
+        <client intent="representative">क्या मे जान सकता हूँ किस विषय के लिए आपको हमारे प्रतिनिधि से बात करना है ताकि मे सही प्रतिनिधि से आपको जोड़ सकु ? </client>
+        <customer intent="representative">YYYYY के लिए . </customer>
+        <client intent="representative">ठीक है | आप अपना मोबाइल नंबर दीजिये | </client>
+        <customer intent="representative">9961008350 . </customer>
+        <client intent="representative">धन्यवाद | थोड़ी देर मे आपको हमारे YYYY विभाग से प्रतिनिधि कॉल करेंगे | धीरज रखिए | </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="20" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="representative" variation="32">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="representative"> bank representative से connect करवाओ ।</customer>
+        <client intent="representative">क्या मे जान सकता हूँ किस विषय के लिए आपको हमारे प्रतिनिधि से बात करना है ताकि मे सही प्रतिनिधि से आपको जोड़ सकु ? </client>
+        <customer intent="representative">YYYYY के लिए . </customer>
+        <client intent="representative">ठीक है | आप अपना मोबाइल नंबर दीजिये | </client>
+        <customer intent="representative">9961008350 . </customer>
+        <client intent="representative">धन्यवाद | थोड़ी देर मे आपको हमारे YYYY विभाग से प्रतिनिधि कॉल करेंगे | धीरज रखिए | </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="21" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="representative" variation="33">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="representative"> bank representative से connect कराओ ।</customer>
+        <client intent="representative">क्या मे जान सकता हूँ किस विषय के लिए आपको हमारे प्रतिनिधि से बात करना है ताकि मे सही प्रतिनिधि से आपको जोड़ सकु ? </client>
+        <customer intent="representative">YYYYY के लिए . </customer>
+        <client intent="representative">ठीक है | आप अपना मोबाइल नंबर दीजिये | </client>
+        <customer intent="representative">9961008350 . </customer>
+        <client intent="representative">धन्यवाद | थोड़ी देर मे आपको हमारे YYYY विभाग से प्रतिनिधि कॉल करेंगे | धीरज रखिए | </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="22" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="representative" variation="34">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="representative"> I want to get in touch with बैंक प्रतिनिधि ।</customer>
+        <client intent="representative">क्या मे जान सकता हूँ किस विषय के लिए आपको हमारे प्रतिनिधि से बात करना है ताकि मे सही प्रतिनिधि से आपको जोड़ सकु ? </client>
+        <customer intent="representative">YYYYY के लिए . </customer>
+        <client intent="representative">ठीक है | आप अपना मोबाइल नंबर दीजिये | </client>
+        <customer intent="representative">9961008350 . </customer>
+        <client intent="representative">धन्यवाद | थोड़ी देर मे आपको हमारे YYYY विभाग से प्रतिनिधि कॉल करेंगे | धीरज रखिए | </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="23" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="representative" variation="35">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="representative"> I want to get in touch with bank representative ।</customer>
+        <client intent="representative">क्या मे जान सकता हूँ किस विषय के लिए आपको हमारे प्रतिनिधि से बात करना है ताकि मे सही प्रतिनिधि से आपको जोड़ सकु ? </client>
+        <customer intent="representative">YYYYY के लिए . </customer>
+        <client intent="representative">ठीक है | आप अपना मोबाइल नंबर दीजिये | </client>
+        <customer intent="representative">9961008350 . </customer>
+        <client intent="representative">धन्यवाद | थोड़ी देर मे आपको हमारे YYYY विभाग से प्रतिनिधि कॉल करेंगे | धीरज रखिए | </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="24" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="representative" variation="36">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="representative"> मुझे बैंक कि representative से बात करना है ।</customer>
+        <client intent="representative">क्या मे जान सकता हूँ किस विषय के लिए आपको हमारे प्रतिनिधि से बात करना है ताकि मे सही प्रतिनिधि से आपको जोड़ सकु ? </client>
+        <customer intent="representative">YYYYY के लिए . </customer>
+        <client intent="representative">ठीक है | आप अपना मोबाइल नंबर दीजिये | </client>
+        <customer intent="representative">9961008350 . </customer>
+        <client intent="representative">धन्यवाद | थोड़ी देर मे आपको हमारे YYYY विभाग से प्रतिनिधि कॉल करेंगे | धीरज रखिए | </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="25" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="representative" variation="37">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="representative"> I want to talk to बैंक representative ।</customer>
+        <client intent="representative">क्या मे जान सकता हूँ किस विषय के लिए आपको हमारे प्रतिनिधि से बात करना है ताकि मे सही प्रतिनिधि से आपको जोड़ सकु ? </client>
+        <customer intent="representative">YYYYY के लिए . </customer>
+        <client intent="representative">ठीक है | आप अपना मोबाइल नंबर दीजिये | </client>
+        <customer intent="representative">9961008350 . </customer>
+        <client intent="representative">धन्यवाद | थोड़ी देर मे आपको हमारे YYYY विभाग से प्रतिनिधि कॉल करेंगे | धीरज रखिए | </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="26" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="representative" variation="38">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="representative"> talk to बैंक representative ।</customer>
+        <client intent="representative">क्या मे जान सकता हूँ किस विषय के लिए आपको हमारे प्रतिनिधि से बात करना है ताकि मे सही प्रतिनिधि से आपको जोड़ सकु ? </client>
+        <customer intent="representative">YYYYY के लिए . </customer>
+        <client intent="representative">ठीक है | आप अपना मोबाइल नंबर दीजिये | </client>
+        <customer intent="representative">9961008350 . </customer>
+        <client intent="representative">धन्यवाद | थोड़ी देर मे आपको हमारे YYYY विभाग से प्रतिनिधि कॉल करेंगे | धीरज रखिए | </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="27" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="representative" variation="39">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="representative"> contact बैंक representative ।</customer>
+        <client intent="representative">क्या मे जान सकता हूँ किस विषय के लिए आपको हमारे प्रतिनिधि से बात करना है ताकि मे सही प्रतिनिधि से आपको जोड़ सकु ? </client>
+        <customer intent="representative">YYYYY के लिए . </customer>
+        <client intent="representative">ठीक है | आप अपना मोबाइल नंबर दीजिये | </client>
+        <customer intent="representative">9961008350 . </customer>
+        <client intent="representative">धन्यवाद | थोड़ी देर मे आपको हमारे YYYY विभाग से प्रतिनिधि कॉल करेंगे | धीरज रखिए | </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="28" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="representative" variation="40">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="representative"> connect to बैंक representative ।</customer>
+        <client intent="representative">क्या मे जान सकता हूँ किस विषय के लिए आपको हमारे प्रतिनिधि से बात करना है ताकि मे सही प्रतिनिधि से आपको जोड़ सकु ? </client>
+        <customer intent="representative">YYYYY के लिए . </customer>
+        <client intent="representative">ठीक है | आप अपना मोबाइल नंबर दीजिये | </client>
+        <customer intent="representative">9961008350 . </customer>
+        <client intent="representative">धन्यवाद | थोड़ी देर मे आपको हमारे YYYY विभाग से प्रतिनिधि कॉल करेंगे | धीरज रखिए | </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="29" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="representative" variation="41">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="representative"> बैंक representative से संपर्क करवाओ मुझे ।</customer>
+        <client intent="representative">क्या मे जान सकता हूँ किस विषय के लिए आपको हमारे प्रतिनिधि से बात करना है ताकि मे सही प्रतिनिधि से आपको जोड़ सकु ? </client>
+        <customer intent="representative">YYYYY के लिए . </customer>
+        <client intent="representative">ठीक है | आप अपना मोबाइल नंबर दीजिये | </client>
+        <customer intent="representative">9961008350 . </customer>
+        <client intent="representative">धन्यवाद | थोड़ी देर मे आपको हमारे YYYY विभाग से प्रतिनिधि कॉल करेंगे | धीरज रखिए | </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="30" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="representative" variation="42">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="representative"> बैंक representative से संपर्क कराओ मुझे ।</customer>
+        <client intent="representative">क्या मे जान सकता हूँ किस विषय के लिए आपको हमारे प्रतिनिधि से बात करना है ताकि मे सही प्रतिनिधि से आपको जोड़ सकु ? </client>
+        <customer intent="representative">YYYYY के लिए . </customer>
+        <client intent="representative">ठीक है | आप अपना मोबाइल नंबर दीजिये | </client>
+        <customer intent="representative">9961008350 . </customer>
+        <client intent="representative">धन्यवाद | थोड़ी देर मे आपको हमारे YYYY विभाग से प्रतिनिधि कॉल करेंगे | धीरज रखिए | </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="representative" variation="43">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="representative"> बैंक representative से संपर्क ।</customer>
+        <client intent="representative">क्या मे जान सकता हूँ किस विषय के लिए आपको हमारे प्रतिनिधि से बात करना है ताकि मे सही प्रतिनिधि से आपको जोड़ सकु ? </client>
+        <customer intent="representative">YYYYY के लिए . </customer>
+        <client intent="representative">ठीक है | आप अपना मोबाइल नंबर दीजिये | </client>
+        <customer intent="representative">9961008350 . </customer>
+        <client intent="representative">धन्यवाद | थोड़ी देर मे आपको हमारे YYYY विभाग से प्रतिनिधि कॉल करेंगे | धीरज रखिए | </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="6" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="representative" variation="44">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="representative"> बैंक representative से connect करो ।</customer>
+        <client intent="representative">क्या मे जान सकता हूँ किस विषय के लिए आपको हमारे प्रतिनिधि से बात करना है ताकि मे सही प्रतिनिधि से आपको जोड़ सकु ? </client>
+        <customer intent="representative">YYYYY के लिए . </customer>
+        <client intent="representative">ठीक है | आप अपना मोबाइल नंबर दीजिये | </client>
+        <customer intent="representative">9961008350 . </customer>
+        <client intent="representative">धन्यवाद | थोड़ी देर मे आपको हमारे YYYY विभाग से प्रतिनिधि कॉल करेंगे | धीरज रखिए | </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="representative" variation="45">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="representative"> बैंक representative से connect करवाओ ।</customer>
+        <client intent="representative">क्या मे जान सकता हूँ किस विषय के लिए आपको हमारे प्रतिनिधि से बात करना है ताकि मे सही प्रतिनिधि से आपको जोड़ सकु ? </client>
+        <customer intent="representative">YYYYY के लिए . </customer>
+        <client intent="representative">ठीक है | आप अपना मोबाइल नंबर दीजिये | </client>
+        <customer intent="representative">9961008350 . </customer>
+        <client intent="representative">धन्यवाद | थोड़ी देर मे आपको हमारे YYYY विभाग से प्रतिनिधि कॉल करेंगे | धीरज रखिए | </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="8" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="representative" variation="46">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="representative"> बैंक representative से connect कराओ ।</customer>
+        <client intent="representative">क्या मे जान सकता हूँ किस विषय के लिए आपको हमारे प्रतिनिधि से बात करना है ताकि मे सही प्रतिनिधि से आपको जोड़ सकु ? </client>
+        <customer intent="representative">YYYYY के लिए . </customer>
+        <client intent="representative">ठीक है | आप अपना मोबाइल नंबर दीजिये | </client>
+        <customer intent="representative">9961008350 . </customer>
+        <client intent="representative">धन्यवाद | थोड़ी देर मे आपको हमारे YYYY विभाग से प्रतिनिधि कॉल करेंगे | धीरज रखिए | </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="2" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="representative" variation="47">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="representative"> I want to get in touch with बैंक representative ।</customer>
+        <client intent="representative">क्या मे जान सकता हूँ किस विषय के लिए आपको हमारे प्रतिनिधि से बात करना है ताकि मे सही प्रतिनिधि से आपको जोड़ सकु ? </client>
+        <customer intent="representative">YYYYY के लिए . </customer>
+        <client intent="representative">ठीक है | आप अपना मोबाइल नंबर दीजिये | </client>
+        <customer intent="representative">9961008350 . </customer>
+        <client intent="representative">धन्यवाद | थोड़ी देर मे आपको हमारे YYYY विभाग से प्रतिनिधि कॉल करेंगे | धीरज रखिए | </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="2" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="6" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="representative" variation="48">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="representative"> मुझे bank कि प्रतिनिधि से बात करना है ।</customer>
+        <client intent="representative">क्या मे जान सकता हूँ किस विषय के लिए आपको हमारे प्रतिनिधि से बात करना है ताकि मे सही प्रतिनिधि से आपको जोड़ सकु ? </client>
+        <customer intent="representative">YYYYY के लिए . </customer>
+        <client intent="representative">ठीक है | आप अपना मोबाइल नंबर दीजिये | </client>
+        <customer intent="representative">9961008350 . </customer>
+        <client intent="representative">धन्यवाद | थोड़ी देर मे आपको हमारे YYYY विभाग से प्रतिनिधि कॉल करेंगे | धीरज रखिए | </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="2" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="representative" variation="49">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="representative"> I want to talk to bank प्रतिनिधि ।</customer>
+        <client intent="representative">क्या मे जान सकता हूँ किस विषय के लिए आपको हमारे प्रतिनिधि से बात करना है ताकि मे सही प्रतिनिधि से आपको जोड़ सकु ? </client>
+        <customer intent="representative">YYYYY के लिए . </customer>
+        <client intent="representative">ठीक है | आप अपना मोबाइल नंबर दीजिये | </client>
+        <customer intent="representative">9961008350 . </customer>
+        <client intent="representative">धन्यवाद | थोड़ी देर मे आपको हमारे YYYY विभाग से प्रतिनिधि कॉल करेंगे | धीरज रखिए | </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="2" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="8" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="representative" variation="50">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="representative"> talk to bank प्रतिनिधि ।</customer>
+        <client intent="representative">क्या मे जान सकता हूँ किस विषय के लिए आपको हमारे प्रतिनिधि से बात करना है ताकि मे सही प्रतिनिधि से आपको जोड़ सकु ? </client>
+        <customer intent="representative">YYYYY के लिए . </customer>
+        <client intent="representative">ठीक है | आप अपना मोबाइल नंबर दीजिये | </client>
+        <customer intent="representative">9961008350 . </customer>
+        <client intent="representative">धन्यवाद | थोड़ी देर मे आपको हमारे YYYY विभाग से प्रतिनिधि कॉल करेंगे | धीरज रखिए | </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="3" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="representative" variation="51">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="representative"> contact bank प्रतिनिधि ।</customer>
+        <client intent="representative">क्या मे जान सकता हूँ किस विषय के लिए आपको हमारे प्रतिनिधि से बात करना है ताकि मे सही प्रतिनिधि से आपको जोड़ सकु ? </client>
+        <customer intent="representative">YYYYY के लिए . </customer>
+        <client intent="representative">ठीक है | आप अपना मोबाइल नंबर दीजिये | </client>
+        <customer intent="representative">9961008350 . </customer>
+        <client intent="representative">धन्यवाद | थोड़ी देर मे आपको हमारे YYYY विभाग से प्रतिनिधि कॉल करेंगे | धीरज रखिए | </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="3" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="6" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="representative" variation="52">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="representative"> connect to bank प्रतिनिधि ।</customer>
+        <client intent="representative">क्या मे जान सकता हूँ किस विषय के लिए आपको हमारे प्रतिनिधि से बात करना है ताकि मे सही प्रतिनिधि से आपको जोड़ सकु ? </client>
+        <customer intent="representative">YYYYY के लिए . </customer>
+        <client intent="representative">ठीक है | आप अपना मोबाइल नंबर दीजिये | </client>
+        <customer intent="representative">9961008350 . </customer>
+        <client intent="representative">धन्यवाद | थोड़ी देर मे आपको हमारे YYYY विभाग से प्रतिनिधि कॉल करेंगे | धीरज रखिए | </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="3" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="representative" variation="53">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="representative"> bank प्रतिनिधि से संपर्क करवाओ मुझे ।</customer>
+        <client intent="representative">क्या मे जान सकता हूँ किस विषय के लिए आपको हमारे प्रतिनिधि से बात करना है ताकि मे सही प्रतिनिधि से आपको जोड़ सकु ? </client>
+        <customer intent="representative">YYYYY के लिए . </customer>
+        <client intent="representative">ठीक है | आप अपना मोबाइल नंबर दीजिये | </client>
+        <customer intent="representative">9961008350 . </customer>
+        <client intent="representative">धन्यवाद | थोड़ी देर मे आपको हमारे YYYY विभाग से प्रतिनिधि कॉल करेंगे | धीरज रखिए | </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="3" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="8" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="representative" variation="54">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="representative"> bank प्रतिनिधि से संपर्क कराओ मुझे ।</customer>
+        <client intent="representative">क्या मे जान सकता हूँ किस विषय के लिए आपको हमारे प्रतिनिधि से बात करना है ताकि मे सही प्रतिनिधि से आपको जोड़ सकु ? </client>
+        <customer intent="representative">YYYYY के लिए . </customer>
+        <client intent="representative">ठीक है | आप अपना मोबाइल नंबर दीजिये | </client>
+        <customer intent="representative">9961008350 . </customer>
+        <client intent="representative">धन्यवाद | थोड़ी देर मे आपको हमारे YYYY विभाग से प्रतिनिधि कॉल करेंगे | धीरज रखिए | </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="4" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="representative" variation="55">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="representative"> bank प्रतिनिधि से संपर्क ।</customer>
+        <client intent="representative">क्या मे जान सकता हूँ किस विषय के लिए आपको हमारे प्रतिनिधि से बात करना है ताकि मे सही प्रतिनिधि से आपको जोड़ सकु ? </client>
+        <customer intent="representative">YYYYY के लिए . </customer>
+        <client intent="representative">ठीक है | आप अपना मोबाइल नंबर दीजिये | </client>
+        <customer intent="representative">9961008350 . </customer>
+        <client intent="representative">धन्यवाद | थोड़ी देर मे आपको हमारे YYYY विभाग से प्रतिनिधि कॉल करेंगे | धीरज रखिए | </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="4" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="6" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="representative" variation="56">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="representative"> bank प्रतिनिधि से connect करो ।</customer>
+        <client intent="representative">क्या मे जान सकता हूँ किस विषय के लिए आपको हमारे प्रतिनिधि से बात करना है ताकि मे सही प्रतिनिधि से आपको जोड़ सकु ? </client>
+        <customer intent="representative">YYYYY के लिए . </customer>
+        <client intent="representative">ठीक है | आप अपना मोबाइल नंबर दीजिये | </client>
+        <customer intent="representative">9961008350 . </customer>
+        <client intent="representative">धन्यवाद | थोड़ी देर मे आपको हमारे YYYY विभाग से प्रतिनिधि कॉल करेंगे | धीरज रखिए | </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="4" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="representative" variation="57">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="representative"> bank प्रतिनिधि से connect करवाओ ।</customer>
+        <client intent="representative">क्या मे जान सकता हूँ किस विषय के लिए आपको हमारे प्रतिनिधि से बात करना है ताकि मे सही प्रतिनिधि से आपको जोड़ सकु ? </client>
+        <customer intent="representative">YYYYY के लिए . </customer>
+        <client intent="representative">ठीक है | आप अपना मोबाइल नंबर दीजिये | </client>
+        <customer intent="representative">9961008350 . </customer>
+        <client intent="representative">धन्यवाद | थोड़ी देर मे आपको हमारे YYYY विभाग से प्रतिनिधि कॉल करेंगे | धीरज रखिए | </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="4" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="8" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="representative" variation="58">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="representative"> bank प्रतिनिधि से connect कराओ ।</customer>
+        <client intent="representative">क्या मे जान सकता हूँ किस विषय के लिए आपको हमारे प्रतिनिधि से बात करना है ताकि मे सही प्रतिनिधि से आपको जोड़ सकु ? </client>
+        <customer intent="representative">YYYYY के लिए . </customer>
+        <client intent="representative">ठीक है | आप अपना मोबाइल नंबर दीजिये | </client>
+        <customer intent="representative">9961008350 . </customer>
+        <client intent="representative">धन्यवाद | थोड़ी देर मे आपको हमारे YYYY विभाग से प्रतिनिधि कॉल करेंगे | धीरज रखिए | </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="5" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="representative" variation="59">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="representative"> I want to get in touch with bank प्रतिनिधि ।</customer>
+        <client intent="representative">क्या मे जान सकता हूँ किस विषय के लिए आपको हमारे प्रतिनिधि से बात करना है ताकि मे सही प्रतिनिधि से आपको जोड़ सकु ? </client>
+        <customer intent="representative">YYYYY के लिए . </customer>
+        <client intent="representative">ठीक है | आप अपना मोबाइल नंबर दीजिये | </client>
+        <customer intent="representative">9961008350 . </customer>
+        <client intent="representative">धन्यवाद | थोड़ी देर मे आपको हमारे YYYY विभाग से प्रतिनिधि कॉल करेंगे | धीरज रखिए | </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="5" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="6" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="representative" variation="60">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="representative"> get in touch with बैंक प्रतिनिधि ।</customer>
+        <client intent="representative">क्या मे जान सकता हूँ किस विषय के लिए आपको हमारे प्रतिनिधि से बात करना है ताकि मे सही प्रतिनिधि से आपको जोड़ सकु ? </client>
+        <customer intent="representative">YYYYY के लिए . </customer>
+        <client intent="representative">ठीक है | आप अपना मोबाइल नंबर दीजिये | </client>
+        <customer intent="representative">9961008350 . </customer>
+        <client intent="representative">धन्यवाद | थोड़ी देर मे आपको हमारे YYYY विभाग से प्रतिनिधि कॉल करेंगे | धीरज रखिए | </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="5" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="6" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="representative" variation="61">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="representative"> get in touch with bank representative ।</customer>
+        <client intent="representative">क्या मे जान सकता हूँ किस विषय के लिए आपको हमारे प्रतिनिधि से बात करना है ताकि मे सही प्रतिनिधि से आपको जोड़ सकु ? </client>
+        <customer intent="representative">YYYYY के लिए . </customer>
+        <client intent="representative">ठीक है | आप अपना मोबाइल नंबर दीजिये | </client>
+        <customer intent="representative">9961008350 . </customer>
+        <client intent="representative">धन्यवाद | थोड़ी देर मे आपको हमारे YYYY विभाग से प्रतिनिधि कॉल करेंगे | धीरज रखिए | </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="5" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="representative" variation="62">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="representative"> get in touch with बैंक representative ।</customer>
+        <client intent="representative">क्या मे जान सकता हूँ किस विषय के लिए आपको हमारे प्रतिनिधि से बात करना है ताकि मे सही प्रतिनिधि से आपको जोड़ सकु ? </client>
+        <customer intent="representative">YYYYY के लिए . </customer>
+        <client intent="representative">ठीक है | आप अपना मोबाइल नंबर दीजिये | </client>
+        <customer intent="representative">9961008350 . </customer>
+        <client intent="representative">धन्यवाद | थोड़ी देर मे आपको हमारे YYYY विभाग से प्रतिनिधि कॉल करेंगे | धीरज रखिए | </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="5" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="8" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="representative" variation="63">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="representative"> get in touch with bank प्रतिनिधि ।</customer>
+        <client intent="representative">क्या मे जान सकता हूँ किस विषय के लिए आपको हमारे प्रतिनिधि से बात करना है ताकि मे सही प्रतिनिधि से आपको जोड़ सकु ? </client>
+        <customer intent="representative">YYYYY के लिए . </customer>
+        <client intent="representative">ठीक है | आप अपना मोबाइल नंबर दीजिये | </client>
+        <customer intent="representative">9961008350 . </customer>
+        <client intent="representative">धन्यवाद | थोड़ी देर मे आपको हमारे YYYY विभाग से प्रतिनिधि कॉल करेंगे | धीरज रखिए | </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="6" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+</dataset>

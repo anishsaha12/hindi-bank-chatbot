@@ -1,0 +1,363 @@
+<dataset>
+
+    <intent name="lost_debit_card" variation="1" description="Block Card">
+
+        <customer intent="lost_debit_card">मैंने अपना debit card खोया है | </customer>
+        <expand-intent description="Client: Without Name" name="greetings" variation="6" />
+        <client intent="lost_debit_card">क्या आप अपने debit card को ब्लॉक करना चाहते है या temporary freeze करना चाहते है ? </client>
+        <customer intent="lost_debit_card">हाँ block कर दो | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="lost_debit_card">कृपया अपने कार्ड का नंबर बताइये . </client>
+        <customer intent="lost_debit_card">DDDDDDDDDDDDDDDD</customer>
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="lost_debit_card">आपका debit card तीन घंटे के अन्दर ब्लॉक हो जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="lost_debit_card" variation="4" description="Block Card">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="lost_debit_card">मैंने अपना डेबिट कार्ड खो लिया है | </customer>
+        <client intent="lost_debit_card">क्या आप अपने debit card को ब्लॉक करना चाहते है या temporary फ्रीज करना चाहते है ? </client>
+        <customer intent="lost_debit_card">हाँ block कर दो | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="lost_debit_card">कृपया अपने कार्ड का नंबर बताइये . </client>
+        <customer intent="lost_debit_card">DDDDDDDDDDDDDDDD</customer>
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="lost_debit_card">आपका debit card तीन घंटे के अन्दर ब्लॉक हो जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="lost_debit_card" variation="5" description="Block Card">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="lost_debit_card">मैंने अपना डेबिट कार्ड खोया है | </customer>
+        <client intent="lost_debit_card">क्या आप अपने debit card को ब्लॉक करना चाहते है या temporary फ्रीज करना चाहते है ? </client>
+        <customer intent="lost_debit_card">हाँ block | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="lost_debit_card">कृपया अपने कार्ड का नंबर बताइये . </client>
+        <customer intent="lost_debit_card">DDDDDDDDDDDDDDDD</customer>
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="lost_debit_card">आपका debit card तीन घंटे के अन्दर ब्लॉक हो जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="lost_debit_card" variation="6" description="Block Card">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="lost_debit_card">अपना डेबिट कार्ड खोया है | </customer>
+        <client intent="lost_debit_card">क्या आप अपने debit card को ब्लॉक करना चाहते है या temporary फ्रीज करना चाहते है ? </client>
+        <customer intent="lost_debit_card">block करे | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="lost_debit_card">कृपया अपने कार्ड का नंबर बताइये . </client>
+        <customer intent="lost_debit_card">कार्ड संख्या : DDDDDDDDDDDDDDDD</customer>
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="lost_debit_card">आपका debit card तीन घंटे के अन्दर ब्लॉक हो जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="lost_debit_card" variation="7" description="Block Card">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="lost_debit_card">डेबिट कार्ड खोया | </customer>
+        <client intent="lost_debit_card">क्या आप अपने debit card को ब्लॉक करना चाहते है या temporary फ्रीज करना चाहते है ? </client>
+        <customer intent="lost_debit_card">block कर दो | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="lost_debit_card">कृपया अपने कार्ड का नंबर बताइये . </client>
+        <customer intent="lost_debit_card">कार्ड संख्या DDDDDDDDDDDDDDDD</customer>
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="lost_debit_card">आपका debit card तीन घंटे के अन्दर ब्लॉक हो जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="lost_debit_card" variation="8" description="Block Card">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="lost_debit_card">मेरा डेबिट कार्ड खो गया | </customer>
+        <client intent="lost_debit_card">क्या आप अपने debit card को ब्लॉक करना चाहते है या temporary फ्रीज करना चाहते है ? </client>
+        <customer intent="lost_debit_card">block | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="lost_debit_card">कृपया अपने कार्ड का नंबर बताइये . </client>
+        <customer intent="lost_debit_card">संख्या : DDDDDDDDDDDDDDDD</customer>
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="lost_debit_card">आपका debit card तीन घंटे के अन्दर ब्लॉक हो जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="lost_debit_card" variation="9" description="Block Card">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="lost_debit_card">डेबिट कार्ड खो गया | </customer>
+        <client intent="lost_debit_card">क्या आप अपने debit card को ब्लॉक करना चाहते है या temporary फ्रीज करना चाहते है ? </client>
+        <customer intent="lost_debit_card">हाँ ब्लॉक करे | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="lost_debit_card">कृपया अपने कार्ड का नंबर बताइये . </client>
+        <customer intent="lost_debit_card">संख्या DDDDDDDDDDDDDDDD</customer>
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="lost_debit_card">आपका debit card तीन घंटे के अन्दर ब्लॉक हो जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="lost_debit_card" variation="10" description="Block Card">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="lost_debit_card">डेबिट कार्ड lost हो गया | </customer>
+        <client intent="lost_debit_card">क्या आप अपने debit card को ब्लॉक करना चाहते है या temporary फ्रीज करना चाहते है ? </client>
+        <customer intent="lost_debit_card">ब्लॉक करे | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="lost_debit_card">कृपया अपने कार्ड का नंबर बताइये . </client>
+        <customer intent="lost_debit_card">कार्ड : DDDDDDDDDDDDDDDD</customer>
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="lost_debit_card">आपका debit card तीन घंटे के अन्दर ब्लॉक हो जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="lost_debit_card" variation="11" description="Block Card">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="lost_debit_card">डेबिट कार्ड lost | </customer>
+        <client intent="lost_debit_card">क्या आप अपने debit card को ब्लॉक करना चाहते है या temporary फ्रीज करना चाहते है ? </client>
+        <customer intent="lost_debit_card"> ब्लॉक कर | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="lost_debit_card">कृपया अपने कार्ड का नंबर बताइये . </client>
+        <customer intent="lost_debit_card">कार्ड DDDDDDDDDDDDDDDD</customer>
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="lost_debit_card">आपका debit card तीन घंटे के अन्दर ब्लॉक हो जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="lost_debit_card" variation="12" description="Block Card">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="lost_debit_card">lost डेबिट कार्ड | </customer>
+        <client intent="lost_debit_card">क्या आप अपने debit card को ब्लॉक करना चाहते है या temporary फ्रीज करना चाहते है ? </client>
+        <customer intent="lost_debit_card">ब्लॉक | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="lost_debit_card">कृपया अपने कार्ड का नंबर बताइये . </client>
+        <customer intent="lost_debit_card">DDDDDDDDDDDDDDDD</customer>
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="lost_debit_card">आपका debit card तीन घंटे के अन्दर ब्लॉक हो जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="lost_debit_card" variation="13" description="Block Card">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="lost_debit_card">मैंने अपना debit कार्ड खो लिया है | </customer>
+        <client intent="lost_debit_card">क्या आप अपने debit card को ब्लॉक करना चाहते है या temporary फ्रीज करना चाहते है ? </client>
+        <customer intent="lost_debit_card">हाँ block कर दो | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="lost_debit_card">कृपया अपने कार्ड का नंबर बताइये . </client>
+        <customer intent="lost_debit_card">debit card DDDDDDDDDDDDDDDD</customer>
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="lost_debit_card">आपका debit card तीन घंटे के अन्दर ब्लॉक हो जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="lost_debit_card" variation="14" description="Block Card">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="lost_debit_card">मैंने अपना डेबिट card खोया है | </customer>
+        <client intent="lost_debit_card">क्या आप अपने debit card को ब्लॉक करना चाहते है या temporary फ्रीज करना चाहते है ? </client>
+        <customer intent="lost_debit_card">हाँ block | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="lost_debit_card">कृपया अपने कार्ड का नंबर बताइये . </client>
+        <customer intent="lost_debit_card">debit card number DDDDDDDDDDDDDDDD</customer>
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="lost_debit_card">आपका debit card तीन घंटे के अन्दर ब्लॉक हो जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="lost_debit_card" variation="15" description="Block Card">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="lost_debit_card">अपना debit card खोया है | </customer>
+        <client intent="lost_debit_card">क्या आप अपने debit card को ब्लॉक करना चाहते है या temporary फ्रीज करना चाहते है ? </client>
+        <customer intent="lost_debit_card">block करे | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="lost_debit_card">कृपया अपने कार्ड का नंबर बताइये . </client>
+        <customer intent="lost_debit_card">card number : DDDDDDDDDDDDDDDD</customer>
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="lost_debit_card">आपका debit card तीन घंटे के अन्दर ब्लॉक हो जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="lost_debit_card" variation="16" description="Block Card">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="lost_debit_card">debit card खोया | </customer>
+        <client intent="lost_debit_card">क्या आप अपने debit card को ब्लॉक करना चाहते है या temporary फ्रीज करना चाहते है ? </client>
+        <customer intent="lost_debit_card">block कर दो | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="lost_debit_card">कृपया अपने कार्ड का नंबर बताइये . </client>
+        <customer intent="lost_debit_card">card number DDDDDDDDDDDDDDDD</customer>
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="lost_debit_card">आपका debit card तीन घंटे के अन्दर ब्लॉक हो जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="lost_debit_card" variation="17" description="Block Card">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="lost_debit_card">मेरा debit card खो गया | </customer>
+        <client intent="lost_debit_card">क्या आप अपने debit card को ब्लॉक करना चाहते है या temporary फ्रीज करना चाहते है ? </client>
+        <customer intent="lost_debit_card">block | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="lost_debit_card">कृपया अपने कार्ड का नंबर बताइये . </client>
+        <customer intent="lost_debit_card">number : DDDDDDDDDDDDDDDD</customer>
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="lost_debit_card">आपका debit card तीन घंटे के अन्दर ब्लॉक हो जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="lost_debit_card" variation="18" description="Block Card">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="lost_debit_card">डेबिट card खो गया | </customer>
+        <client intent="lost_debit_card">क्या आप अपने debit card को ब्लॉक करना चाहते है या temporary फ्रीज करना चाहते है ? </client>
+        <customer intent="lost_debit_card">हाँ ब्लॉक करे | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="lost_debit_card">कृपया अपने कार्ड का नंबर बताइये . </client>
+        <customer intent="lost_debit_card">number DDDDDDDDDDDDDDDD</customer>
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="lost_debit_card">आपका debit card तीन घंटे के अन्दर ब्लॉक हो जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="lost_debit_card" variation="19" description="Block Card">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="lost_debit_card">debit card block करना है | </customer>
+        <client intent="lost_debit_card">क्या आप अपने debit card को ब्लॉक करना चाहते है या temporary फ्रीज करना चाहते है ? </client>
+        <customer intent="lost_debit_card">ब्लॉक करे | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="lost_debit_card">कृपया अपने कार्ड का नंबर बताइये . </client>
+        <customer intent="lost_debit_card">card : DDDDDDDDDDDDDDDD</customer>
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="lost_debit_card">आपका debit card तीन घंटे के अन्दर ब्लॉक हो जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="lost_debit_card" variation="20" description="Block Card">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="lost_debit_card">debit card ब्लॉक करना | </customer>
+        <client intent="lost_debit_card">क्या आप अपने debit card को ब्लॉक करना चाहते है या temporary फ्रीज करना चाहते है ? </client>
+        <customer intent="lost_debit_card"> ब्लॉक कर | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="lost_debit_card">कृपया अपने कार्ड का नंबर बताइये . </client>
+        <customer intent="lost_debit_card">कार्ड DDDDDDDDDDDDDDDD</customer>
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="lost_debit_card">आपका debit card तीन घंटे के अन्दर ब्लॉक हो जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="lost_debit_card" variation="21" description="Block Card">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="lost_debit_card">debit card ब्लॉक करना है | </customer>
+        <client intent="lost_debit_card">क्या आप अपने debit card को ब्लॉक करना चाहते है या temporary फ्रीज करना चाहते है ? </client>
+        <customer intent="lost_debit_card">ब्लॉक | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="lost_debit_card">कृपया अपने कार्ड का नंबर बताइये . </client>
+        <customer intent="lost_debit_card">DDDDDDDDDDDDDDDD</customer>
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="lost_debit_card">आपका debit card तीन घंटे के अन्दर ब्लॉक हो जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+</dataset>

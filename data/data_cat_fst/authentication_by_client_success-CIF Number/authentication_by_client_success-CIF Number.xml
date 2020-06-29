@@ -1,0 +1,138 @@
+<dataset>
+
+    <intent name="authentication_by_client_success" variation="11" description="CIF Number">
+
+        <client intent="authentication_by_client_success">कृपया अपना CIF नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">CIFCIF</customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="126" description="CIF Number">
+
+        <client intent="authentication_by_client_success">कृपया अपना CIF नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">मेरे बैंक का सी . आई . फ . संख्या - CIFCIF है . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="127" description="CIF Number">
+
+        <client intent="authentication_by_client_success">कृपया अपना CIF नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">मेरे बैंक का सी . आई . फ . नंबर - CIFCIF है . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="128" description="CIF Number">
+
+        <client intent="authentication_by_client_success">कृपया अपना CIF नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">मेरे बैंक का सीआईफ संख्या - CIFCIF है . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="129" description="CIF Number">
+
+        <client intent="authentication_by_client_success">कृपया अपना CIF नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">मेरे बैंक का सीआईफ नंबर - CIFCIF है . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="130" description="CIF Number">
+
+        <client intent="authentication_by_client_success">कृपया अपना CIF नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">मेरे सी . आई . फ . नंबर - CIFCIF है . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="131" description="CIF Number">
+
+        <client intent="authentication_by_client_success">कृपया अपना CIF नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">सी . आई . फ . नंबर - CIFCIF . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="132" description="CIF Number">
+
+        <client intent="authentication_by_client_success">कृपया अपना CIF नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">सी . आई . फ . CIFCIF . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="133" description="CIF Number">
+
+        <client intent="authentication_by_client_success">कृपया अपना CIF नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">नंबर CIFCIF . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="134" description="CIF Number">
+
+        <client intent="authentication_by_client_success">कृपया अपना CIF नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">मेरे bank का cif संख्या - CIFCIF है . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="135" description="CIF Number">
+
+        <client intent="authentication_by_client_success">कृपया अपना CIF नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">मेरे बैंक का cif number - CIFCIF है . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="136" description="CIF Number">
+
+        <client intent="authentication_by_client_success">कृपया अपना CIF नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">मेरे बैंक का cif संख्या - CIFCIF है . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="137" description="CIF Number">
+
+        <client intent="authentication_by_client_success">कृपया अपना CIF नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">मेरे बैंक का सीआईफ number - CIFCIF है . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="138" description="CIF Number">
+
+        <client intent="authentication_by_client_success">कृपया अपना CIF नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">मेरे C . I . F . number - CIFCIF है . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="139" description="CIF Number">
+
+        <client intent="authentication_by_client_success">कृपया अपना CIF नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">CIF number - CIFCIF . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="140" description="CIF Number">
+
+        <client intent="authentication_by_client_success">कृपया अपना CIF नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">CIF CIFCIF . </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="141" description="CIF Number">
+
+        <client intent="authentication_by_client_success">कृपया अपना CIF नंबर बताइये . </client>
+        <customer intent="authentication_by_client_success">number CIFCIF . </customer>
+
+    </intent>
+
+</dataset>

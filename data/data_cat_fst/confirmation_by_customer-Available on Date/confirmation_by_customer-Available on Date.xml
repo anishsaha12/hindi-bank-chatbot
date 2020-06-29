@@ -1,0 +1,107 @@
+<dataset>
+
+    <intent name="confirmation_by_customer" variation="5" description="Available on Date">
+
+        <customer intent="confirmation_by_customer">मै 25 मार्च को उपलब्ध हु ।</customer>
+
+    </intent>
+
+
+    <intent name="confirmation_by_customer" variation="50" description="Available on Date">
+
+        <customer intent="confirmation_by_customer">हाँ मै DD - MM को उपलब्ध हु ।</customer>
+
+    </intent>
+
+
+    <intent name="confirmation_by_customer" variation="51" description="Available on Date">
+
+        <customer intent="confirmation_by_customer">मै DD - MM को उपलब्ध हु ।</customer>
+
+    </intent>
+
+
+    <intent name="confirmation_by_customer" variation="52" description="Available on Date">
+
+        <customer intent="confirmation_by_customer">हाँ DD - MM को उपलब्ध हु ।</customer>
+
+    </intent>
+
+
+    <intent name="confirmation_by_customer" variation="53" description="Available on Date">
+
+        <customer intent="confirmation_by_customer">DD - MM को उपलब्ध हु ।</customer>
+
+    </intent>
+
+
+    <intent name="confirmation_by_customer" variation="54" description="Available on Date">
+
+        <customer intent="confirmation_by_customer">DD - MM को उपलब्ध ।</customer>
+
+    </intent>
+
+
+    <intent name="confirmation_by_customer" variation="55" description="Available on Date">
+
+        <customer intent="confirmation_by_customer">DD - MM उपलब्ध ।</customer>
+
+    </intent>
+
+
+    <intent name="confirmation_by_customer" variation="56" description="Available on Date">
+
+        <customer intent="confirmation_by_customer">DD - MM को ।</customer>
+
+    </intent>
+
+
+    <intent name="confirmation_by_customer" variation="57" description="Available on Date">
+
+        <customer intent="confirmation_by_customer">हाँ मै DD - MM को available हु ।</customer>
+
+    </intent>
+
+
+    <intent name="confirmation_by_customer" variation="58" description="Available on Date">
+
+        <customer intent="confirmation_by_customer">मै DD - MM को available हु ।</customer>
+
+    </intent>
+
+
+    <intent name="confirmation_by_customer" variation="59" description="Available on Date">
+
+        <customer intent="confirmation_by_customer">हाँ DD - MM को available हु ।</customer>
+
+    </intent>
+
+
+    <intent name="confirmation_by_customer" variation="60" description="Available on Date">
+
+        <customer intent="confirmation_by_customer">DD - MM को available हु ।</customer>
+
+    </intent>
+
+
+    <intent name="confirmation_by_customer" variation="61" description="Available on Date">
+
+        <customer intent="confirmation_by_customer">DD - MM को available ।</customer>
+
+    </intent>
+
+
+    <intent name="confirmation_by_customer" variation="62" description="Available on Date">
+
+        <customer intent="confirmation_by_customer">available on DD - MM ।</customer>
+
+    </intent>
+
+
+    <intent name="confirmation_by_customer" variation="63" description="Available on Date">
+
+        <customer intent="confirmation_by_customer">on DD - MM ।</customer>
+
+    </intent>
+
+</dataset>

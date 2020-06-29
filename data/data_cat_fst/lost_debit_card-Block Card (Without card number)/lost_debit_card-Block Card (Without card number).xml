@@ -1,0 +1,54 @@
+<dataset>
+
+    <intent name="lost_debit_card" variation="3" description="Block Card (Without card number)">
+
+        <customer intent="lost_debit_card">मैंने अपना debit card खोया है | </customer>
+        <expand-intent description="Client: Without Name" name="greetings" variation="6" />
+        <client intent="lost_debit_card">क्या आप अपने debit card को ब्लॉक करना चाहते है या temporary freeze करना चाहते है ? </client>
+        <customer intent="lost_debit_card">block कर दिजिये | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="lost_debit_card">कृपया अपने कार्ड का नंबर बताइये . </client>
+        <expand-intent description="Do not know card number" name="rejection_by_customer" variation="9" />
+        <client intent="lost_debit_card">आपके अकॉउंट में दो कार्ड active है :
+1 . number : 1598-5555-7423-9999
+Validity: 05/23
+2 . number : DDDDDDDDDDDDDDDD
+Validity: 09/27
+आप कृपया अपना एक कार्ड नंबर बताइये</client>
+        <customer intent="lost_debit_card">DDDDDDDDDDDDDDDD</customer>
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="lost_debit_card">आपका debit card तीन घंटे के अन्दर ब्लॉक हो जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="lost_debit_card" variation="35" description="Block Card (Without card number)">
+
+        <customer intent="lost_debit_card">मेरा डेबिट कार्ड खोया है | </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <client intent="lost_debit_card">क्या आप अपने debit card को ब्लॉक करना चाहते है या temporary फ्रीज करना चाहते है ? </client>
+        <customer intent="lost_debit_card">ब्लॉक कर दे | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <client intent="lost_debit_card">कृपया अपने कार्ड का नंबर बताइये . </client>
+        <expand-intent description="Do not know card number" name="rejection_by_customer" variation="9" />
+        <client intent="lost_debit_card">आपके अकॉउंट में दो कार्ड active है :
+1 . number : 1598-5555-7423-9999
+Validity: 05/23
+2 . number : DDDDDDDDDDDDDDDD
+Validity: 09/27
+आप कृपया अपना एक कार्ड नंबर बताइये</client>
+        <customer intent="lost_debit_card">DDDDDDDDDDDDDDDD</customer>
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="lost_debit_card">आपका debit card तीन घंटे के अन्दर ब्लॉक हो जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+</dataset>

@@ -1,0 +1,1872 @@
+<dataset>
+
+    <intent name="account_balance" variation="1">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance">मै अपने खाते के बैलेंस नहीं देख पा रहा हूँ | हेल्प चाहिए | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="2">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance">मै अपने खाते के बैलेंस नहीं देख पा रहा हूँ | हेल्प चाहिए | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 25200 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="3">
+
+        <customer intent="account_balance">मे अपने खाते के बैलेंस नहीं देख पा रहा हूँ | </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 14500 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="4">
+
+        <expand-intent description="Hello" name="greetings" variation="18" />
+        <customer intent="account_balance">मुझे अपना खाते का balance देखना है ।</customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका अकाउंट का शेष Rs 1624 है | </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="5">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance">मुझे अपने खाते का बैलेंस देखना है | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="6">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance">मुझे खाते का बैलेंस देखना है | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="7">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance">मुझे account बैलेंस देखना है | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="8">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance">खाता बैलेंस देखना है | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="9">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance">खाता बैलेंस दिखाए | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="10">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance">खाता बैलेंस दिखाइये | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="11">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance">खाता बैलेंस दिखा | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="12">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance">खाता बैलेंस | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="13">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance">मुझे अपने अकाउंट का बैलेंस देखना है | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="14">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance">मुझे अकाउंट का बैलेंस देखना है | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="15">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance">मुझे अकाउंट बैलेंस देखना है | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="16">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance">अकाउंट बैलेंस देखना है | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="17">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance">अकाउंट बैलेंस दिखाए | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="18">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance">अकाउंट बैलेंस दिखाइये | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="19">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance">अकाउंट बैलेंस दिखा | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="20">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance">अकाउंट बैलेंस | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="21">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance">मुझे अपने अकाउंट का balance देखना है | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="22">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance">मुझे अकाउंट का balance देखना है | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="23">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance">मुझे अकाउंट balance देखना है | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="24">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance">अकाउंट balance देखना है | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="25">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance">अकाउंट balance दिखाए | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="26">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance">अकाउंट balance दिखाइये | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="27">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance">अकाउंट balance दिखा | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="28">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance">अकाउंट balance | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="29">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance">मुझे अपने account का बैलेंस देखना है | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="30">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance">मुझे account का बैलेंस देखना है | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="31">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance">मुझे account बैलेंस देखना है | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="32">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance">account बैलेंस देखना है | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="33">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance">account बैलेंस दिखाए | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="34">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance">account बैलेंस दिखाइये | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="35">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance">account बैलेंस दिखा | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="36">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance">account बैलेंस | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="37">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance">मुझे अपने account का balance देखना है | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="38">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance">मुझे account का balance देखना है | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="39">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance">मुझे account balance देखना है | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="40">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance">account balance देखना है | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="41">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance">account balance दिखाए | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="42">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance">account balance दिखाइये | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="43">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance">account balance दिखा | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="44">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance">account balance | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="45">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance">मुझे अपने balance देखना है | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="46">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance">मुझे अपना balance देखना है | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="47">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance">मुझे balance देखना है | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="48">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance">balance देखना है | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="49">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance">balance दिखाए | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="50">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance">balance दिखाइये | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="51">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance">balance दिखा | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="52">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance">balance | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="9" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="53">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance"> see my balance | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="10" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="2" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="54">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance"> balance enquiry | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="10" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="2" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="6" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="55">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance"> enquiry about my balance | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="10" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="2" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="56">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance"> check out my balance | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="10" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="2" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="8" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="57">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance"> I want to check out my balance | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="10" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="3" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="58">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance"> I want to check out my balance | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="10" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="3" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="6" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="59">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance"> check my balance | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="10" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="3" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="60">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance"> my balance enquiry | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="10" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="3" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="8" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="61">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance"> my balance enquiry immediately | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="10" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="4" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="62">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance"> I want to know about my balance | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="10" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="4" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="6" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="63">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance"> I want to know about my account balance | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="10" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="4" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="64">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance"> check account balance | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="10" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="4" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="8" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="65">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance"> check my account balance | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="10" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="5" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="66">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance"> I want to check my account balance | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="10" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="5" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="6" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="67">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance"> see my account balance | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="10" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="5" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="68">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance"> account balance enquiry | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="10" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="5" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="8" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="69">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance"> enquiry about my account balance | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="10" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="6" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="70">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance"> check out my account balance | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="10" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="6" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="6" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="71">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance"> my account balance enquiry | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="10" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="6" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="72">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance"> my account balance enquiry immediately | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="10" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="6" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="8" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="73">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance"> I want to check my बैलेंस | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="10" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="2" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="74">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance"> see my बैलेंस | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="10" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="2" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="6" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="75">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance"> बैलेंस enquiry | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="10" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="2" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="76">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance"> enquiry about my बैलेंस | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="10" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="2" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="8" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="77">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance"> check out my बैलेंस | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="10" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="2" />
+        <expand-intent description="No" name="rejection_by_customer" variation="2" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="78">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance"> my बैलेंस enquiry | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="10" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="2" />
+        <expand-intent description="No" name="rejection_by_customer" variation="2" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="6" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="79">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance"> my बैलेंस enquiry immediately | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="10" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="2" />
+        <expand-intent description="No" name="rejection_by_customer" variation="2" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="80">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance"> I want to know about my बैलेंस | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="10" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="2" />
+        <expand-intent description="No" name="rejection_by_customer" variation="2" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="8" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="81">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance"> I want to know about my अकाउंट बैलेंस | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="10" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="2" />
+        <expand-intent description="No" name="rejection_by_customer" variation="3" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="82">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance"> check अकाउंट बैलेंस | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="10" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="2" />
+        <expand-intent description="No" name="rejection_by_customer" variation="3" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="6" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="83">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance"> check my अकाउंट बैलेंस | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="10" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="2" />
+        <expand-intent description="No" name="rejection_by_customer" variation="3" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="84">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance"> I want to check my अकाउंट बैलेंस | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="10" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="2" />
+        <expand-intent description="No" name="rejection_by_customer" variation="3" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="8" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="85">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance"> see my अकाउंट बैलेंस | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="10" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="2" />
+        <expand-intent description="No" name="rejection_by_customer" variation="4" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="86">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance"> अकाउंट बैलेंस enquiry | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="10" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="2" />
+        <expand-intent description="No" name="rejection_by_customer" variation="4" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="6" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="87">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance"> enquiry about my अकाउंट बैलेंस | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="10" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="2" />
+        <expand-intent description="No" name="rejection_by_customer" variation="4" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="88">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance"> check out my अकाउंट बैलेंस | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="10" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="2" />
+        <expand-intent description="No" name="rejection_by_customer" variation="4" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="8" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="89">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance"> my अकाउंट बैलेंस enquiry | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="10" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="2" />
+        <expand-intent description="No" name="rejection_by_customer" variation="5" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="90">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance"> my अकाउंट बैलेंस enquiry immediately | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="10" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="2" />
+        <expand-intent description="No" name="rejection_by_customer" variation="5" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="6" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="91">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance"> account balance दिखाओ | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="10" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="2" />
+        <expand-intent description="No" name="rejection_by_customer" variation="5" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="92">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance"> अकाउंट बैलेंस दिखाओ | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="10" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="2" />
+        <expand-intent description="No" name="rejection_by_customer" variation="5" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="8" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="93">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance"> account बैलेंस दिखाओ | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="10" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="2" />
+        <expand-intent description="No" name="rejection_by_customer" variation="6" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="94">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance"> अकाउंट balance दिखाओ | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="10" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="2" />
+        <expand-intent description="No" name="rejection_by_customer" variation="6" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="6" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="95">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance"> खाता बैलेंस दिखाओ | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="10" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="2" />
+        <expand-intent description="No" name="rejection_by_customer" variation="6" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="96">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance"> खाता balance दिखाओ | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="10" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="2" />
+        <expand-intent description="No" name="rejection_by_customer" variation="6" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="8" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="97">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance"> खाते में शेष कितना है | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="10" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="3" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="98">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance"> खाते में balance कितना है | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="10" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="3" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="6" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="99">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance"> खाते में पैसा कितना है | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="10" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="3" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="100">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance"> खाते में पैसे कितना है | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="10" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="3" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="8" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="101">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance"> Balance | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="10" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="5" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="102">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance"> check balance | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="10" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="6" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="103">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance"> check my balance | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="10" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+
+    <intent name="account_balance" variation="104">
+
+        <expand-intent description="Customer: Name" name="greetings" variation="1" />
+        <expand-intent description="Client: Name" name="greetings" variation="2" />
+        <customer intent="account_balance"> I want to check my balance | </customer>
+        <expand-intent description="Account Number" name="authentication_by_client_success" variation="1" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="account_balance">आपका बैलेंस अभी Rs . 2000 है . </client>
+        <expand-intent description="Customer: Thanks" name="goodbye" variation="10" />
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="8" />
+        <expand-intent description="Bye" name="goodbye" variation="14" />
+
+    </intent>
+
+</dataset>

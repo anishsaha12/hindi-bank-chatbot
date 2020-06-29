@@ -1,0 +1,21 @@
+<dataset>
+
+    <intent name="branch_information" variation="2" description="City">
+
+        <customer intent="branch_information">मुझे बैंगलोर में XXX बैंक के शाखाए जानना है ।</customer>
+        <expand-intent description="Client: Without Name" name="greetings" variation="6" />
+		<expand-intent description="Location" name="get_input" variation="1" />
+        <client intent="branch_information">बेंगलुरु के शाखाए है -
+1 . Rajajinagar
+2 . Malleshwaram
+3 . Yeshwantpur
+4 . Basavehwarnagar
+5 . Marathahalli
+6 . Electronic City</client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+</dataset>

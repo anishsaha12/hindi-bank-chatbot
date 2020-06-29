@@ -1,0 +1,477 @@
+<dataset>
+
+    <intent name="registration_to_open_account" variation="38" description="Recurring Deposit Account">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="registration_to_open_account">मुझे account रजिस्ट्रेशन करना है इस बैंक में . </customer>
+        <client intent="registration_to_open_account">इस सेवा का उपयोग करने के लिए शुक्रिया | आप किस तरह का खाता खोलना चाहते है ? </client>
+        <customer intent="registration_to_open_account">क्या उपलब्ध है ? </customer>
+        <client intent="registration_to_open_account">आप चार तरह के खाते खोल सकते है -
+1 ) Current account . 
+2 ) Savings account . 
+3 ) Recurring Deposit account . 
+4 ) Fixed Deposit account </client>
+        <customer intent="registration_to_open_account">मुझे Recurring Deposit account खोलना है . </customer>
+        <client intent="registration_to_open_account">जरूर | आप अपना नाम बताईये | </client>
+        <customer intent="registration_to_open_account">मेरा नाम Anish Saha है ।</customer>
+        <expand-intent description="Mobile Number Link" name="authentication_by_client_success" variation="16" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="registration_to_open_account">आपका PAN नंबर दीजिए | </client>
+        <customer intent="registration_to_open_account">पैन ABCDE1234F</customer>
+        <client intent="registration_to_open_account">आपका नवीनतम तस्वीर भेजिए | </client>
+        <customer intent="registration_to_open_account">Photo</customer>
+        <client intent="registration_to_open_account">शुक्रिया | आपका Aadhaar नंबर दीजिए | </client>
+        <customer intent="registration_to_open_account">Aadhar 123JJKX11</customer>
+        <client intent="registration_to_open_account">शुक्रिया | आपका घर का स्थायी पता दीजिए | </client>
+        <customer intent="registration_to_open_account">मेरा पता है Brigade gateway , Malleshwaram , Bangalore 560055</customer>
+        <client intent="registration_to_open_account">धीरज रकने के लिए बहुत शुक्रिया | आपके हस्ताक्षर के तस्वीर भेजिए | </client>
+        <customer intent="registration_to_open_account">photo</customer>
+        <client intent="registration_to_open_account">धन्यवाद | आपकी खाते खोलने की प्रक्रिया शुरु हो चुका है | XXXXX बैंक की प्रतिनिधि जाँच के लिए आपके घर आने वाला है | आप कब उपलब्ध हो ? </client>
+        <expand-intent description="Available Now" name="confirmation_by_customer" variation="4" />
+        <client intent="registration_to_open_account">माफ़ी चाहता हूँ | प्रतिनिधि अभी मुक्त नहीं है | आप एक तारीख बताइए सोमवार से शनिवार के अंदर | </client>
+        <expand-intent description="Available on Date" name="confirmation_by_customer" variation="5" />
+        <client intent="registration_to_open_account">धन्यवाद | प्रतिनिधि किस समय पर आना चाहिए 9am to 5pm</client>
+        <customer intent="registration_to_open_account">सुबह से श्याम के 7 बजे तक ।</customer>
+        <client intent="registration_to_open_account">बहुत धन्यवाद | प्रतिनिधि को आपके विवरण दिया गया है । उस दिन प्रतिनिधि आपको संपर्क करेंगे</client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="registration_to_open_account" variation="39" description="Recurring Deposit Account">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="registration_to_open_account">मुझे account रजिस्ट्रेशन करना है ये बैंक में . </customer>
+        <client intent="registration_to_open_account">इस सेवा का उपयोग करने के लिए शुक्रिया | आप किस तरह का खाता खोलना चाहते है ? </client>
+        <customer intent="registration_to_open_account">क्या क्या उपलब्ध है ? </customer>
+        <client intent="registration_to_open_account">आप चार तरह के खाते खोल सकते है -
+1 ) Current account . 
+2 ) Savings account . 
+3 ) Recurring Deposit account . 
+4 ) Fixed Deposit account </client>
+        <customer intent="registration_to_open_account">type 3 . </customer>
+        <client intent="registration_to_open_account">जरूर | आप अपना नाम बताईये | </client>
+        <customer intent="registration_to_open_account">मेरा नाम Anish Saha है ।</customer>
+        <expand-intent description="Mobile Number Link" name="authentication_by_client_success" variation="16" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="registration_to_open_account">आपका PAN नंबर दीजिए | </client>
+        <customer intent="registration_to_open_account">पैन ABCDE1234F</customer>
+        <client intent="registration_to_open_account">आपका नवीनतम तस्वीर भेजिए | </client>
+        <customer intent="registration_to_open_account">Photo</customer>
+        <client intent="registration_to_open_account">शुक्रिया | आपका Aadhaar नंबर दीजिए | </client>
+        <customer intent="registration_to_open_account">Aadhar 123JJKX11</customer>
+        <client intent="registration_to_open_account">शुक्रिया | आपका घर का स्थायी पता दीजिए | </client>
+        <customer intent="registration_to_open_account">मेरा पता है Brigade gateway , Malleshwaram , Bangalore 560055</customer>
+        <client intent="registration_to_open_account">धीरज रकने के लिए बहुत शुक्रिया | आपके हस्ताक्षर के तस्वीर भेजिए | </client>
+        <customer intent="registration_to_open_account">photo</customer>
+        <client intent="registration_to_open_account">धन्यवाद | आपकी खाते खोलने की प्रक्रिया शुरु हो चुका है | XXXXX बैंक की प्रतिनिधि जाँच के लिए आपके घर आने वाला है | आप कब उपलब्ध हो ? </client>
+        <expand-intent description="Available Now" name="confirmation_by_customer" variation="4" />
+        <client intent="registration_to_open_account">माफ़ी चाहता हूँ | प्रतिनिधि अभी मुक्त नहीं है | आप एक तारीख बताइए सोमवार से शनिवार के अंदर | </client>
+        <expand-intent description="Available on Date" name="confirmation_by_customer" variation="5" />
+        <client intent="registration_to_open_account">धन्यवाद | प्रतिनिधि किस समय पर आना चाहिए 9am to 5pm</client>
+        <customer intent="registration_to_open_account">सुबह से श्याम के 7 बजे तक ।</customer>
+        <client intent="registration_to_open_account">बहुत धन्यवाद | प्रतिनिधि को आपके विवरण दिया गया है । उस दिन प्रतिनिधि आपको संपर्क करेंगे</client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="registration_to_open_account" variation="40" description="Recurring Deposit Account">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="registration_to_open_account">मुझे एक खाता registration करना है . </customer>
+        <client intent="registration_to_open_account">इस सेवा का उपयोग करने के लिए शुक्रिया | आप किस तरह का खाता खोलना चाहते है ? </client>
+        <customer intent="registration_to_open_account">क्या क्या उपलब्ध है ? </customer>
+        <client intent="registration_to_open_account">आप चार तरह के खाते खोल सकते है -
+1 ) Current account . 
+2 ) Savings account . 
+3 ) Recurring Deposit account . 
+4 ) Fixed Deposit account </client>
+        <customer intent="registration_to_open_account">Recurring Deposit account </customer>
+        <client intent="registration_to_open_account">जरूर | आप अपना नाम बताईये | </client>
+        <customer intent="registration_to_open_account">मेरा नाम Anish Saha है ।</customer>
+        <expand-intent description="Mobile Number Link" name="authentication_by_client_success" variation="16" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="registration_to_open_account">आपका PAN नंबर दीजिए | </client>
+        <customer intent="registration_to_open_account">ABCDE1234F</customer>
+        <client intent="registration_to_open_account">आपका नवीनतम तस्वीर भेजिए | </client>
+        <customer intent="registration_to_open_account">Photo</customer>
+        <client intent="registration_to_open_account">शुक्रिया | आपका Aadhaar नंबर दीजिए | </client>
+        <customer intent="registration_to_open_account">Aadhar 123JJKX11</customer>
+        <client intent="registration_to_open_account">शुक्रिया | आपका घर का स्थायी पता दीजिए | </client>
+        <customer intent="registration_to_open_account">Address : Brigade gateway , Malleshwaram , Bangalore 560055</customer>
+        <client intent="registration_to_open_account">धीरज रकने के लिए बहुत शुक्रिया | आपके हस्ताक्षर के तस्वीर भेजिए | </client>
+        <customer intent="registration_to_open_account">photo</customer>
+        <client intent="registration_to_open_account">धन्यवाद | आपकी खाते खोलने की प्रक्रिया शुरु हो चुका है | XXXXX बैंक की प्रतिनिधि जाँच के लिए आपके घर आने वाला है | आप कब उपलब्ध हो ? </client>
+        <expand-intent description="Available Now" name="confirmation_by_customer" variation="4" />
+        <client intent="registration_to_open_account">माफ़ी चाहता हूँ | प्रतिनिधि अभी मुक्त नहीं है | आप एक तारीख बताइए सोमवार से शनिवार के अंदर | </client>
+        <expand-intent description="Available on Date" name="confirmation_by_customer" variation="5" />
+        <client intent="registration_to_open_account">धन्यवाद | प्रतिनिधि किस समय पर आना चाहिए 9am to 5pm</client>
+        <customer intent="registration_to_open_account">सुबह से श्याम के 7 बजे तक ।</customer>
+        <client intent="registration_to_open_account">बहुत धन्यवाद | प्रतिनिधि को आपके विवरण दिया गया है । उस दिन प्रतिनिधि आपको संपर्क करेंगे</client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="registration_to_open_account" variation="41" description="Recurring Deposit Account">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="registration_to_open_account">खाता registration करना है . </customer>
+        <client intent="registration_to_open_account">इस सेवा का उपयोग करने के लिए शुक्रिया | आप किस तरह का खाता खोलना चाहते है ? </client>
+        <customer intent="registration_to_open_account">क्या उपलब्ध है ? </customer>
+        <client intent="registration_to_open_account">आप चार तरह के खाते खोल सकते है -
+1 ) Current account . 
+2 ) Savings account . 
+3 ) Recurring Deposit account . 
+4 ) Fixed Deposit account </client>
+        <customer intent="registration_to_open_account">मुझे Recurring Deposit account registration करना है . </customer>
+        <client intent="registration_to_open_account">जरूर | आप अपना नाम बताईये | </client>
+        <customer intent="registration_to_open_account">मेरा नाम Anish Saha है ।</customer>
+        <expand-intent description="Mobile Number Link" name="authentication_by_client_success" variation="16" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="registration_to_open_account">आपका PAN नंबर दीजिए | </client>
+        <customer intent="registration_to_open_account">PAN ABCDE1234F</customer>
+        <client intent="registration_to_open_account">आपका नवीनतम तस्वीर भेजिए | </client>
+        <customer intent="registration_to_open_account">Photo</customer>
+        <client intent="registration_to_open_account">शुक्रिया | आपका Aadhaar नंबर दीजिए | </client>
+        <customer intent="registration_to_open_account">Aadhar 123JJKX11</customer>
+        <client intent="registration_to_open_account">शुक्रिया | आपका घर का स्थायी पता दीजिए | </client>
+        <customer intent="registration_to_open_account">Address : Brigade gateway , Malleshwaram , Bangalore 560055</customer>
+        <client intent="registration_to_open_account">धीरज रकने के लिए बहुत शुक्रिया | आपके हस्ताक्षर के तस्वीर भेजिए | </client>
+        <customer intent="registration_to_open_account">photo</customer>
+        <client intent="registration_to_open_account">धन्यवाद | आपकी खाते खोलने की प्रक्रिया शुरु हो चुका है | XXXXX बैंक की प्रतिनिधि जाँच के लिए आपके घर आने वाला है | आप कब उपलब्ध हो ? </client>
+        <expand-intent description="Available Now" name="confirmation_by_customer" variation="4" />
+        <client intent="registration_to_open_account">माफ़ी चाहता हूँ | प्रतिनिधि अभी मुक्त नहीं है | आप एक तारीख बताइए सोमवार से शनिवार के अंदर | </client>
+        <expand-intent description="Available on Date" name="confirmation_by_customer" variation="5" />
+        <client intent="registration_to_open_account">धन्यवाद | प्रतिनिधि किस समय पर आना चाहिए 9am to 5pm</client>
+        <customer intent="registration_to_open_account">सुबह से श्याम के 7 बजे तक ।</customer>
+        <client intent="registration_to_open_account">बहुत धन्यवाद | प्रतिनिधि को आपके विवरण दिया गया है । उस दिन प्रतिनिधि आपको संपर्क करेंगे</client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="registration_to_open_account" variation="42" description="Recurring Deposit Account">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="registration_to_open_account">खाता खोलना . </customer>
+        <client intent="registration_to_open_account">इस सेवा का उपयोग करने के लिए शुक्रिया | आप किस तरह का खाता खोलना चाहते है ? </client>
+        <customer intent="registration_to_open_account">क्या क्या उपलब्ध है ? </customer>
+        <client intent="registration_to_open_account">आप चार तरह के खाते खोल सकते है -
+1 ) Current account . 
+2 ) Savings account . 
+3 ) Recurring Deposit account . 
+4 ) Fixed Deposit account </client>
+        <customer intent="registration_to_open_account">मुझे रेकरिंग डिपाजिट अकाउंट registration करना है . </customer>
+        <client intent="registration_to_open_account">जरूर | आप अपना नाम बताईये | </client>
+        <customer intent="registration_to_open_account">मेरा नाम Anish Saha है ।</customer>
+        <expand-intent description="Mobile Number Link" name="authentication_by_client_success" variation="16" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="registration_to_open_account">आपका PAN नंबर दीजिए | </client>
+        <customer intent="registration_to_open_account">PAN ABCDE1234F</customer>
+        <client intent="registration_to_open_account">आपका नवीनतम तस्वीर भेजिए | </client>
+        <customer intent="registration_to_open_account">Photo</customer>
+        <client intent="registration_to_open_account">शुक्रिया | आपका Aadhaar नंबर दीजिए | </client>
+        <customer intent="registration_to_open_account">Aadhar 123JJKX11</customer>
+        <client intent="registration_to_open_account">शुक्रिया | आपका घर का स्थायी पता दीजिए | </client>
+        <customer intent="registration_to_open_account">Address : Brigade gateway , Malleshwaram , Bangalore 560055</customer>
+        <client intent="registration_to_open_account">धीरज रकने के लिए बहुत शुक्रिया | आपके हस्ताक्षर के तस्वीर भेजिए | </client>
+        <customer intent="registration_to_open_account">Photo</customer>
+        <client intent="registration_to_open_account">धन्यवाद | आपकी खाते खोलने की प्रक्रिया शुरु हो चुका है | XXXXX बैंक की प्रतिनिधि जाँच के लिए आपके घर आने वाला है | आप कब उपलब्ध हो ? </client>
+        <expand-intent description="Available Now" name="confirmation_by_customer" variation="4" />
+        <client intent="registration_to_open_account">माफ़ी चाहता हूँ | प्रतिनिधि अभी मुक्त नहीं है | आप एक तारीख बताइए सोमवार से शनिवार के अंदर | </client>
+        <expand-intent description="Available on Date" name="confirmation_by_customer" variation="5" />
+        <client intent="registration_to_open_account">धन्यवाद | प्रतिनिधि किस समय पर आना चाहिए 9am to 5pm</client>
+        <customer intent="registration_to_open_account">7 बजे ।</customer>
+        <client intent="registration_to_open_account">बहुत धन्यवाद | प्रतिनिधि को आपके विवरण दिया गया है । उस दिन प्रतिनिधि आपको संपर्क करेंगे</client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="registration_to_open_account" variation="43" description="Recurring Deposit Account">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="registration_to_open_account">खाता खोलना है . </customer>
+        <client intent="registration_to_open_account">इस सेवा का उपयोग करने के लिए शुक्रिया | आप किस तरह का खाता खोलना चाहते है ? </client>
+        <client intent="registration_to_open_account">आप चार तरह के खाते खोल सकते है -
+1 ) Current account . 
+2 ) Savings account . 
+3 ) Recurring Deposit account . 
+4 ) Fixed Deposit account </client>
+        <customer intent="registration_to_open_account">मुझे रेकरिंग डिपाजिट अकाउंट खोलना है . </customer>
+        <client intent="registration_to_open_account">जरूर | आप अपना नाम बताईये | </client>
+        <customer intent="registration_to_open_account">मेरा नाम Anish Saha है ।</customer>
+        <expand-intent description="Mobile Number Link" name="authentication_by_client_success" variation="16" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="registration_to_open_account">आपका PAN नंबर दीजिए | </client>
+        <customer intent="registration_to_open_account">PAN ABCDE1234F</customer>
+        <client intent="registration_to_open_account">आपका नवीनतम तस्वीर भेजिए | </client>
+        <customer intent="registration_to_open_account">Photo</customer>
+        <client intent="registration_to_open_account">शुक्रिया | आपका Aadhaar नंबर दीजिए | </client>
+        <customer intent="registration_to_open_account">Aadhar 123JJKX11</customer>
+        <client intent="registration_to_open_account">शुक्रिया | आपका घर का स्थायी पता दीजिए | </client>
+        <customer intent="registration_to_open_account">Address Brigade gateway , Malleshwaram , Bangalore 560055</customer>
+        <client intent="registration_to_open_account">धीरज रकने के लिए बहुत शुक्रिया | आपके हस्ताक्षर के तस्वीर भेजिए | </client>
+        <customer intent="registration_to_open_account">photo</customer>
+        <client intent="registration_to_open_account">धन्यवाद | आपकी खाते खोलने की प्रक्रिया शुरु हो चुका है | XXXXX बैंक की प्रतिनिधि जाँच के लिए आपके घर आने वाला है | आप कब उपलब्ध हो ? </client>
+        <expand-intent description="Available Now" name="confirmation_by_customer" variation="4" />
+        <client intent="registration_to_open_account">माफ़ी चाहता हूँ | प्रतिनिधि अभी मुक्त नहीं है | आप एक तारीख बताइए सोमवार से शनिवार के अंदर | </client>
+        <expand-intent description="Available on Date" name="confirmation_by_customer" variation="5" />
+        <client intent="registration_to_open_account">धन्यवाद | प्रतिनिधि किस समय पर आना चाहिए 9am to 5pm</client>
+        <customer intent="registration_to_open_account">7 बजे ।</customer>
+        <client intent="registration_to_open_account">बहुत धन्यवाद | प्रतिनिधि को आपके विवरण दिया गया है । उस दिन प्रतिनिधि आपको संपर्क करेंगे</client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="registration_to_open_account" variation="44" description="Recurring Deposit Account">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="registration_to_open_account">खाता खोलना . </customer>
+        <client intent="registration_to_open_account">इस सेवा का उपयोग करने के लिए शुक्रिया | आप किस तरह का खाता खोलना चाहते है ? </client>
+        <client intent="registration_to_open_account">आप चार तरह के खाते खोल सकते है -
+1 ) Current account . 
+2 ) Savings account . 
+3 ) Recurring Deposit account . 
+4 ) Fixed Deposit account </client>
+        <customer intent="registration_to_open_account">रेकरिंग डिपाजिट अकाउंट खोलना है . </customer>
+        <client intent="registration_to_open_account">जरूर | आप अपना नाम बताईये | </client>
+        <customer intent="registration_to_open_account">मेरा नाम Anish Saha है ।</customer>
+        <expand-intent description="Mobile Number Link" name="authentication_by_client_success" variation="16" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="registration_to_open_account">आपका PAN नंबर दीजिए | </client>
+        <customer intent="registration_to_open_account">PAN ABCDE1234F</customer>
+        <client intent="registration_to_open_account">आपका नवीनतम तस्वीर भेजिए | </client>
+        <customer intent="registration_to_open_account">Photo</customer>
+        <client intent="registration_to_open_account">शुक्रिया | आपका Aadhaar नंबर दीजिए | </client>
+        <customer intent="registration_to_open_account">123JJKX11</customer>
+        <client intent="registration_to_open_account">शुक्रिया | आपका घर का स्थायी पता दीजिए | </client>
+        <customer intent="registration_to_open_account">पता है Brigade gateway , Malleshwaram , Bangalore 560055</customer>
+        <client intent="registration_to_open_account">धीरज रकने के लिए बहुत शुक्रिया | आपके हस्ताक्षर के तस्वीर भेजिए | </client>
+        <customer intent="registration_to_open_account">Photo</customer>
+        <client intent="registration_to_open_account">धन्यवाद | आपकी खाते खोलने की प्रक्रिया शुरु हो चुका है | XXXXX बैंक की प्रतिनिधि जाँच के लिए आपके घर आने वाला है | आप कब उपलब्ध हो ? </client>
+        <expand-intent description="Available Now" name="confirmation_by_customer" variation="4" />
+        <client intent="registration_to_open_account">माफ़ी चाहता हूँ | प्रतिनिधि अभी मुक्त नहीं है | आप एक तारीख बताइए सोमवार से शनिवार के अंदर | </client>
+        <expand-intent description="Available on Date" name="confirmation_by_customer" variation="5" />
+        <client intent="registration_to_open_account">धन्यवाद | प्रतिनिधि किस समय पर आना चाहिए 9am to 5pm</client>
+        <customer intent="registration_to_open_account">7 बजे उपलब्ध हु ।</customer>
+        <client intent="registration_to_open_account">बहुत धन्यवाद | प्रतिनिधि को आपके विवरण दिया गया है । उस दिन प्रतिनिधि आपको संपर्क करेंगे</client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="registration_to_open_account" variation="45" description="Recurring Deposit Account">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="registration_to_open_account">मुझे एक खाता खोलना है . </customer>
+        <client intent="registration_to_open_account">इस सेवा का उपयोग करने के लिए शुक्रिया | आप किस तरह का खाता खोलना चाहते है ? </client>
+        <customer intent="registration_to_open_account">क्या है ? </customer>
+        <client intent="registration_to_open_account">आप चार तरह के खाते खोल सकते है -
+1 ) Current account . 
+2 ) Savings account . 
+3 ) Recurring Deposit account . 
+4 ) Fixed Deposit account </client>
+        <customer intent="registration_to_open_account">type 3 खोलना है . </customer>
+        <client intent="registration_to_open_account">जरूर | आप अपना नाम बताईये | </client>
+        <customer intent="registration_to_open_account">मेरा नाम Anish Saha है ।</customer>
+        <expand-intent description="Mobile Number Link" name="authentication_by_client_success" variation="16" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="registration_to_open_account">आपका PAN नंबर दीजिए | </client>
+        <customer intent="registration_to_open_account">PAN ABCDE1234F</customer>
+        <client intent="registration_to_open_account">आपका नवीनतम तस्वीर भेजिए | </client>
+        <customer intent="registration_to_open_account">Photo</customer>
+        <client intent="registration_to_open_account">शुक्रिया | आपका Aadhaar नंबर दीजिए | </client>
+        <customer intent="registration_to_open_account">आधार 123JJKX11</customer>
+        <client intent="registration_to_open_account">शुक्रिया | आपका घर का स्थायी पता दीजिए | </client>
+        <customer intent="registration_to_open_account">मेरा पता है Brigade gateway , Malleshwaram , Bangalore 560055</customer>
+        <client intent="registration_to_open_account">धीरज रकने के लिए बहुत शुक्रिया | आपके हस्ताक्षर के तस्वीर भेजिए | </client>
+        <customer intent="registration_to_open_account">photo</customer>
+        <client intent="registration_to_open_account">धन्यवाद | आपकी खाते खोलने की प्रक्रिया शुरु हो चुका है | XXXXX बैंक की प्रतिनिधि जाँच के लिए आपके घर आने वाला है | आप कब उपलब्ध हो ? </client>
+        <expand-intent description="Available Now" name="confirmation_by_customer" variation="4" />
+        <client intent="registration_to_open_account">माफ़ी चाहता हूँ | प्रतिनिधि अभी मुक्त नहीं है | आप एक तारीख बताइए सोमवार से शनिवार के अंदर | </client>
+        <expand-intent description="Available on Date" name="confirmation_by_customer" variation="5" />
+        <client intent="registration_to_open_account">धन्यवाद | प्रतिनिधि किस समय पर आना चाहिए 9am to 5pm</client>
+        <customer intent="registration_to_open_account">श्याम में उपलब्ध हु ।</customer>
+        <client intent="registration_to_open_account">बहुत धन्यवाद | प्रतिनिधि को आपके विवरण दिया गया है । उस दिन प्रतिनिधि आपको संपर्क करेंगे</client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="registration_to_open_account" variation="46" description="Recurring Deposit Account">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="registration_to_open_account">खाता registration करना है . </customer>
+        <client intent="registration_to_open_account">इस सेवा का उपयोग करने के लिए शुक्रिया | आप किस तरह का खाता खोलना चाहते है ? </client>
+        <client intent="registration_to_open_account">आप चार तरह के खाते खोल सकते है -
+1 ) Current account . 
+2 ) Savings account . 
+3 ) Recurring Deposit account . 
+4 ) Fixed Deposit account </client>
+        <customer intent="registration_to_open_account">3 . </customer>
+        <client intent="registration_to_open_account">जरूर | आप अपना नाम बताईये | </client>
+        <customer intent="registration_to_open_account">मेरा नाम Anish Saha है ।</customer>
+        <expand-intent description="Mobile Number Link" name="authentication_by_client_success" variation="16" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="registration_to_open_account">आपका PAN नंबर दीजिए | </client>
+        <customer intent="registration_to_open_account">PAN ABCDE1234F</customer>
+        <client intent="registration_to_open_account">आपका नवीनतम तस्वीर भेजिए | </client>
+        <customer intent="registration_to_open_account">Photo</customer>
+        <client intent="registration_to_open_account">शुक्रिया | आपका Aadhaar नंबर दीजिए | </client>
+        <customer intent="registration_to_open_account">आधार 123JJKX11</customer>
+        <client intent="registration_to_open_account">शुक्रिया | आपका घर का स्थायी पता दीजिए | </client>
+        <customer intent="registration_to_open_account">मेरा पता है Brigade gateway , Malleshwaram , Bangalore 560055</customer>
+        <client intent="registration_to_open_account">धीरज रकने के लिए बहुत शुक्रिया | आपके हस्ताक्षर के तस्वीर भेजिए | </client>
+        <customer intent="registration_to_open_account">photo</customer>
+        <client intent="registration_to_open_account">धन्यवाद | आपकी खाते खोलने की प्रक्रिया शुरु हो चुका है | XXXXX बैंक की प्रतिनिधि जाँच के लिए आपके घर आने वाला है | आप कब उपलब्ध हो ? </client>
+        <expand-intent description="Available Now" name="confirmation_by_customer" variation="4" />
+        <client intent="registration_to_open_account">माफ़ी चाहता हूँ | प्रतिनिधि अभी मुक्त नहीं है | आप एक तारीख बताइए सोमवार से शनिवार के अंदर | </client>
+        <expand-intent description="Available on Date" name="confirmation_by_customer" variation="5" />
+        <client intent="registration_to_open_account">धन्यवाद | प्रतिनिधि किस समय पर आना चाहिए 9am to 5pm</client>
+        <customer intent="registration_to_open_account">सुबह को उपलब्ध हु ।</customer>
+        <client intent="registration_to_open_account">बहुत धन्यवाद | प्रतिनिधि को आपके विवरण दिया गया है । उस दिन प्रतिनिधि आपको संपर्क करेंगे</client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="registration_to_open_account" variation="47" description="Recurring Deposit Account">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="registration_to_open_account">खाता रजिस्टर करना है . </customer>
+        <client intent="registration_to_open_account">इस सेवा का उपयोग करने के लिए शुक्रिया | आप किस तरह का खाता खोलना चाहते है ? </client>
+        <client intent="registration_to_open_account">आप चार तरह के खाते खोल सकते है -
+1 ) Current account . 
+2 ) Savings account . 
+3 ) Recurring Deposit account . 
+4 ) Fixed Deposit account </client>
+        <customer intent="registration_to_open_account">रेकरिंग डिपाजिट अकाउंट . </customer>
+        <client intent="registration_to_open_account">जरूर | आप अपना नाम बताईये | </client>
+        <customer intent="registration_to_open_account">नाम Anish Saha है ।</customer>
+        <expand-intent description="Mobile Number Link" name="authentication_by_client_success" variation="16" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="registration_to_open_account">आपका PAN नंबर दीजिए | </client>
+        <customer intent="registration_to_open_account">ABCDE1234F</customer>
+        <client intent="registration_to_open_account">आपका नवीनतम तस्वीर भेजिए | </client>
+        <customer intent="registration_to_open_account">Photo</customer>
+        <client intent="registration_to_open_account">शुक्रिया | आपका Aadhaar नंबर दीजिए | </client>
+        <customer intent="registration_to_open_account">आधार 123JJKX11</customer>
+        <client intent="registration_to_open_account">शुक्रिया | आपका घर का स्थायी पता दीजिए | </client>
+        <customer intent="registration_to_open_account">मेरा पता है Brigade gateway , Malleshwaram , Bangalore 560055</customer>
+        <client intent="registration_to_open_account">धीरज रकने के लिए बहुत शुक्रिया | आपके हस्ताक्षर के तस्वीर भेजिए | </client>
+        <customer intent="registration_to_open_account">photo</customer>
+        <client intent="registration_to_open_account">धन्यवाद | आपकी खाते खोलने की प्रक्रिया शुरु हो चुका है | XXXXX बैंक की प्रतिनिधि जाँच के लिए आपके घर आने वाला है | आप कब उपलब्ध हो ? </client>
+        <expand-intent description="Available Now" name="confirmation_by_customer" variation="4" />
+        <client intent="registration_to_open_account">माफ़ी चाहता हूँ | प्रतिनिधि अभी मुक्त नहीं है | आप एक तारीख बताइए सोमवार से शनिवार के अंदर | </client>
+        <expand-intent description="Available on Date" name="confirmation_by_customer" variation="5" />
+        <client intent="registration_to_open_account">धन्यवाद | प्रतिनिधि किस समय पर आना चाहिए 9am to 5pm</client>
+        <customer intent="registration_to_open_account">श्याम को उपलब्ध हु ।</customer>
+        <client intent="registration_to_open_account">बहुत धन्यवाद | प्रतिनिधि को आपके विवरण दिया गया है । उस दिन प्रतिनिधि आपको संपर्क करेंगे</client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="registration_to_open_account" variation="48" description="Recurring Deposit Account">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="registration_to_open_account">खाता खोलना . </customer>
+        <client intent="registration_to_open_account">इस सेवा का उपयोग करने के लिए शुक्रिया | आप किस तरह का खाता खोलना चाहते है ? </client>
+        <client intent="registration_to_open_account">आप चार तरह के खाते खोल सकते है -
+1 ) Current account . 
+2 ) Savings account . 
+3 ) Recurring Deposit account . 
+4 ) Fixed Deposit account </client>
+        <customer intent="registration_to_open_account">रेकरिंग डिपाजिट अकाउंट रजिस्टर करना है . </customer>
+        <client intent="registration_to_open_account">जरूर | आप अपना नाम बताईये | </client>
+        <customer intent="registration_to_open_account">नाम Anish Saha है ।</customer>
+        <expand-intent description="Mobile Number Link" name="authentication_by_client_success" variation="16" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="registration_to_open_account">आपका PAN नंबर दीजिए | </client>
+        <customer intent="registration_to_open_account">ABCDE1234F</customer>
+        <client intent="registration_to_open_account">आपका नवीनतम तस्वीर भेजिए | </client>
+        <customer intent="registration_to_open_account">Photo</customer>
+        <client intent="registration_to_open_account">शुक्रिया | आपका Aadhaar नंबर दीजिए | </client>
+        <customer intent="registration_to_open_account">आधार 123JJKX11</customer>
+        <client intent="registration_to_open_account">शुक्रिया | आपका घर का स्थायी पता दीजिए | </client>
+        <customer intent="registration_to_open_account">मेरा पता है Brigade gateway , Malleshwaram , Bangalore 560055</customer>
+        <client intent="registration_to_open_account">धीरज रकने के लिए बहुत शुक्रिया | आपके हस्ताक्षर के तस्वीर भेजिए | </client>
+        <customer intent="registration_to_open_account">Photo</customer>
+        <client intent="registration_to_open_account">धन्यवाद | आपकी खाते खोलने की प्रक्रिया शुरु हो चुका है | XXXXX बैंक की प्रतिनिधि जाँच के लिए आपके घर आने वाला है | आप कब उपलब्ध हो ? </client>
+        <expand-intent description="Available Now" name="confirmation_by_customer" variation="4" />
+        <client intent="registration_to_open_account">माफ़ी चाहता हूँ | प्रतिनिधि अभी मुक्त नहीं है | आप एक तारीख बताइए सोमवार से शनिवार के अंदर | </client>
+        <expand-intent description="Available on Date" name="confirmation_by_customer" variation="5" />
+        <client intent="registration_to_open_account">धन्यवाद | प्रतिनिधि किस समय पर आना चाहिए 9am to 5pm</client>
+        <customer intent="registration_to_open_account">सुबह से श्याम के 7 बजे तक ।</customer>
+        <client intent="registration_to_open_account">बहुत धन्यवाद | प्रतिनिधि को आपके विवरण दिया गया है । उस दिन प्रतिनिधि आपको संपर्क करेंगे</client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="registration_to_open_account" variation="49" description="Recurring Deposit Account">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="registration_to_open_account">मुझे एक खाता रजिस्टर करना है . </customer>
+        <client intent="registration_to_open_account">इस सेवा का उपयोग करने के लिए शुक्रिया | आप किस तरह का खाता खोलना चाहते है ? </client>
+        <customer intent="registration_to_open_account">क्या है ? </customer>
+        <client intent="registration_to_open_account">आप चार तरह के खाते खोल सकते है -
+1 ) Current account . 
+2 ) Savings account . 
+3 ) Recurring Deposit account . 
+4 ) Fixed Deposit account </client>
+        <customer intent="registration_to_open_account">type 3 खोलना है . </customer>
+        <client intent="registration_to_open_account">जरूर | आप अपना नाम बताईये | </client>
+        <customer intent="registration_to_open_account">Anish Saha ।</customer>
+        <expand-intent description="Mobile Number Link" name="authentication_by_client_success" variation="16" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="registration_to_open_account">आपका PAN नंबर दीजिए | </client>
+        <customer intent="registration_to_open_account">ABCDE1234F</customer>
+        <client intent="registration_to_open_account">आपका नवीनतम तस्वीर भेजिए | </client>
+        <customer intent="registration_to_open_account">Photo</customer>
+        <client intent="registration_to_open_account">शुक्रिया | आपका Aadhaar नंबर दीजिए | </client>
+        <customer intent="registration_to_open_account">Aadhar 123JJKX11</customer>
+        <client intent="registration_to_open_account">शुक्रिया | आपका घर का स्थायी पता दीजिए | </client>
+        <customer intent="registration_to_open_account">पता है Brigade gateway , Malleshwaram , Bangalore 560055</customer>
+        <client intent="registration_to_open_account">धीरज रकने के लिए बहुत शुक्रिया | आपके हस्ताक्षर के तस्वीर भेजिए | </client>
+        <customer intent="registration_to_open_account">photo</customer>
+        <client intent="registration_to_open_account">धन्यवाद | आपकी खाते खोलने की प्रक्रिया शुरु हो चुका है | XXXXX बैंक की प्रतिनिधि जाँच के लिए आपके घर आने वाला है | आप कब उपलब्ध हो ? </client>
+        <expand-intent description="Available Now" name="confirmation_by_customer" variation="4" />
+        <client intent="registration_to_open_account">माफ़ी चाहता हूँ | प्रतिनिधि अभी मुक्त नहीं है | आप एक तारीख बताइए सोमवार से शनिवार के अंदर | </client>
+        <expand-intent description="Available on Date" name="confirmation_by_customer" variation="5" />
+        <client intent="registration_to_open_account">धन्यवाद | प्रतिनिधि किस समय पर आना चाहिए 9am to 5pm</client>
+        <customer intent="registration_to_open_account">सुबह उपलब्ध हु ।</customer>
+        <client intent="registration_to_open_account">बहुत धन्यवाद | प्रतिनिधि को आपके विवरण दिया गया है । उस दिन प्रतिनिधि आपको संपर्क करेंगे</client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+</dataset>

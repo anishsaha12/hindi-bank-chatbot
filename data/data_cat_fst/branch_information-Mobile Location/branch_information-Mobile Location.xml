@@ -1,0 +1,308 @@
+<dataset>
+
+    <intent name="branch_information" variation="1" description="Mobile Location">
+
+        <expand-intent description="Hello" name="greetings" variation="18" />
+        <customer intent="branch_information">मुझे आपके XXX बैंक में जाना है ।</customer>
+        <client intent="branch_information">आप अपना मोबाइल लोकेशन turn-on करिये | इससे आपको नज़दीकी ब्रांच पता चल जायेगा | 
+Request Location pop up</client>
+        <client intent="branch_information">आपके नज़दीक के बैंक के शाखाये है -
+1 . Rajajinagar
+2 . Malleshwaram
+3 . Yeshwantpur</client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="branch_information" variation="3" description="Mobile Location">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="branch_information">मुझे XXX बैंक में जाना है ।</customer>
+        <client intent="branch_information">आप अपना मोबाइल लोकेशन turn-on करिये | इससे आपको नज़दीकी ब्रांच पता चल जायेगा | 
+Request Location pop up</client>
+        <client intent="branch_information">आपके नज़दीक के बैंक के शाखाये है -
+1 . Rajajinagar
+2 . Malleshwaram
+3 . Yeshwantpur</client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="branch_information" variation="4" description="Mobile Location">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="branch_information">मुझे XXX बैंक जाना है ।</customer>
+        <client intent="branch_information">आप अपना मोबाइल लोकेशन turn-on करिये | इससे आपको नज़दीकी ब्रांच पता चल जायेगा | 
+Request Location pop up</client>
+        <client intent="branch_information">आपके नज़दीक के बैंक के शाखाये है -
+1 . Rajajinagar
+2 . Malleshwaram
+3 . Yeshwantpur</client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="branch_information" variation="5" description="Mobile Location">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="branch_information">मुझे XXX बैंक के ब्रांच जानना है ।</customer>
+        <client intent="branch_information">आप अपना मोबाइल लोकेशन turn-on करिये | इससे आपको नज़दीकी ब्रांच पता चल जायेगा | 
+Request Location pop up</client>
+        <client intent="branch_information">आपके नज़दीक के बैंक के शाखाये है -
+1 . Rajajinagar
+2 . Malleshwaram
+3 . Yeshwantpur</client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="branch_information" variation="6" description="Mobile Location">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="branch_information">XXX बैंक के ब्रांच क्या है ? </customer>
+        <client intent="branch_information">आप अपना मोबाइल लोकेशन turn-on करिये | इससे आपको नज़दीकी ब्रांच पता चल जायेगा | 
+Request Location pop up</client>
+        <client intent="branch_information">आपके नज़दीक के बैंक के शाखाये है -
+1 . Rajajinagar
+2 . Malleshwaram
+3 . Yeshwantpur</client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="branch_information" variation="7" description="Mobile Location">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="branch_information">XXX bank के ब्रांच क्या है ? </customer>
+        <client intent="branch_information">आप अपना मोबाइल लोकेशन turn-on करिये | इससे आपको नज़दीकी ब्रांच पता चल जायेगा | 
+Request Location pop up</client>
+        <client intent="branch_information">आपके नज़दीक के बैंक के शाखाये है -
+1 . Rajajinagar
+2 . Malleshwaram
+3 . Yeshwantpur</client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="branch_information" variation="8" description="Mobile Location">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="branch_information">XXX bank के branches क्या है ? </customer>
+        <client intent="branch_information">आप अपना मोबाइल लोकेशन turn-on करिये | इससे आपको नज़दीकी ब्रांच पता चल जायेगा | 
+Request Location pop up</client>
+        <client intent="branch_information">आपके नज़दीक के बैंक के शाखाये है -
+1 . Rajajinagar
+2 . Malleshwaram
+3 . Yeshwantpur</client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="branch_information" variation="9" description="Mobile Location">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="branch_information">XXX bank के branch क्या है ? </customer>
+        <client intent="branch_information">आप अपना मोबाइल लोकेशन turn-on करिये | इससे आपको नज़दीकी ब्रांच पता चल जायेगा | 
+Request Location pop up</client>
+        <client intent="branch_information">आपके नज़दीक के बैंक के शाखाये है -
+1 . Rajajinagar
+2 . Malleshwaram
+3 . Yeshwantpur</client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="branch_information" variation="10" description="Mobile Location">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="branch_information">XXX बैंक के ब्रांच . </customer>
+        <client intent="branch_information">आप अपना मोबाइल लोकेशन turn-on करिये | इससे आपको नज़दीकी ब्रांच पता चल जायेगा | 
+Request Location pop up</client>
+        <client intent="branch_information">आपके नज़दीक के बैंक के शाखाये है -
+1 . Rajajinagar
+2 . Malleshwaram
+3 . Yeshwantpur</client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="branch_information" variation="11" description="Mobile Location">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="branch_information">XXX बैंक ब्रांच . </customer>
+        <client intent="branch_information">आप अपना मोबाइल लोकेशन turn-on करिये | इससे आपको नज़दीकी ब्रांच पता चल जायेगा | 
+Request Location pop up</client>
+        <client intent="branch_information">आपके नज़दीक के बैंक के शाखाये है -
+1 . Rajajinagar
+2 . Malleshwaram
+3 . Yeshwantpur</client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="branch_information" variation="12" description="Mobile Location">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="branch_information">XXX bank ब्रांच . </customer>
+        <client intent="branch_information">आप अपना मोबाइल लोकेशन turn-on करिये | इससे आपको नज़दीकी ब्रांच पता चल जायेगा | 
+Request Location pop up</client>
+        <client intent="branch_information">आपके नज़दीक के बैंक के शाखाये है -
+1 . Rajajinagar
+2 . Malleshwaram
+3 . Yeshwantpur</client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="branch_information" variation="13" description="Mobile Location">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="branch_information">XXX बैंक branch . </customer>
+        <client intent="branch_information">आप अपना मोबाइल लोकेशन turn-on करिये | इससे आपको नज़दीकी ब्रांच पता चल जायेगा | 
+Request Location pop up</client>
+        <client intent="branch_information">आपके नज़दीक के बैंक के शाखाये है -
+1 . Rajajinagar
+2 . Malleshwaram
+3 . Yeshwantpur</client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="branch_information" variation="14" description="Mobile Location">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="branch_information">XXX bank branch . </customer>
+        <client intent="branch_information">आप अपना मोबाइल लोकेशन turn-on करिये | इससे आपको नज़दीकी ब्रांच पता चल जायेगा | 
+Request Location pop up</client>
+        <client intent="branch_information">आपके नज़दीक के बैंक के शाखाये है -
+1 . Rajajinagar
+2 . Malleshwaram
+3 . Yeshwantpur</client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="branch_information" variation="15" description="Mobile Location">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="branch_information">XXX बैंक का पता क्या है ? </customer>
+        <client intent="branch_information">आप अपना मोबाइल लोकेशन turn-on करिये | इससे आपको नज़दीकी ब्रांच पता चल जायेगा | 
+Request Location pop up</client>
+        <client intent="branch_information">आपके नज़दीक के बैंक के शाखाये है -
+1 . Rajajinagar
+2 . Malleshwaram
+3 . Yeshwantpur</client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="branch_information" variation="16" description="Mobile Location">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="branch_information">XXX bank का पता क्या है ? </customer>
+        <client intent="branch_information">आप अपना मोबाइल लोकेशन turn-on करिये | इससे आपको नज़दीकी ब्रांच पता चल जायेगा | 
+Request Location pop up</client>
+        <client intent="branch_information">आपके नज़दीक के बैंक के शाखाये है -
+1 . Rajajinagar
+2 . Malleshwaram
+3 . Yeshwantpur</client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="branch_information" variation="17" description="Mobile Location">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="branch_information">XXX bank का address क्या है ? </customer>
+        <client intent="branch_information">आप अपना मोबाइल लोकेशन turn-on करिये | इससे आपको नज़दीकी ब्रांच पता चल जायेगा | 
+Request Location pop up</client>
+        <client intent="branch_information">आपके नज़दीक के बैंक के शाखाये है -
+1 . Rajajinagar
+2 . Malleshwaram
+3 . Yeshwantpur</client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="branch_information" variation="18" description="Mobile Location">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="branch_information">XXX bank address क्या है ? </customer>
+        <client intent="branch_information">आप अपना मोबाइल लोकेशन turn-on करिये | इससे आपको नज़दीकी ब्रांच पता चल जायेगा | 
+Request Location pop up</client>
+        <client intent="branch_information">आपके नज़दीक के बैंक के शाखाये है -
+1 . Rajajinagar
+2 . Malleshwaram
+3 . Yeshwantpur</client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="branch_information" variation="19" description="Mobile Location">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="branch_information">XXX bank address . </customer>
+        <client intent="branch_information">आप अपना मोबाइल लोकेशन turn-on करिये | इससे आपको नज़दीकी ब्रांच पता चल जायेगा | 
+Request Location pop up</client>
+        <client intent="branch_information">आपके नज़दीक के बैंक के शाखाये है -
+1 . Rajajinagar
+2 . Malleshwaram
+3 . Yeshwantpur</client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+</dataset>

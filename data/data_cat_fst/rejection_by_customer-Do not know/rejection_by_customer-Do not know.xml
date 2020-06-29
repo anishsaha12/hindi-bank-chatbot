@@ -1,0 +1,58 @@
+<dataset>
+
+    <intent name="rejection_by_customer" variation="8" description="Do not know">
+
+        <customer intent="rejection_by_customer">मुझे नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="34" description="Do not know">
+
+        <customer intent="rejection_by_customer">मुझे कुछ नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="35" description="Do not know">
+
+        <customer intent="rejection_by_customer">मुझे नहीं पता है | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="36" description="Do not know">
+
+        <customer intent="rejection_by_customer">कुछ नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="37" description="Do not know">
+
+        <customer intent="rejection_by_customer">नहीं पता है | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="38" description="Do not know">
+
+        <customer intent="rejection_by_customer">नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="39" description="Do not know">
+
+        <customer intent="rejection_by_customer">मुझे पता नहीं | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="40" description="Do not know">
+
+        <customer intent="rejection_by_customer">पता नहीं | </customer>
+
+    </intent>
+
+</dataset>

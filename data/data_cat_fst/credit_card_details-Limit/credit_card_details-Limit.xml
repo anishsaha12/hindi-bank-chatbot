@@ -1,0 +1,407 @@
+<dataset>
+
+    <intent name="credit_card_details" variation="6" description="Limit">
+
+        <customer intent="credit_card_details">मुझे अपना credit card के limit जानना है . </customer>
+        <expand-intent name="greetings" variation="6" description="Client: Without Name" />
+		<expand-intent name="authentication_by_client_success" variation="1" description="Account Number" />
+        <expand-intent name="authentication_by_client_success" variation="2" description="Mobile Number" />
+        <expand-intent name="authentication_by_client_success" variation="3" description="OTP" />
+        <client intent="credit_card_details">आपके क्रेडिट कार्ड का लिमिट है Rs . 300000 हर महीने . </client>
+        <expand-intent name="goodbye" variation="1" description="Client : More Help" />
+        <expand-intent name="rejection_by_customer" variation="1" description="No" />
+        <expand-intent name="goodbye" variation="7" description="Client : Thanks" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="115" description="Limit">
+
+        <customer intent="credit_card_details">मै अपना क्रेडिट कार्ड के लिमिट जानना चाहता हूँ . </customer>
+        <expand-intent name="greetings" variation="7" description="Client: Welcome here" />
+		<expand-intent name="authentication_by_client_success" variation="1" description="Account Number" />
+        <expand-intent name="authentication_by_client_success" variation="2" description="Mobile Number" />
+        <expand-intent name="authentication_by_client_success" variation="3" description="OTP" />
+        <client intent="credit_card_details">आपके क्रेडिट कार्ड का लिमिट है Rs . 300000 हर महीने . </client>
+        <expand-intent name="goodbye" variation="1" description="Client : More Help" />
+        <expand-intent name="rejection_by_customer" variation="1" description="No" />
+        <expand-intent name="goodbye" variation="7" description="Client : Thanks" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="116" description="Limit">
+
+        <customer intent="credit_card_details">मै क्रेडिट कार्ड के लिमिट जानना चाहता हूँ . </customer>
+        <expand-intent name="greetings" variation="7" description="Client: Welcome here" />
+		<expand-intent name="authentication_by_client_success" variation="1" description="Account Number" />
+        <expand-intent name="authentication_by_client_success" variation="2" description="Mobile Number" />
+        <expand-intent name="authentication_by_client_success" variation="3" description="OTP" />
+        <client intent="credit_card_details">आपके क्रेडिट कार्ड का लिमिट है Rs . 300000 हर महीने . </client>
+        <expand-intent name="goodbye" variation="1" description="Client : More Help" />
+        <expand-intent name="rejection_by_customer" variation="1" description="No" />
+        <expand-intent name="goodbye" variation="7" description="Client : Thanks" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="117" description="Limit">
+
+        <customer intent="credit_card_details">मै क्रेडिट कार्ड के लिमिट जानना चाहता . </customer>
+        <expand-intent name="greetings" variation="7" description="Client: Welcome here" />
+		<expand-intent name="authentication_by_client_success" variation="1" description="Account Number" />
+        <expand-intent name="authentication_by_client_success" variation="2" description="Mobile Number" />
+        <expand-intent name="authentication_by_client_success" variation="3" description="OTP" />
+        <client intent="credit_card_details">आपके क्रेडिट कार्ड का लिमिट है Rs . 300000 हर महीने . </client>
+        <expand-intent name="goodbye" variation="1" description="Client : More Help" />
+        <expand-intent name="rejection_by_customer" variation="1" description="No" />
+        <expand-intent name="goodbye" variation="7" description="Client : Thanks" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="118" description="Limit">
+
+        <customer intent="credit_card_details">क्रेडिट कार्ड के लिमिट जानना चाहता हूँ . </customer>
+        <expand-intent name="greetings" variation="7" description="Client: Welcome here" />
+		<expand-intent name="authentication_by_client_success" variation="1" description="Account Number" />
+        <expand-intent name="authentication_by_client_success" variation="2" description="Mobile Number" />
+        <expand-intent name="authentication_by_client_success" variation="3" description="OTP" />
+        <client intent="credit_card_details">आपके क्रेडिट कार्ड का लिमिट है Rs . 300000 हर महीने . </client>
+        <expand-intent name="goodbye" variation="1" description="Client : More Help" />
+        <expand-intent name="rejection_by_customer" variation="1" description="No" />
+        <expand-intent name="goodbye" variation="7" description="Client : Thanks" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="119" description="Limit">
+
+        <customer intent="credit_card_details">क्रेडिट कार्ड के लिमिट जानना चाहता . </customer>
+        <expand-intent name="greetings" variation="7" description="Client: Welcome here" />
+		<expand-intent name="authentication_by_client_success" variation="1" description="Account Number" />
+        <expand-intent name="authentication_by_client_success" variation="2" description="Mobile Number" />
+        <expand-intent name="authentication_by_client_success" variation="3" description="OTP" />
+        <client intent="credit_card_details">आपके क्रेडिट कार्ड का लिमिट है Rs . 300000 हर महीने . </client>
+        <expand-intent name="goodbye" variation="1" description="Client : More Help" />
+        <expand-intent name="rejection_by_customer" variation="1" description="No" />
+        <expand-intent name="goodbye" variation="7" description="Client : Thanks" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="120" description="Limit">
+
+        <customer intent="credit_card_details">क्रेडिट कार्ड लिमिट जानना चाहता . </customer>
+        <expand-intent name="greetings" variation="7" description="Client: Welcome here" />
+		<expand-intent name="authentication_by_client_success" variation="1" description="Account Number" />
+        <expand-intent name="authentication_by_client_success" variation="2" description="Mobile Number" />
+        <expand-intent name="authentication_by_client_success" variation="3" description="OTP" />
+        <client intent="credit_card_details">आपके क्रेडिट कार्ड का लिमिट है Rs . 300000 हर महीने . </client>
+        <expand-intent name="goodbye" variation="1" description="Client : More Help" />
+        <expand-intent name="rejection_by_customer" variation="1" description="No" />
+        <expand-intent name="goodbye" variation="7" description="Client : Thanks" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="121" description="Limit">
+
+        <customer intent="credit_card_details">क्रेडिट कार्ड लिमिट जानना है . </customer>
+        <expand-intent name="greetings" variation="7" description="Client: Welcome here" />
+		<expand-intent name="authentication_by_client_success" variation="1" description="Account Number" />
+        <expand-intent name="authentication_by_client_success" variation="2" description="Mobile Number" />
+        <expand-intent name="authentication_by_client_success" variation="3" description="OTP" />
+        <client intent="credit_card_details">आपके क्रेडिट कार्ड का लिमिट है Rs . 300000 हर महीने . </client>
+        <expand-intent name="goodbye" variation="1" description="Client : More Help" />
+        <expand-intent name="rejection_by_customer" variation="1" description="No" />
+        <expand-intent name="goodbye" variation="7" description="Client : Thanks" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="122" description="Limit">
+
+        <customer intent="credit_card_details">क्रेडिट कार्ड लिमिट जानना . </customer>
+        <expand-intent name="greetings" variation="7" description="Client: Welcome here" />
+		<expand-intent name="authentication_by_client_success" variation="1" description="Account Number" />
+        <expand-intent name="authentication_by_client_success" variation="2" description="Mobile Number" />
+        <expand-intent name="authentication_by_client_success" variation="3" description="OTP" />
+        <client intent="credit_card_details">आपके क्रेडिट कार्ड का लिमिट है Rs . 300000 हर महीने . </client>
+        <expand-intent name="goodbye" variation="1" description="Client : More Help" />
+        <expand-intent name="rejection_by_customer" variation="1" description="No" />
+        <expand-intent name="goodbye" variation="7" description="Client : Thanks" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="123" description="Limit">
+
+        <customer intent="credit_card_details">क्रेडिट कार्ड लिमिट चेक करना है . </customer>
+        <expand-intent name="greetings" variation="7" description="Client: Welcome here" />
+		<expand-intent name="authentication_by_client_success" variation="1" description="Account Number" />
+        <expand-intent name="authentication_by_client_success" variation="2" description="Mobile Number" />
+        <expand-intent name="authentication_by_client_success" variation="3" description="OTP" />
+        <client intent="credit_card_details">आपके क्रेडिट कार्ड का लिमिट है Rs . 300000 हर महीने . </client>
+        <expand-intent name="goodbye" variation="1" description="Client : More Help" />
+        <expand-intent name="rejection_by_customer" variation="1" description="No" />
+        <expand-intent name="goodbye" variation="7" description="Client : Thanks" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="124" description="Limit">
+
+        <customer intent="credit_card_details">क्रेडिट कार्ड लिमिट चेक करना . </customer>
+        <expand-intent name="greetings" variation="7" description="Client: Welcome here" />
+		<expand-intent name="authentication_by_client_success" variation="1" description="Account Number" />
+        <expand-intent name="authentication_by_client_success" variation="2" description="Mobile Number" />
+        <expand-intent name="authentication_by_client_success" variation="3" description="OTP" />
+        <client intent="credit_card_details">आपके क्रेडिट कार्ड का लिमिट है Rs . 300000 हर महीने . </client>
+        <expand-intent name="goodbye" variation="1" description="Client : More Help" />
+        <expand-intent name="rejection_by_customer" variation="1" description="No" />
+        <expand-intent name="goodbye" variation="7" description="Client : Thanks" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="125" description="Limit">
+
+        <customer intent="credit_card_details">क्रेडिट कार्ड लिमिट चेक . </customer>
+        <expand-intent name="greetings" variation="7" description="Client: Welcome here" />
+		<expand-intent name="authentication_by_client_success" variation="1" description="Account Number" />
+        <expand-intent name="authentication_by_client_success" variation="2" description="Mobile Number" />
+        <expand-intent name="authentication_by_client_success" variation="3" description="OTP" />
+        <client intent="credit_card_details">आपके क्रेडिट कार्ड का लिमिट है Rs . 300000 हर महीने . </client>
+        <expand-intent name="goodbye" variation="1" description="Client : More Help" />
+        <expand-intent name="rejection_by_customer" variation="1" description="No" />
+        <expand-intent name="goodbye" variation="7" description="Client : Thanks" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="126" description="Limit">
+
+        <customer intent="credit_card_details">क्रेडिट कार्ड लिमिट . </customer>
+        <expand-intent name="greetings" variation="7" description="Client: Welcome here" />
+		<expand-intent name="authentication_by_client_success" variation="1" description="Account Number" />
+        <expand-intent name="authentication_by_client_success" variation="2" description="Mobile Number" />
+        <expand-intent name="authentication_by_client_success" variation="3" description="OTP" />
+        <client intent="credit_card_details">आपके क्रेडिट कार्ड का लिमिट है Rs . 300000 हर महीने . </client>
+        <expand-intent name="goodbye" variation="1" description="Client : More Help" />
+        <expand-intent name="rejection_by_customer" variation="1" description="No" />
+        <expand-intent name="goodbye" variation="7" description="Client : Thanks" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="127" description="Limit">
+
+        <customer intent="credit_card_details">मै अपना credit कार्ड के लिमिट जानना चाहता हूँ . </customer>
+        <expand-intent name="greetings" variation="7" description="Client: Welcome here" />
+		<expand-intent name="authentication_by_client_success" variation="1" description="Account Number" />
+        <expand-intent name="authentication_by_client_success" variation="2" description="Mobile Number" />
+        <expand-intent name="authentication_by_client_success" variation="3" description="OTP" />
+        <client intent="credit_card_details">आपके क्रेडिट कार्ड का लिमिट है Rs . 300000 हर महीने . </client>
+        <expand-intent name="goodbye" variation="1" description="Client : More Help" />
+        <expand-intent name="rejection_by_customer" variation="1" description="No" />
+        <expand-intent name="goodbye" variation="7" description="Client : Thanks" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="128" description="Limit">
+
+        <customer intent="credit_card_details">मै क्रेडिट card के limit जानना चाहता हूँ . </customer>
+        <expand-intent name="greetings" variation="7" description="Client: Welcome here" />
+		<expand-intent name="authentication_by_client_success" variation="1" description="Account Number" />
+        <expand-intent name="authentication_by_client_success" variation="2" description="Mobile Number" />
+        <expand-intent name="authentication_by_client_success" variation="3" description="OTP" />
+        <client intent="credit_card_details">आपके क्रेडिट कार्ड का लिमिट है Rs . 300000 हर महीने . </client>
+        <expand-intent name="goodbye" variation="1" description="Client : More Help" />
+        <expand-intent name="rejection_by_customer" variation="1" description="No" />
+        <expand-intent name="goodbye" variation="7" description="Client : Thanks" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="129" description="Limit">
+
+        <customer intent="credit_card_details">मै credit card के लिमिट जानना चाहता . </customer>
+        <expand-intent name="greetings" variation="7" description="Client: Welcome here" />
+		<expand-intent name="authentication_by_client_success" variation="1" description="Account Number" />
+        <expand-intent name="authentication_by_client_success" variation="2" description="Mobile Number" />
+        <expand-intent name="authentication_by_client_success" variation="3" description="OTP" />
+        <client intent="credit_card_details">आपके क्रेडिट कार्ड का लिमिट है Rs . 300000 हर महीने . </client>
+        <expand-intent name="goodbye" variation="1" description="Client : More Help" />
+        <expand-intent name="rejection_by_customer" variation="1" description="No" />
+        <expand-intent name="goodbye" variation="7" description="Client : Thanks" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="130" description="Limit">
+
+        <customer intent="credit_card_details">credit card के limit जानना चाहता हूँ . </customer>
+        <expand-intent name="greetings" variation="7" description="Client: Welcome here" />
+		<expand-intent name="authentication_by_client_success" variation="1" description="Account Number" />
+        <expand-intent name="authentication_by_client_success" variation="2" description="Mobile Number" />
+        <expand-intent name="authentication_by_client_success" variation="3" description="OTP" />
+        <client intent="credit_card_details">आपके क्रेडिट कार्ड का लिमिट है Rs . 300000 हर महीने . </client>
+        <expand-intent name="goodbye" variation="1" description="Client : More Help" />
+        <expand-intent name="rejection_by_customer" variation="1" description="No" />
+        <expand-intent name="goodbye" variation="7" description="Client : Thanks" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="131" description="Limit">
+
+        <customer intent="credit_card_details">क्रेडिट कार्ड के limit जानना चाहता . </customer>
+        <expand-intent name="greetings" variation="7" description="Client: Welcome here" />
+		<expand-intent name="authentication_by_client_success" variation="1" description="Account Number" />
+        <expand-intent name="authentication_by_client_success" variation="2" description="Mobile Number" />
+        <expand-intent name="authentication_by_client_success" variation="3" description="OTP" />
+        <client intent="credit_card_details">आपके क्रेडिट कार्ड का लिमिट है Rs . 300000 हर महीने . </client>
+        <expand-intent name="goodbye" variation="1" description="Client : More Help" />
+        <expand-intent name="rejection_by_customer" variation="1" description="No" />
+        <expand-intent name="goodbye" variation="7" description="Client : Thanks" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="132" description="Limit">
+
+        <customer intent="credit_card_details">credit card limit जानना चाहता . </customer>
+        <expand-intent name="greetings" variation="7" description="Client: Welcome here" />
+		<expand-intent name="authentication_by_client_success" variation="1" description="Account Number" />
+        <expand-intent name="authentication_by_client_success" variation="2" description="Mobile Number" />
+        <expand-intent name="authentication_by_client_success" variation="3" description="OTP" />
+        <client intent="credit_card_details">आपके क्रेडिट कार्ड का लिमिट है Rs . 300000 हर महीने . </client>
+        <expand-intent name="goodbye" variation="1" description="Client : More Help" />
+        <expand-intent name="rejection_by_customer" variation="1" description="No" />
+        <expand-intent name="goodbye" variation="7" description="Client : Thanks" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="133" description="Limit">
+
+        <customer intent="credit_card_details">credit card limit जानना है . </customer>
+        <expand-intent name="greetings" variation="7" description="Client: Welcome here" />
+		<expand-intent name="authentication_by_client_success" variation="1" description="Account Number" />
+        <expand-intent name="authentication_by_client_success" variation="2" description="Mobile Number" />
+        <expand-intent name="authentication_by_client_success" variation="3" description="OTP" />
+        <client intent="credit_card_details">आपके क्रेडिट कार्ड का लिमिट है Rs . 300000 हर महीने . </client>
+        <expand-intent name="goodbye" variation="1" description="Client : More Help" />
+        <expand-intent name="rejection_by_customer" variation="1" description="No" />
+        <expand-intent name="goodbye" variation="7" description="Client : Thanks" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="134" description="Limit">
+
+        <customer intent="credit_card_details">credit card limit जानना . </customer>
+        <expand-intent name="greetings" variation="7" description="Client: Welcome here" />
+		<expand-intent name="authentication_by_client_success" variation="1" description="Account Number" />
+        <expand-intent name="authentication_by_client_success" variation="2" description="Mobile Number" />
+        <expand-intent name="authentication_by_client_success" variation="3" description="OTP" />
+        <client intent="credit_card_details">आपके क्रेडिट कार्ड का लिमिट है Rs . 300000 हर महीने . </client>
+        <expand-intent name="goodbye" variation="1" description="Client : More Help" />
+        <expand-intent name="rejection_by_customer" variation="1" description="No" />
+        <expand-intent name="goodbye" variation="7" description="Client : Thanks" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="135" description="Limit">
+
+        <customer intent="credit_card_details">credit card limit चेक करना है . </customer>
+        <expand-intent name="greetings" variation="7" description="Client: Welcome here" />
+		<expand-intent name="authentication_by_client_success" variation="1" description="Account Number" />
+        <expand-intent name="authentication_by_client_success" variation="2" description="Mobile Number" />
+        <expand-intent name="authentication_by_client_success" variation="3" description="OTP" />
+        <client intent="credit_card_details">आपके क्रेडिट कार्ड का लिमिट है Rs . 300000 हर महीने . </client>
+        <expand-intent name="goodbye" variation="1" description="Client : More Help" />
+        <expand-intent name="rejection_by_customer" variation="1" description="No" />
+        <expand-intent name="goodbye" variation="7" description="Client : Thanks" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="136" description="Limit">
+
+        <customer intent="credit_card_details">credit card limit चेक करना . </customer>
+        <expand-intent name="greetings" variation="7" description="Client: Welcome here" />
+		<expand-intent name="authentication_by_client_success" variation="1" description="Account Number" />
+        <expand-intent name="authentication_by_client_success" variation="2" description="Mobile Number" />
+        <expand-intent name="authentication_by_client_success" variation="3" description="OTP" />
+        <client intent="credit_card_details">आपके क्रेडिट कार्ड का लिमिट है Rs . 300000 हर महीने . </client>
+        <expand-intent name="goodbye" variation="1" description="Client : More Help" />
+        <expand-intent name="rejection_by_customer" variation="1" description="No" />
+        <expand-intent name="goodbye" variation="7" description="Client : Thanks" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="137" description="Limit">
+
+        <customer intent="credit_card_details">credit card limit चेक . </customer>
+        <expand-intent name="greetings" variation="7" description="Client: Welcome here" />
+		<expand-intent name="authentication_by_client_success" variation="1" description="Account Number" />
+        <expand-intent name="authentication_by_client_success" variation="2" description="Mobile Number" />
+        <expand-intent name="authentication_by_client_success" variation="3" description="OTP" />
+        <client intent="credit_card_details">आपके क्रेडिट कार्ड का लिमिट है Rs . 300000 हर महीने . </client>
+        <expand-intent name="goodbye" variation="1" description="Client : More Help" />
+        <expand-intent name="rejection_by_customer" variation="1" description="No" />
+        <expand-intent name="goodbye" variation="7" description="Client : Thanks" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="138" description="Limit">
+
+        <customer intent="credit_card_details">my credit card limit . </customer>
+        <expand-intent name="greetings" variation="7" description="Client: Welcome here" />
+		<expand-intent name="authentication_by_client_success" variation="1" description="Account Number" />
+        <expand-intent name="authentication_by_client_success" variation="2" description="Mobile Number" />
+        <expand-intent name="authentication_by_client_success" variation="3" description="OTP" />
+        <client intent="credit_card_details">आपके क्रेडिट कार्ड का लिमिट है Rs . 300000 हर महीने . </client>
+        <expand-intent name="goodbye" variation="1" description="Client : More Help" />
+        <expand-intent name="rejection_by_customer" variation="1" description="No" />
+        <expand-intent name="goodbye" variation="7" description="Client : Thanks" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="139" description="Limit">
+
+        <customer intent="credit_card_details">credit card limit . </customer>
+        <expand-intent name="greetings" variation="7" description="Client: Welcome here" />
+		<expand-intent name="authentication_by_client_success" variation="1" description="Account Number" />
+        <expand-intent name="authentication_by_client_success" variation="2" description="Mobile Number" />
+        <expand-intent name="authentication_by_client_success" variation="3" description="OTP" />
+        <client intent="credit_card_details">आपके क्रेडिट कार्ड का लिमिट है Rs . 300000 हर महीने . </client>
+        <expand-intent name="goodbye" variation="1" description="Client : More Help" />
+        <expand-intent name="rejection_by_customer" variation="1" description="No" />
+        <expand-intent name="goodbye" variation="7" description="Client : Thanks" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="140" description="Limit">
+
+        <customer intent="credit_card_details">credit limit . </customer>
+        <expand-intent name="greetings" variation="7" description="Client: Welcome here" />
+		<expand-intent name="authentication_by_client_success" variation="1" description="Account Number" />
+        <expand-intent name="authentication_by_client_success" variation="2" description="Mobile Number" />
+        <expand-intent name="authentication_by_client_success" variation="3" description="OTP" />
+        <client intent="credit_card_details">आपके क्रेडिट कार्ड का लिमिट है Rs . 300000 हर महीने . </client>
+        <expand-intent name="goodbye" variation="1" description="Client : More Help" />
+        <expand-intent name="rejection_by_customer" variation="1" description="No" />
+        <expand-intent name="goodbye" variation="7" description="Client : Thanks" />
+
+    </intent>
+
+</dataset>

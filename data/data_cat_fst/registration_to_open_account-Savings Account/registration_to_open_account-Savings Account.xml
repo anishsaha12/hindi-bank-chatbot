@@ -1,0 +1,41 @@
+<dataset>
+
+    <intent name="registration_to_open_account" variation="1" description="Savings Account">
+
+        <expand-intent description="Hello" name="greetings" variation="9" />
+        <customer intent="registration_to_open_account">मुझे एक खाता खोलना है इस बैंक में . </customer>
+        <client intent="registration_to_open_account">इस सेवा का उपयोग करने के लिए शुक्रिया | आप किस तरह का खाता खोलना चाहते है ? </client>
+        <customer intent="registration_to_open_account">क्या क्या उपलब्ध है ? </customer>
+		<expand-intent description="Mobile Number Link" name="authentication_by_client_success" variation="16" />
+        <expand-intent description="OTP Link" name="authentication_by_client_success" variation="3" />
+        <client intent="registration_to_open_account">चार तरह के खाते खोल सकते है -
+1 ) Current account . 
+2 ) Savings account . 
+3 ) Recurring Deposit account . 
+4 ) Fixed Deposit account </client>
+        <customer intent="registration_to_open_account">मुझे savings account खोलना है . </customer>
+        <client intent="registration_to_open_account">जरूर | आप अपना नाम बताईये | </client>
+        <customer intent="registration_to_open_account">मेरा नाम Anish Saha है ।</customer>
+        <client intent="registration_to_open_account">आपका email id दीजिए | </client>
+        <customer intent="registration_to_open_account">email tmp@abc.com</customer>
+		<client intent="registration_to_open_account">आपका PAN नंबर दीजिए | </client>
+        <customer intent="registration_to_open_account">PAN ABCDE1234F</customer>
+        <client intent="registration_to_open_account">आपका नवीनतम तस्वीर भेजिए | </client>
+        <customer intent="registration_to_open_account">Photo</customer>
+        <client intent="registration_to_open_account">शुक्रिया | आपका Aadhaar नंबर दीजिए | </client>
+        <customer intent="registration_to_open_account">Aadhar 123JJKX11</customer>
+        <client intent="registration_to_open_account">शुक्रिया | आपका घर का स्थायी पता दीजिए | </client>
+        <customer intent="registration_to_open_account">मेरा पता है Brigade gateway , Malleshwaram , Bangalore 560055</customer>
+        <client intent="registration_to_open_account">धीरज रकने के लिए बहुत शुक्रिया | आपके हस्ताक्षर के तस्वीर भेजिए | </client>
+        <customer intent="registration_to_open_account">Photo</customer>
+        <client intent="registration_to_open_account">धन्यवाद | आपकी खाता खोलने की प्रक्रिया शुरु हो चुका है | 
+XXXXX बैंक की प्रतिनिधि जाँच के लिए आपके घर आने वाला है | 
+प्रतिनिधि को आपके विवरण दिया गया है । 
+प्रतिनिधि आपको संपर्क करेंगे</client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+    
+</dataset>

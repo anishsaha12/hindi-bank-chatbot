@@ -1,0 +1,13 @@
+<epsilon> 0
+prompt0 1
+expandauthenticationbyclientsuccessmobilenumber 2
+expandgoodbyeclientmorehelp 3
+expandgoodbyeclientthanks 4
+expandgreetingshello 5
+expandgreetingsclientwithoutname 6
+expandauthenticationbyclientsuccessaccountnumber 7
+expandauthenticationbyclientsuccessotp 8
+expandgreetingsclientwelcomehere 9
+expandrejectionbycustomerno 10
+expandauthenticationbyclientsuccesshomebank 11
+expandauthenticationbyclientsuccesscifnumber 12

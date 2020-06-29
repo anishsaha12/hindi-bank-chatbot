@@ -1,0 +1,352 @@
+<dataset>
+
+    <intent name="credit_card_details" variation="3" description="Status: Processing">
+
+        <customer intent="credit_card_details">मे अपना credit card के status जानना चाहता हूँ</customer>
+        <expand-intent description="Client: Without Name" name="greetings" variation="6" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक क्रेडिट card निवेदन है . आपका क्रेडिट कार्ड का स्थिति है Processing . सामान्य रूप में निवेदन के पश्चात् 2 हफ्ते के अंदर कार्ड आपका कार्ड Approve हो जाता है . आपको तुरंत अपने रजिस्टर्ड मोबाइल नंबर पे मैसेज आ जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="55" description="Status: Processing">
+
+        <customer intent="credit_card_details">मै अपना क्रेडिट कार्ड के स्टेटस जानना चाहता हूँ . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक क्रेडिट card निवेदन है . आपका क्रेडिट कार्ड का स्थिति है Processing . सामान्य रूप में निवेदन के पश्चात् 2 हफ्ते के अंदर कार्ड आपका कार्ड Approve हो जाता है . आपको तुरंत अपने रजिस्टर्ड मोबाइल नंबर पे मैसेज आ जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="56" description="Status: Processing">
+
+        <customer intent="credit_card_details">मै क्रेडिट कार्ड के स्टेटस जानना चाहता हूँ . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक क्रेडिट card निवेदन है . आपका क्रेडिट कार्ड का स्थिति है Processing . सामान्य रूप में निवेदन के पश्चात् 2 हफ्ते के अंदर कार्ड आपका कार्ड Approve हो जाता है . आपको तुरंत अपने रजिस्टर्ड मोबाइल नंबर पे मैसेज आ जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="57" description="Status: Processing">
+
+        <customer intent="credit_card_details">मै क्रेडिट कार्ड के स्टेटस जानना चाहता . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक क्रेडिट card निवेदन है . आपका क्रेडिट कार्ड का स्थिति है Processing . सामान्य रूप में निवेदन के पश्चात् 2 हफ्ते के अंदर कार्ड आपका कार्ड Approve हो जाता है . आपको तुरंत अपने रजिस्टर्ड मोबाइल नंबर पे मैसेज आ जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="58" description="Status: Processing">
+
+        <customer intent="credit_card_details">क्रेडिट कार्ड के स्टेटस जानना चाहता हूँ . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक क्रेडिट card निवेदन है . आपका क्रेडिट कार्ड का स्थिति है Processing . सामान्य रूप में निवेदन के पश्चात् 2 हफ्ते के अंदर कार्ड आपका कार्ड Approve हो जाता है . आपको तुरंत अपने रजिस्टर्ड मोबाइल नंबर पे मैसेज आ जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="59" description="Status: Processing">
+
+        <customer intent="credit_card_details">क्रेडिट कार्ड के स्टेटस जानना चाहता . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक क्रेडिट card निवेदन है . आपका क्रेडिट कार्ड का स्थिति है Processing . सामान्य रूप में निवेदन के पश्चात् 2 हफ्ते के अंदर कार्ड आपका कार्ड Approve हो जाता है . आपको तुरंत अपने रजिस्टर्ड मोबाइल नंबर पे मैसेज आ जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="60" description="Status: Processing">
+
+        <customer intent="credit_card_details">क्रेडिट कार्ड स्टेटस जानना चाहता . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक क्रेडिट card निवेदन है . आपका क्रेडिट कार्ड का स्थिति है Processing . सामान्य रूप में निवेदन के पश्चात् 2 हफ्ते के अंदर कार्ड आपका कार्ड Approve हो जाता है . आपको तुरंत अपने रजिस्टर्ड मोबाइल नंबर पे मैसेज आ जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="61" description="Status: Processing">
+
+        <customer intent="credit_card_details">क्रेडिट कार्ड स्टेटस जानना है . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक क्रेडिट card निवेदन है . आपका क्रेडिट कार्ड का स्थिति है Processing . सामान्य रूप में निवेदन के पश्चात् 2 हफ्ते के अंदर कार्ड आपका कार्ड Approve हो जाता है . आपको तुरंत अपने रजिस्टर्ड मोबाइल नंबर पे मैसेज आ जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="62" description="Status: Processing">
+
+        <customer intent="credit_card_details">क्रेडिट कार्ड स्टेटस जानना . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक क्रेडिट card निवेदन है . आपका क्रेडिट कार्ड का स्थिति है Processing . सामान्य रूप में निवेदन के पश्चात् 2 हफ्ते के अंदर कार्ड आपका कार्ड Approve हो जाता है . आपको तुरंत अपने रजिस्टर्ड मोबाइल नंबर पे मैसेज आ जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="63" description="Status: Processing">
+
+        <customer intent="credit_card_details">क्रेडिट कार्ड स्टेटस चेक करना है . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक क्रेडिट card निवेदन है . आपका क्रेडिट कार्ड का स्थिति है Processing . सामान्य रूप में निवेदन के पश्चात् 2 हफ्ते के अंदर कार्ड आपका कार्ड Approve हो जाता है . आपको तुरंत अपने रजिस्टर्ड मोबाइल नंबर पे मैसेज आ जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="64" description="Status: Processing">
+
+        <customer intent="credit_card_details">क्रेडिट कार्ड स्टेटस चेक करना . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक क्रेडिट card निवेदन है . आपका क्रेडिट कार्ड का स्थिति है Processing . सामान्य रूप में निवेदन के पश्चात् 2 हफ्ते के अंदर कार्ड आपका कार्ड Approve हो जाता है . आपको तुरंत अपने रजिस्टर्ड मोबाइल नंबर पे मैसेज आ जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="65" description="Status: Processing">
+
+        <customer intent="credit_card_details">क्रेडिट कार्ड स्टेटस चेक . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक क्रेडिट card निवेदन है . आपका क्रेडिट कार्ड का स्थिति है Processing . सामान्य रूप में निवेदन के पश्चात् 2 हफ्ते के अंदर कार्ड आपका कार्ड Approve हो जाता है . आपको तुरंत अपने रजिस्टर्ड मोबाइल नंबर पे मैसेज आ जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="66" description="Status: Processing">
+
+        <customer intent="credit_card_details">क्रेडिट कार्ड स्टेटस . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक क्रेडिट card निवेदन है . आपका क्रेडिट कार्ड का स्थिति है Processing . सामान्य रूप में निवेदन के पश्चात् 2 हफ्ते के अंदर कार्ड आपका कार्ड Approve हो जाता है . आपको तुरंत अपने रजिस्टर्ड मोबाइल नंबर पे मैसेज आ जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="67" description="Status: Processing">
+
+        <customer intent="credit_card_details">मै अपना credit कार्ड के स्टेटस जानना चाहता हूँ . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक क्रेडिट card निवेदन है . आपका क्रेडिट कार्ड का स्थिति है Processing . सामान्य रूप में निवेदन के पश्चात् 2 हफ्ते के अंदर कार्ड आपका कार्ड Approve हो जाता है . आपको तुरंत अपने रजिस्टर्ड मोबाइल नंबर पे मैसेज आ जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="68" description="Status: Processing">
+
+        <customer intent="credit_card_details">मै क्रेडिट card के status जानना चाहता हूँ . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक क्रेडिट card निवेदन है . आपका क्रेडिट कार्ड का स्थिति है Processing . सामान्य रूप में निवेदन के पश्चात् 2 हफ्ते के अंदर कार्ड आपका कार्ड Approve हो जाता है . आपको तुरंत अपने रजिस्टर्ड मोबाइल नंबर पे मैसेज आ जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="69" description="Status: Processing">
+
+        <customer intent="credit_card_details">मै credit card के स्टेटस जानना चाहता . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक क्रेडिट card निवेदन है . आपका क्रेडिट कार्ड का स्थिति है Processing . सामान्य रूप में निवेदन के पश्चात् 2 हफ्ते के अंदर कार्ड आपका कार्ड Approve हो जाता है . आपको तुरंत अपने रजिस्टर्ड मोबाइल नंबर पे मैसेज आ जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="70" description="Status: Processing">
+
+        <customer intent="credit_card_details">credit card के status जानना चाहता हूँ . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक क्रेडिट card निवेदन है . आपका क्रेडिट कार्ड का स्थिति है Processing . सामान्य रूप में निवेदन के पश्चात् 2 हफ्ते के अंदर कार्ड आपका कार्ड Approve हो जाता है . आपको तुरंत अपने रजिस्टर्ड मोबाइल नंबर पे मैसेज आ जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="71" description="Status: Processing">
+
+        <customer intent="credit_card_details">क्रेडिट कार्ड के status जानना चाहता . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक क्रेडिट card निवेदन है . आपका क्रेडिट कार्ड का स्थिति है Processing . सामान्य रूप में निवेदन के पश्चात् 2 हफ्ते के अंदर कार्ड आपका कार्ड Approve हो जाता है . आपको तुरंत अपने रजिस्टर्ड मोबाइल नंबर पे मैसेज आ जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="72" description="Status: Processing">
+
+        <customer intent="credit_card_details">credit card status जानना चाहता . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक क्रेडिट card निवेदन है . आपका क्रेडिट कार्ड का स्थिति है Processing . सामान्य रूप में निवेदन के पश्चात् 2 हफ्ते के अंदर कार्ड आपका कार्ड Approve हो जाता है . आपको तुरंत अपने रजिस्टर्ड मोबाइल नंबर पे मैसेज आ जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="73" description="Status: Processing">
+
+        <customer intent="credit_card_details">credit card status जानना है . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक क्रेडिट card निवेदन है . आपका क्रेडिट कार्ड का स्थिति है Processing . सामान्य रूप में निवेदन के पश्चात् 2 हफ्ते के अंदर कार्ड आपका कार्ड Approve हो जाता है . आपको तुरंत अपने रजिस्टर्ड मोबाइल नंबर पे मैसेज आ जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="74" description="Status: Processing">
+
+        <customer intent="credit_card_details">credit card status जानना . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक क्रेडिट card निवेदन है . आपका क्रेडिट कार्ड का स्थिति है Processing . सामान्य रूप में निवेदन के पश्चात् 2 हफ्ते के अंदर कार्ड आपका कार्ड Approve हो जाता है . आपको तुरंत अपने रजिस्टर्ड मोबाइल नंबर पे मैसेज आ जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="75" description="Status: Processing">
+
+        <customer intent="credit_card_details">credit card status चेक करना है . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक क्रेडिट card निवेदन है . आपका क्रेडिट कार्ड का स्थिति है Processing . सामान्य रूप में निवेदन के पश्चात् 2 हफ्ते के अंदर कार्ड आपका कार्ड Approve हो जाता है . आपको तुरंत अपने रजिस्टर्ड मोबाइल नंबर पे मैसेज आ जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="76" description="Status: Processing">
+
+        <customer intent="credit_card_details">credit card status चेक करना . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक क्रेडिट card निवेदन है . आपका क्रेडिट कार्ड का स्थिति है Processing . सामान्य रूप में निवेदन के पश्चात् 2 हफ्ते के अंदर कार्ड आपका कार्ड Approve हो जाता है . आपको तुरंत अपने रजिस्टर्ड मोबाइल नंबर पे मैसेज आ जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="77" description="Status: Processing">
+
+        <customer intent="credit_card_details">credit card status चेक . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक क्रेडिट card निवेदन है . आपका क्रेडिट कार्ड का स्थिति है Processing . सामान्य रूप में निवेदन के पश्चात् 2 हफ्ते के अंदर कार्ड आपका कार्ड Approve हो जाता है . आपको तुरंत अपने रजिस्टर्ड मोबाइल नंबर पे मैसेज आ जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="78" description="Status: Processing">
+
+        <customer intent="credit_card_details">credit card status . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट से एक क्रेडिट card निवेदन है . आपका क्रेडिट कार्ड का स्थिति है Processing . सामान्य रूप में निवेदन के पश्चात् 2 हफ्ते के अंदर कार्ड आपका कार्ड Approve हो जाता है . आपको तुरंत अपने रजिस्टर्ड मोबाइल नंबर पे मैसेज आ जायेगा . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+</dataset>

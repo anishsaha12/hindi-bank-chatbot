@@ -1,0 +1,65 @@
+<dataset>
+
+    <intent name="confirmation_by_customer" variation="80" description="Available between Time">
+
+        <customer intent="confirmation_by_customer">हाँ मै HH बजे से HH बजे के बीच में उपलब्ध हु ।</customer>
+
+    </intent>
+
+
+    <intent name="confirmation_by_customer" variation="81" description="Available between Time">
+
+        <customer intent="confirmation_by_customer">मै HH बजे से HH बजे के बीच में उपलब्ध हु ।</customer>
+
+    </intent>
+
+
+    <intent name="confirmation_by_customer" variation="82" description="Available between Time">
+
+        <customer intent="confirmation_by_customer">मै HH बजे से HH बजे के बीच उपलब्ध हु ।</customer>
+
+    </intent>
+
+
+    <intent name="confirmation_by_customer" variation="83" description="Available between Time">
+
+        <customer intent="confirmation_by_customer">मै HH बजे से HH बजे के बीच उपलब्ध ।</customer>
+
+    </intent>
+
+
+    <intent name="confirmation_by_customer" variation="84" description="Available between Time">
+
+        <customer intent="confirmation_by_customer">मै HH बजे से HH बजे के बीच ।</customer>
+
+    </intent>
+
+
+    <intent name="confirmation_by_customer" variation="85" description="Available between Time">
+
+        <customer intent="confirmation_by_customer">HH बजे से HH बजे के बीच ।</customer>
+
+    </intent>
+
+
+    <intent name="confirmation_by_customer" variation="86" description="Available between Time">
+
+        <customer intent="confirmation_by_customer">HH बजे से HH बजे ।</customer>
+
+    </intent>
+
+
+    <intent name="confirmation_by_customer" variation="87" description="Available between Time">
+
+        <customer intent="confirmation_by_customer">HH बजे - HH बजे ।</customer>
+
+    </intent>
+
+
+    <intent name="confirmation_by_customer" variation="88" description="Available between Time">
+
+        <customer intent="confirmation_by_customer">HH am - HH pm ।</customer>
+
+    </intent>
+
+</dataset>

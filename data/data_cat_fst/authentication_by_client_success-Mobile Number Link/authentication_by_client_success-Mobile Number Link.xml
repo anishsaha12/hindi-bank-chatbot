@@ -1,0 +1,162 @@
+<dataset>
+
+    <intent name="authentication_by_client_success" variation="18" description="Mobile Number Link">
+
+        <client intent="authentication_by_client_success">आप अपना मोबाइल नंबर बताइये जो बैंक से लिंक किया जायेगा . </client>
+        <customer intent="authentication_by_client_success">MMMMMMM</customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="208" description="Mobile Number Link">
+
+        <client intent="authentication_by_client_success">आप अपना मोबाइल नंबर बताइये जो बैंक से लिंक किया जायेगा . </client>
+        <customer intent="authentication_by_client_success">मेरा मोबाइल नंबर MMMMMM | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="209" description="Mobile Number Link">
+
+        <client intent="authentication_by_client_success">आप अपना मोबाइल नंबर बताइये जो बैंक से लिंक किया जायेगा . </client>
+        <customer intent="authentication_by_client_success">मोबाइल नंबर MMMMMM | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="210" description="Mobile Number Link">
+
+        <client intent="authentication_by_client_success">आप अपना मोबाइल नंबर बताइये जो बैंक से लिंक किया जायेगा . </client>
+        <customer intent="authentication_by_client_success">मोबाइल नंबर MMMMMM ये है | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="211" description="Mobile Number Link">
+
+        <client intent="authentication_by_client_success">आप अपना मोबाइल नंबर बताइये जो बैंक से लिंक किया जायेगा . </client>
+        <customer intent="authentication_by_client_success">ये रहा मेरा मोबाइल नंबर MMMMMM | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="212" description="Mobile Number Link">
+
+        <client intent="authentication_by_client_success">आप अपना मोबाइल नंबर बताइये जो बैंक से लिंक किया जायेगा . </client>
+        <customer intent="authentication_by_client_success">मेरा मोबाइल नंबर ये रहा MMMMMM | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="213" description="Mobile Number Link">
+
+        <client intent="authentication_by_client_success">आप अपना मोबाइल नंबर बताइये जो बैंक से लिंक किया जायेगा . </client>
+        <customer intent="authentication_by_client_success">मोबाइल नंबर ये रहा MMMMMM | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="214" description="Mobile Number Link">
+
+        <client intent="authentication_by_client_success">आप अपना मोबाइल नंबर बताइये जो बैंक से लिंक किया जायेगा . </client>
+        <customer intent="authentication_by_client_success">मोबाइल का नंबर MMMMMM | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="215" description="Mobile Number Link">
+
+        <client intent="authentication_by_client_success">आप अपना मोबाइल नंबर बताइये जो बैंक से लिंक किया जायेगा . </client>
+        <customer intent="authentication_by_client_success">मोबाइल MMMMMM | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="216" description="Mobile Number Link">
+
+        <client intent="authentication_by_client_success">आप अपना मोबाइल नंबर बताइये जो बैंक से लिंक किया जायेगा . </client>
+        <customer intent="authentication_by_client_success">नंबर MMMMMM | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="217" description="Mobile Number Link">
+
+        <client intent="authentication_by_client_success">आप अपना मोबाइल नंबर बताइये जो बैंक से लिंक किया जायेगा . </client>
+        <customer intent="authentication_by_client_success">MMMMMM | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="218" description="Mobile Number Link">
+
+        <client intent="authentication_by_client_success">आप अपना मोबाइल नंबर बताइये जो बैंक से लिंक किया जायेगा . </client>
+        <customer intent="authentication_by_client_success">मेरा mobile नंबर MMMMMM | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="219" description="Mobile Number Link">
+
+        <client intent="authentication_by_client_success">आप अपना मोबाइल नंबर बताइये जो बैंक से लिंक किया जायेगा . </client>
+        <customer intent="authentication_by_client_success">मोबाइल number MMMMMM | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="220" description="Mobile Number Link">
+
+        <client intent="authentication_by_client_success">आप अपना मोबाइल नंबर बताइये जो बैंक से लिंक किया जायेगा . </client>
+        <customer intent="authentication_by_client_success">mobile number MMMMMM ये है | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="221" description="Mobile Number Link">
+
+        <client intent="authentication_by_client_success">आप अपना मोबाइल नंबर बताइये जो बैंक से लिंक किया जायेगा . </client>
+        <customer intent="authentication_by_client_success">ये रहा मेरा mobile नंबर MMMMMM | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="222" description="Mobile Number Link">
+
+        <client intent="authentication_by_client_success">आप अपना मोबाइल नंबर बताइये जो बैंक से लिंक किया जायेगा . </client>
+        <customer intent="authentication_by_client_success">मेरा mobile number ये रहा MMMMMM | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="223" description="Mobile Number Link">
+
+        <client intent="authentication_by_client_success">आप अपना मोबाइल नंबर बताइये जो बैंक से लिंक किया जायेगा . </client>
+        <customer intent="authentication_by_client_success">mobile number ये रहा MMMMMM | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="224" description="Mobile Number Link">
+
+        <client intent="authentication_by_client_success">आप अपना मोबाइल नंबर बताइये जो बैंक से लिंक किया जायेगा . </client>
+        <customer intent="authentication_by_client_success">mobile का number MMMMMM | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="225" description="Mobile Number Link">
+
+        <client intent="authentication_by_client_success">आप अपना मोबाइल नंबर बताइये जो बैंक से लिंक किया जायेगा . </client>
+        <customer intent="authentication_by_client_success">mobile MMMMMM | </customer>
+
+    </intent>
+
+
+    <intent name="authentication_by_client_success" variation="226" description="Mobile Number Link">
+
+        <client intent="authentication_by_client_success">आप अपना मोबाइल नंबर बताइये जो बैंक से लिंक किया जायेगा . </client>
+        <customer intent="authentication_by_client_success">number MMMMMM | </customer>
+
+    </intent>
+
+</dataset>

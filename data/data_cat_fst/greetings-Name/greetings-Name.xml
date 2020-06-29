@@ -1,0 +1,66 @@
+<dataset>
+
+    <intent name="greetings" variation="10" description="Name">
+
+        <customer intent="greetings">नमस्ते , मेरा नाम XXXX है | </customer>
+        <client intent="greetings">नमस्ते XXXX जी . </client>
+
+    </intent>
+
+
+    <intent name="greetings" variation="11" description="Name">
+
+        <customer intent="greetings">नमस्ते , मै XXXX हूँ | </customer>
+        <client intent="greetings">नमस्ते XXXX जी . </client>
+
+    </intent>
+
+
+    <intent name="greetings" variation="12" description="Name">
+
+        <customer intent="greetings">नमस्ते , मै XXXX हू | </customer>
+        <client intent="greetings">नमस्ते XXXX जी . </client>
+
+    </intent>
+
+
+    <intent name="greetings" variation="13" description="Name">
+
+        <customer intent="greetings">hello , मेरा नाम XXXX है | </customer>
+        <client intent="greetings">नमस्ते XXXX जी . </client>
+
+    </intent>
+
+
+    <intent name="greetings" variation="14" description="Name">
+
+        <customer intent="greetings">hello , मै XXXX हूँ | </customer>
+        <client intent="greetings">नमस्ते XXXX जी . </client>
+
+    </intent>
+
+
+    <intent name="greetings" variation="15" description="Name">
+
+        <customer intent="greetings">hey , मै XXXX हूँ | </customer>
+        <client intent="greetings">नमस्ते XXXX जी . </client>
+
+    </intent>
+
+
+    <intent name="greetings" variation="16" description="Name">
+
+        <customer intent="greetings">hi , मै XXXX हूँ | </customer>
+        <client intent="greetings">नमस्ते XXXX जी . </client>
+
+    </intent>
+
+
+    <intent name="greetings" variation="17" description="Name">
+
+        <customer intent="greetings">hello , मै XXXX हू | </customer>
+        <client intent="greetings">नमस्ते XXXX जी . </client>
+
+    </intent>
+
+</dataset>

@@ -1,0 +1,58 @@
+<dataset>
+
+    <intent name="goodbye" variation="9" description="Customer: Thanks">
+
+        <customer intent="goodbye">थैंक्स | </customer>
+
+    </intent>
+
+
+    <intent name="goodbye" variation="10" description="Customer: Thanks">
+
+        <customer intent="goodbye">शुक्रिया</customer>
+
+    </intent>
+
+
+    <intent name="goodbye" variation="11" description="Customer: Thanks">
+
+        <customer intent="goodbye">बहुत शुक्रिया | Thank you</customer>
+
+    </intent>
+
+
+    <intent name="goodbye" variation="12" description="Customer: Thanks">
+
+        <customer intent="goodbye">thanks a lot</customer>
+
+    </intent>
+
+
+    <intent name="goodbye" variation="13" description="Customer: Thanks">
+
+        <customer intent="goodbye">thanks</customer>
+
+    </intent>
+
+
+    <intent name="goodbye" variation="15" description="Customer: Thanks">
+
+        <customer intent="goodbye">ठीक है धन्यवाद | </customer>
+
+    </intent>
+
+
+    <intent name="goodbye" variation="16" description="Customer: Thanks">
+
+        <customer intent="goodbye">ठीक है thanks | </customer>
+
+    </intent>
+
+
+    <intent name="goodbye" variation="17" description="Customer: Thanks">
+
+        <customer intent="goodbye">धन्यवाद | </customer>
+
+    </intent>
+
+</dataset>

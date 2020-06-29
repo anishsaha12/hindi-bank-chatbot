@@ -1,0 +1,184 @@
+<dataset>
+
+    <intent name="rejection_by_customer" variation="60" description="Do not know Account number">
+
+        <customer intent="rejection_by_customer">मुझे खाता संख्या नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="61" description="Do not know Account number">
+
+        <customer intent="rejection_by_customer">खाता संख्या नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="62" description="Do not know Account number">
+
+        <customer intent="rejection_by_customer">संख्या नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="63" description="Do not know Account number">
+
+        <customer intent="rejection_by_customer">खाता संख्या पता नहीं | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="64" description="Do not know Account number">
+
+        <customer intent="rejection_by_customer">संख्या पता नहीं | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="65" description="Do not know Account number">
+
+        <customer intent="rejection_by_customer">मुझे खाता नंबर नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="66" description="Do not know Account number">
+
+        <customer intent="rejection_by_customer">खाता नंबर नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="67" description="Do not know Account number">
+
+        <customer intent="rejection_by_customer">नंबर नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="68" description="Do not know Account number">
+
+        <customer intent="rejection_by_customer">खाता नंबर पता नहीं | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="69" description="Do not know Account number">
+
+        <customer intent="rejection_by_customer">नंबर पता नहीं | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="70" description="Do not know Account number">
+
+        <customer intent="rejection_by_customer">मुझे account संख्या नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="71" description="Do not know Account number">
+
+        <customer intent="rejection_by_customer">अकाउंट number नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="72" description="Do not know Account number">
+
+        <customer intent="rejection_by_customer">number नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="73" description="Do not know Account number">
+
+        <customer intent="rejection_by_customer">account number पता नहीं | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="74" description="Do not know Account number">
+
+        <customer intent="rejection_by_customer">number पता नहीं | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="75" description="Do not know Account number">
+
+        <customer intent="rejection_by_customer">मुझे account number नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="76" description="Do not know Account number">
+
+        <customer intent="rejection_by_customer">account नंबर नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="77" description="Do not know Account number">
+
+        <customer intent="rejection_by_customer">number नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="78" description="Do not know Account number">
+
+        <customer intent="rejection_by_customer">account number पता नहीं | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="79" description="Do not know Account number">
+
+        <customer intent="rejection_by_customer">मुझे अकाउंट संख्या नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="80" description="Do not know Account number">
+
+        <customer intent="rejection_by_customer">अकाउंट संख्या नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="81" description="Do not know Account number">
+
+        <customer intent="rejection_by_customer">अकाउंट संख्या पता नहीं | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="82" description="Do not know Account number">
+
+        <customer intent="rejection_by_customer">मुझे अकाउंट नंबर नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="83" description="Do not know Account number">
+
+        <customer intent="rejection_by_customer">अकाउंट नंबर नहीं पता | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="84" description="Do not know Account number">
+
+        <customer intent="rejection_by_customer">अकाउंट नंबर पता नहीं | </customer>
+
+    </intent>
+
+
+    <intent name="rejection_by_customer" variation="85" description="Do not know Account number">
+
+        <customer intent="rejection_by_customer">अकाउंट number नहीं पता | </customer>
+
+    </intent>
+
+</dataset>

@@ -1,0 +1,353 @@
+<dataset>
+
+    <intent name="credit_card_details" variation="1" description="Balance">
+
+        <customer intent="credit_card_details">मे अपना क्रेडिट कार्ड के बैलेंस जानना चाहता हूँ</customer>
+        <expand-intent description="Client: Without Name" name="greetings" variation="6" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट में एक क्रेडिट कार्ड है - 9999-1456-7893-7777 . आपके खाते में अभी Rs . 30 , 000 बैलेंस है . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="7" description="Balance">
+
+        <customer intent="credit_card_details">मै अपना क्रेडिट कार्ड के बैलेंस जानना चाहता हूँ . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट में एक क्रेडिट कार्ड है - 9999-1456-7893-7777 . आपके खाते में अभी Rs . 30 , 000 बैलेंस है . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="8" description="Balance">
+
+        <customer intent="credit_card_details">मै क्रेडिट कार्ड के बैलेंस जानना चाहता हूँ . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट में एक क्रेडिट कार्ड है - 9999-1456-7893-7777 . आपके खाते में अभी Rs . 30 , 000 बैलेंस है . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="9" description="Balance">
+
+        <customer intent="credit_card_details">मै क्रेडिट कार्ड के बैलेंस जानना चाहता . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट में एक क्रेडिट कार्ड है - 9999-1456-7893-7777 . आपके खाते में अभी Rs . 30 , 000 बैलेंस है . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="10" description="Balance">
+
+        <customer intent="credit_card_details">क्रेडिट कार्ड के बैलेंस जानना चाहता हूँ . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट में एक क्रेडिट कार्ड है - 9999-1456-7893-7777 . आपके खाते में अभी Rs . 30 , 000 बैलेंस है . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="11" description="Balance">
+
+        <customer intent="credit_card_details">क्रेडिट कार्ड के बैलेंस जानना चाहता . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट में एक क्रेडिट कार्ड है - 9999-1456-7893-7777 . आपके खाते में अभी Rs . 30 , 000 बैलेंस है . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="12" description="Balance">
+
+        <customer intent="credit_card_details">क्रेडिट कार्ड बैलेंस जानना चाहता . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट में एक क्रेडिट कार्ड है - 9999-1456-7893-7777 . आपके खाते में अभी Rs . 30 , 000 बैलेंस है . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="13" description="Balance">
+
+        <customer intent="credit_card_details">क्रेडिट कार्ड बैलेंस जानना है . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट में एक क्रेडिट कार्ड है - 9999-1456-7893-7777 . आपके खाते में अभी Rs . 30 , 000 बैलेंस है . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="14" description="Balance">
+
+        <customer intent="credit_card_details">क्रेडिट कार्ड बैलेंस जानना . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट में एक क्रेडिट कार्ड है - 9999-1456-7893-7777 . आपके खाते में अभी Rs . 30 , 000 बैलेंस है . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="15" description="Balance">
+
+        <customer intent="credit_card_details">क्रेडिट कार्ड बैलेंस चेक करना है . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट में एक क्रेडिट कार्ड है - 9999-1456-7893-7777 . आपके खाते में अभी Rs . 30 , 000 बैलेंस है . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="16" description="Balance">
+
+        <customer intent="credit_card_details">क्रेडिट कार्ड बैलेंस चेक करना . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट में एक क्रेडिट कार्ड है - 9999-1456-7893-7777 . आपके खाते में अभी Rs . 30 , 000 बैलेंस है . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="17" description="Balance">
+
+        <customer intent="credit_card_details">क्रेडिट कार्ड बैलेंस चेक . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट में एक क्रेडिट कार्ड है - 9999-1456-7893-7777 . आपके खाते में अभी Rs . 30 , 000 बैलेंस है . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="18" description="Balance">
+
+        <customer intent="credit_card_details">क्रेडिट कार्ड बैलेंस . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट में एक क्रेडिट कार्ड है - 9999-1456-7893-7777 . आपके खाते में अभी Rs . 30 , 000 बैलेंस है . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="19" description="Balance">
+
+        <customer intent="credit_card_details">मै अपना credit कार्ड के बैलेंस जानना चाहता हूँ . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट में एक क्रेडिट कार्ड है - 9999-1456-7893-7777 . आपके खाते में अभी Rs . 30 , 000 बैलेंस है . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="20" description="Balance">
+
+        <customer intent="credit_card_details">मै क्रेडिट card के balance जानना चाहता हूँ . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट में एक क्रेडिट कार्ड है - 9999-1456-7893-7777 . आपके खाते में अभी Rs . 30 , 000 बैलेंस है . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="21" description="Balance">
+
+        <customer intent="credit_card_details">मै credit card के बैलेंस जानना चाहता . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट में एक क्रेडिट कार्ड है - 9999-1456-7893-7777 . आपके खाते में अभी Rs . 30 , 000 बैलेंस है . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="22" description="Balance">
+
+        <customer intent="credit_card_details">credit card के balance जानना चाहता हूँ . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट में एक क्रेडिट कार्ड है - 9999-1456-7893-7777 . आपके खाते में अभी Rs . 30 , 000 बैलेंस है . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="23" description="Balance">
+
+        <customer intent="credit_card_details">क्रेडिट कार्ड के balance जानना चाहता . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट में एक क्रेडिट कार्ड है - 9999-1456-7893-7777 . आपके खाते में अभी Rs . 30 , 000 बैलेंस है . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="24" description="Balance">
+
+        <customer intent="credit_card_details">credit card balance जानना चाहता . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट में एक क्रेडिट कार्ड है - 9999-1456-7893-7777 . आपके खाते में अभी Rs . 30 , 000 बैलेंस है . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="25" description="Balance">
+
+        <customer intent="credit_card_details">credit card balance जानना है . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट में एक क्रेडिट कार्ड है - 9999-1456-7893-7777 . आपके खाते में अभी Rs . 30 , 000 बैलेंस है . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="26" description="Balance">
+
+        <customer intent="credit_card_details">credit card balance जानना . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट में एक क्रेडिट कार्ड है - 9999-1456-7893-7777 . आपके खाते में अभी Rs . 30 , 000 बैलेंस है . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="27" description="Balance">
+
+        <customer intent="credit_card_details">credit card balance चेक करना है . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट में एक क्रेडिट कार्ड है - 9999-1456-7893-7777 . आपके खाते में अभी Rs . 30 , 000 बैलेंस है . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="28" description="Balance">
+
+        <customer intent="credit_card_details">credit card balance चेक करना . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट में एक क्रेडिट कार्ड है - 9999-1456-7893-7777 . आपके खाते में अभी Rs . 30 , 000 बैलेंस है . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="29" description="Balance">
+
+        <customer intent="credit_card_details">credit card balance चेक . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट में एक क्रेडिट कार्ड है - 9999-1456-7893-7777 . आपके खाते में अभी Rs . 30 , 000 बैलेंस है . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+
+    <intent name="credit_card_details" variation="30" description="Balance">
+
+        <customer intent="credit_card_details">credit card balance . </customer>
+        <expand-intent description="Client: Welcome here" name="greetings" variation="7" />
+        <expand-intent description="Mobile Number" name="authentication_by_client_success" variation="2" />
+        <expand-intent description="OTP" name="authentication_by_client_success" variation="3" />
+        <client intent="credit_card_details">शुक्रिया . आपके अकाउंट में एक क्रेडिट कार्ड है - 9999-1456-7893-7777 . आपके खाते में अभी Rs . 30 , 000 बैलेंस है . </client>
+        <expand-intent description="Client : More Help" name="goodbye" variation="1" />
+        <expand-intent description="No" name="rejection_by_customer" variation="1" />
+        <expand-intent description="Client : Thanks" name="goodbye" variation="7" />
+
+    </intent>
+
+</dataset>

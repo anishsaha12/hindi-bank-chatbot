@@ -1,0 +1,9 @@
+<dataset>
+
+    <intent name="greetings" variation="6" description="Client: Without Name">
+
+        <client intent="greetings">नमस्ते | </client>
+
+    </intent>
+
+</dataset>

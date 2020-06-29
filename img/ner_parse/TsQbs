@@ -1,0 +1,6 @@
+digraph {
+	OTHERS -> "मेरा"
+	PRODUCT -> "मोबाइल"
+	OTHERS -> "नंबर"
+	NUMBER -> 9900111111
+}

@@ -1,0 +1,9 @@
+<dataset>
+
+    <intent name="goodbye" variation="4" description="Client : More Info">
+
+        <client intent="goodbye">क्या आप और कुछ जानना चाहते है ? </client>
+
+    </intent>
+
+</dataset>

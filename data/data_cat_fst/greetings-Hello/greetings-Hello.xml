@@ -1,0 +1,42 @@
+<dataset>
+
+    <intent name="greetings" variation="9" description="Hello">
+
+        <customer intent="greetings">हेलो . </customer>
+        <client intent="greetings">नमस्ते | आपको क्या सहायता चाहिए ? </client>
+
+    </intent>
+
+
+    <intent name="greetings" variation="18" description="Hello">
+
+        <customer intent="greetings">नमस्ते . </customer>
+        <client intent="greetings">नमस्ते | आपको क्या सहायता चाहिए ? </client>
+
+    </intent>
+
+
+    <intent name="greetings" variation="19" description="Hello">
+
+        <customer intent="greetings">hello . </customer>
+        <client intent="greetings">नमस्ते | आपको क्या सहायता चाहिए ? </client>
+
+    </intent>
+
+
+    <intent name="greetings" variation="20" description="Hello">
+
+        <customer intent="greetings">hi . </customer>
+        <client intent="greetings">नमस्ते | आपको क्या सहायता चाहिए ? </client>
+
+    </intent>
+
+
+    <intent name="greetings" variation="21" description="Hello">
+
+        <customer intent="greetings">hey . </customer>
+        <client intent="greetings">नमस्ते | आपको क्या सहायता चाहिए ? </client>
+
+    </intent>
+
+</dataset>
