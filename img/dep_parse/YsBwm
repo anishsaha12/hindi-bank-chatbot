@@ -1,0 +1,3 @@
+digraph {
+	root -> "शुक्रिया" [label=root]
+}

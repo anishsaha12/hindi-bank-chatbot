@@ -1,0 +1,8 @@
+digraph {
+	"देखना" -> "मुझे" [label=nsubj]
+	"बैलेंस" -> "अपने" [label=nmod]
+	"बैलेंस" -> "अकाउंट" [label=compound]
+	"देखना" -> "बैलेंस" [label=obj]
+	root -> "देखना" [label=root]
+	"देखना" -> "है" [label=aux]
+}

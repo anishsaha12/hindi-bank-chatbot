@@ -6,6 +6,17 @@ import json
 import cgi
 from get_bot_response import talk
 from get_analytics_parse import gen_dep_parse, gen_pos_parse, gen_ner_parse
+from gtts import gTTS 
+language = 'hi'
+import playsound
+import os
+
+def speak(tts_text):
+    hi_tts = gTTS(text=tts_text, lang=language, slow=False) 
+    hi_tts.save("voice.mp3") 
+    playsound.playsound('voice.mp3', True)
+    os.remove('voice.mp3')               
+
 
 class MyHttpRequestHandler(http.server.SimpleHTTPRequestHandler):
     def do_POST(self):
@@ -37,6 +48,7 @@ class MyHttpRequestHandler(http.server.SimpleHTTPRequestHandler):
             self.send_response(200)
             self.end_headers()
             self.wfile.write(bytes(json.dumps(message),encoding='utf8'))
+            speak(response)
 
         if self.path == '/get_dep_parse':
             customer_txt = message['customer']
@@ -79,6 +91,7 @@ class MyHttpRequestHandler(http.server.SimpleHTTPRequestHandler):
             self.path = '/html/chat.html'
         if self.path == '/chat?':
             self.path = '/html/chat.html'
+            
 
         return http.server.SimpleHTTPRequestHandler.do_GET(self)
 

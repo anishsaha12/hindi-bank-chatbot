@@ -6,6 +6,8 @@ from class_def import Transition, State
 from get_class import get_txt_class
 import db_interface as db
 from nerTagger import *
+              
+
 
 def find_state_by_id(complete_fst_with_words_state_list,id):
     for idx,state in enumerate(complete_fst_with_words_state_list):
@@ -96,6 +98,7 @@ def talk(inp_txt=None):
                 return talk()
             except:
                 return 'माफ़ करें। यह ऑपरेशन अभी तक हमारे द्वारा समर्थित नहीं है।'
+                 
         
     if (current is not None) and (current==init_state):
         ## ignore all states like client input for help or greetings.
@@ -129,7 +132,7 @@ def talk(inp_txt=None):
             expand_current=None
             states_list=None
             got_inputs=dict()
-            prompt = prompt+'\nआपकी और क्या सहायता कर सकता हु?'
+            prompt = prompt+ 'आपकी और क्या सहायता कर सकता हु?'
         
         elif (current.category=="confirmation_by_customer") or (current.category=="rejection_by_customer"):
             return talk()

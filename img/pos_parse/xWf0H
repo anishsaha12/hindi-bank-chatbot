@@ -1,0 +1,4 @@
+digraph {
+	NN -> account
+	NN -> balance
+}

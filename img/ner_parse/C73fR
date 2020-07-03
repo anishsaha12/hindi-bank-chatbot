@@ -1,0 +1,8 @@
+digraph {
+	OTHERS -> "अकाउंट"
+	OTHERS -> "संख्या"
+	NUMBER -> 128890
+	OTHERS -> ""
+	OTHERS -> "जल्दी"
+	OTHERS -> "करो"
+}

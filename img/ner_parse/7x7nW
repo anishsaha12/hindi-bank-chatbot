@@ -1,0 +1,7 @@
+digraph {
+	OTHERS -> "मुझे"
+	OTHERS -> "अपना"
+	OTHERS -> "अकाउंट"
+	OTHERS -> "बैलेंस"
+	OTHERS -> "देखना"
+}
