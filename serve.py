@@ -4,18 +4,19 @@ from urllib.parse import urlparse
 from urllib.parse import parse_qs
 import json
 import cgi
-from get_bot_response import talk
+from get_bot_response import talk, reset_fst
 from get_analytics_parse import gen_dep_parse, gen_pos_parse, gen_ner_parse
 from gtts import gTTS 
 language = 'hi'
 import playsound
+import threading
 import os
 
 def speak(tts_text):
     hi_tts = gTTS(text=tts_text, lang=language, slow=False) 
-    hi_tts.save("voice.mp3") 
-    playsound.playsound('voice.mp3', True)
-    os.remove('voice.mp3')               
+    hi_tts.save("audio/voice.mp3") 
+    playsound.playsound('audio/voice.mp3', True)
+    os.remove('audio/voice.mp3')
 
 
 class MyHttpRequestHandler(http.server.SimpleHTTPRequestHandler):
@@ -48,7 +49,21 @@ class MyHttpRequestHandler(http.server.SimpleHTTPRequestHandler):
             self.send_response(200)
             self.end_headers()
             self.wfile.write(bytes(json.dumps(message),encoding='utf8'))
-            speak(response)
+            thr = threading.Thread(target=speak, args=(response,), kwargs={})
+            thr.start()
+
+        if self.path == '/reset_fst':
+            customer_txt = message['customer']
+
+            reset_fst()
+            response = 'ok'
+
+            message['response'] = response
+            
+            # send the message back
+            self.send_response(200)
+            self.end_headers()
+            self.wfile.write(bytes(json.dumps(message),encoding='utf8'))
 
         if self.path == '/get_dep_parse':
             customer_txt = message['customer']

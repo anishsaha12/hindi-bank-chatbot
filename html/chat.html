@@ -13,7 +13,7 @@
 <!DOCTYPE html>
 
 	<audio style="display:none;" controls autoplay>
-		<source src="introduction.mp3" type="audio/mpeg" > 
+		<source src="../audio/introduction.mp3" type="audio/mpeg" > 
 	</audio>
 
 <html class=''>
@@ -571,7 +571,7 @@
         #frame #sidepanel #bottom-bar button {
             float: left;
             border: none;
-            width: 50%;
+            width: 33.3%;
             padding: 10px 0;
             background: #32465a;
             color: #f5f5f5;
@@ -974,6 +974,7 @@
                 <button id="addcontact"><i class="fa fa-user-plus fa-fw" aria-hidden="true"></i> <span>Add
                         Representative</span></button>
                 <button id="settings"><i class="fa fa-cog fa-fw" aria-hidden="true"></i> <span>Settings</span></button>
+                <button id="reset"><i class="fa fa-cog fa-fw" aria-hidden="true"></i> <span>Reset</span></button>
             </div>
         </div>
         <div class="content">
@@ -1136,6 +1137,23 @@
             $("#status-options").removeClass("active");
         });
 
+        function reset_fst(){
+            $.ajax({
+                url: '/reset_fst',
+                type: 'post',
+                dataType: 'json',
+                contentType: 'application/json',
+                success: function (data) {
+                    resp = data.response
+                    if(resp==""){
+                        resp = "कृपया एक वैध कार्य दर्ज करें !"
+                    }
+                    console.log(data)
+                },
+                data: JSON.stringify({customer: 'message'})
+            });
+        }
+
         function reply(message){
             $.ajax({
                 url: '/get_reply',
@@ -1173,6 +1191,10 @@
 
         $('.submit').click(function () {
             newMessage();
+        });
+
+        $('#reset').click(function () {
+            reset_fst();
         });
 
         $(window).on('keydown', function (e) {
