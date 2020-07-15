@@ -1,5 +1,6 @@
 import json
 import string
+from categoryClassifier import *
 
 f = open('./data/keywords.json',encoding='utf8')
 a = json.load(f)
@@ -17,6 +18,8 @@ def preprocess_text(sentence):
     return sentence
 
 def get_txt_class(find='मुझे अकाउंट का बैलेंस देखना है | '):
+    doc_class = categoryClassifier(find)
+    
     find = preprocess_text(find)
     wds = set(find.split(' '))
     res = dict()
